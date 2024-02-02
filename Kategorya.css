@@ -98,12 +98,12 @@ p {
   font-weight: 400;
   line-height: 25.83px;
   color: #4f4f4f;
-  font-family: "Raleway", sans-serif;
+  font-family: "Raleway";
 }
 
 .header__contact-text {
   font-size: 14px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto";
   color: #828282;
   line-height: 16.41px;
 }
@@ -128,7 +128,7 @@ p {
 
 .header__contact-number {
   font-size: 18px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto";
   font-weight: 800;
   line-height: 27px;
   color: #4f4f4f;
@@ -137,7 +137,7 @@ p {
 
 .header__contact-phone-text {
   font-size: 11px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto";
   font-weight: 400;
   color: #828282;
   line-height: 12.89px;
@@ -155,7 +155,7 @@ p {
   padding: 17px 42px;
   background-color: #2fd3ae;
   font-size: 14px;
-  font-family: "Raleway", sans-serif;
+  font-family: "Raleway";
   color: #ffffff;
 }
 
@@ -180,7 +180,7 @@ p {
   gap: 15px;
   color: #ffffff;
   font-size: 14px;
-  font-family: "Raleway", sans-serif;
+  font-family: "Raleway";
   font-weight: 700;
   line-height: 16.44px;
 }
@@ -205,7 +205,7 @@ p {
   padding: 6px 10px 8px 10px;
   font-size: 14px;
   font-weight: 400;
-  font-family: "Raleway", sans-serif;
+  font-family: "Raleway";
   line-height: 16.44px;
   color: #4f4f4f;
   cursor: pointer;
@@ -221,3 +221,9 @@ p {
 }
 
 /* header stayle finish */
+
+/* main stayle start */
+
+footer {
+  background: linear-gradient(269.93deg, #2fd3ae 0%, #011d71 100%);
+}
