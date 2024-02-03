@@ -224,8 +224,223 @@ p {
 /* header stayle finish */
 
 /* main stayle start */
+.main {
+  padding: 0 10px;
+}
 
-footer {
+.main__title-wrapper {
+  display: flex;
+  gap: 12px;
+}
+
+.main__title-alfa {
+  font-size: 14px;
+  font-weight: 400;
+  padding: 20px 0 0 0;
+}
+
+.main__title-glavni {
+  color: #2fd3ae;
+  line-height: 16.44px;
+}
+
+.main__title-text {
+  line-height: 16.44px;
+  color: #bdbdbd;
+}
+
+.main__title {
+  font-size: 36px;
+  font-weight: 700;
+  color: #394045;
+  line-height: 42.26px;
+}
+
+.main__kategoriya-wrapper {
+  display: flex;
+  gap: 30px;
+}
+
+.main__kategorya-box-wrapper {
+  max-width: 280px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.main__kategoriya-box {
+  border-radius: 5px;
+  box-shadow: 0px 5px 20px 0px #0b361d1a;
+}
+
+.main__kategoriya-title {
+  display: flex;
+  justify-content: center;
+  padding-top: 15px;
+}
+
+.main__kategoriya-text {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 32.3px;
+  color: #4f4f4f;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  padding: 0 0 0 20px;
+}
+
+.main__kategoriya-link {
+  width: 100%;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 17px 0;
+  border-radius: 0 0 5px 5px;
+  background-color: #2fd3ae;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 14.09px;
+}
+
+.main__filtr-box {
+  padding: 0 10px;
+  border-radius: 5px;
+  box-shadow: 0px 5px 20px 0px #0b361d1a;
+  margin-bottom: 20px;
+}
+
+.main__filtr-title {
+  padding: 20px 0 20px 26px;
+  font-size: 14px;
+  font-weight: 700;
+  color: #4f4f4f;
+}
+
+.main__filtr-button-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.main__filtr-button {
+  max-width: 109px;
+  width: 100%;
+  font-family: "Roboto";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14.06px;
+  border: 1px solid #dfdfdf;
+  background-color: #ffffff;
+  border-radius: 5px;
+  padding: 10px 20px;
+  color: #dfdfdf;
+}
+
+.main__filtr-box-run {
+  max-width: 230px;
+  width: 100%;
+  padding: 20px 0 10px 0;
+  margin: 0 auto;
+  margin-left: 20px;
+}
+
+.main__filtr-select {
+  width: 90%;
+  border: none;
+  outline: none;
+  margin: 0 10px 22px 10px;
+}
+
+.main__filtr-form {
+  line-height: 30px;
+}
+
+.main__filtr-serch {
+  max-width: 288px;
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid rgb(179, 179, 179);
+  padding: 10px 10px;
+}
+
+.main__filtr-link-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main__filtr-link {
+  padding: 10px 25px;
+  margin: 20px 0;
+  color: white;
+  background-color: #2fd3ae;
+  border: none;
+  border-radius: 5px;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 15.23px;
+  font-family: "Roboto";
+}
+.main__filtr-link-bc {
+  background-color: #f9f9f9;
+  color: rgb(160, 160, 160);
+}
+
+.main__filtr-drug-wrapper {
+  max-width: 280px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  background-color: #f7fafb;
+}
+
+.main__filtr-drug-img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 25px;
+}
+
+.main__katolog-title {
+  font-size: 14px;
+  line-height: 16.44px;
+  font-weight: 700;
+  color: #333333;
+  font-family: Raleway;
+}
+
+.main__katolog-box-wrapper {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.main__katolog-box {
+  max-width: 280px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 5px;
+  border: 1px solid #e7e9eb;
+}
+
+.main__katolog-list-wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.main__katolog-list-wrapper ul {
+  list-style: none;
+  line-height: 31.6px;
+  padding: 0;
+}
+/* footer {
   background: linear-gradient(269.93deg, #2fd3ae 0%, #011d71 100%);
 }
 
@@ -233,7 +448,6 @@ footer {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  /* gap: 63px; */
 }
 
 .footer__logo-wrapper {
@@ -304,4 +518,4 @@ footer {
 
 .footer__list-text {
   list-style: none;
-}
+} */
