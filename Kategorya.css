@@ -4,6 +4,7 @@ p {
 }
 * {
   box-sizing: border-box;
+  font-family: "Raleway";
 }
 
 .container {
@@ -226,4 +227,81 @@ p {
 
 footer {
   background: linear-gradient(269.93deg, #2fd3ae 0%, #011d71 100%);
+}
+
+.footer__wrappper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* gap: 63px; */
+}
+
+.footer__logo-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__apteka-logo {
+  display: flex;
+  gap: 20px;
+}
+
+.footer__logo-text-wrapper p {
+  max-width: 159px;
+  width: 100%;
+  font-size: 12px;
+  line-height: 14.06px;
+  color: #ffffff;
+  font-family: "Roboto";
+}
+
+.footer__apteka-text {
+  display: flex;
+  flex-direction: column;
+  gap: 108px;
+}
+
+.footer__list {
+  list-style: none;
+}
+.footer__list li::before {
+  content: "-";
+  padding: 0 20px 0 0;
+  font-size: 25px;
+  color: #ffffff;
+}
+.footer__list a {
+  color: white;
+  text-decoration: none;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 30.8px;
+}
+
+.footer__contact-phone-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.footer__list-emial {
+  display: flex;
+  flex-direction: column;
+  gap: 49px;
+  color: white;
+}
+.footer__list-emial li {
+  list-style: none;
+}
+
+.footer__text {
+  max-width: 347px;
+  font-size: 14px;
+  line-height: 35.8px;
+  color: #ffffff;
+}
+
+.footer__list-text {
+  list-style: none;
 }
