@@ -440,6 +440,162 @@ p {
   line-height: 31.6px;
   padding: 0;
 }
+
+.main__katolog-text-box {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: #f7fafb;
+  padding: 17px 17px 16px 17px;
+  border-radius: 5px;
+}
+
+.main__katolog-box-button {
+  border: none;
+  background-color: #ffffff;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.main__katolog-cards-box {
+  max-width: 280px;
+  width: 100%;
+  border: 1px solid rgb(238, 238, 238);
+  border-radius: 5px;
+  transition: 0.5s;
+}
+.main__katolog-cards-box:hover {
+  box-shadow: 0 10px 10px rgb(141, 141, 141);
+  transform: translate(0px, -10px);
+}
+
+.main__katolog-cards-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 30px 0 0 0;
+  gap: 20px;
+}
+
+.main__cards-img {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  background-color: #f7fafb;
+}
+
+.main__cards-tovar {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+}
+
+.main__cards-text-wrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+}
+
+.main__cards-text-p {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main__cards-p {
+  font-size: 12px;
+  line-height: 14.06px;
+  font-weight: 700;
+  font-family: "Roboto";
+  color: #2fd3ae;
+}
+
+.main__cards-text-bolt {
+  max-width: 220px;
+  width: 100%;
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 18.75px;
+  color: #525a68;
+}
+
+.main__cards-list {
+  padding: 0 0 0 15px;
+}
+.main__cards-list li {
+  font-size: 12px;
+  font-family: "Roboto";
+  font-weight: 400;
+  line-height: 19.2px;
+}
+
+.main__cards-money {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main__cards-money-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.main__cards-41 {
+  font-size: 24px;
+  font-family: "Roboto";
+  font-weight: 700;
+  line-height: 28.13px;
+  color: #525a68;
+}
+
+.main__cards-49 {
+  font-size: 14px;
+  font-family: "Roboto";
+  line-height: 16.41px;
+  font-weight: 700;
+  text-decoration: line-through;
+  color: #dd8888;
+}
+
+.main__cards-biblateka-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  background-color: #f7fafb;
+  padding: 21px 0;
+}
+.main__cards-biblateka {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.main__cards-biblateka-b {
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 17.58px;
+  font-family: "Roboto";
+  color: #2f2f2f;
+}
+
+.main__cards-biblateka-text {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.main__p {
+  font-family: "Roboto";
+  max-width: 169px;
+  width: 100%;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.41px;
+  color: #7c7c7c;
+}
+
 /* footer {
   background: linear-gradient(269.93deg, #2fd3ae 0%, #011d71 100%);
 }
