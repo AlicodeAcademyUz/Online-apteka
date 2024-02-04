@@ -1,0 +1,62 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+}
+*{
+    text-decoration: none;
+    font-family: 'Arial';
+}
+.container{
+    width: 100%;
+}
+.our-partner-wrapper{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 700px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+.our-partner-title h1{
+    font-size: 20px;
+}
+.our-partner-btn-wrapper{
+    align-self: center;
+}
+.our-partner-btn-wrapper{
+    display: flex;
+    gap: 10px;
+}
+.left-btn{
+    width: 40px;
+    height: 40px;
+    border: 1px solid #000000;
+    border-radius: 50%;
+    background: transparent;
+}
+.right-btn{
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background: transparent;
+}
+.credit-card-wrapper{
+    width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    gap: 47px;
+}
+.credit-card-wrapper img{
+    width: 140px;
+}
+.about-company-text{
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+}
+li{
+    list-style: circle;
+    display: flex;
+}
