@@ -322,9 +322,30 @@
 .table-buttons div {
   display: flex;
 }
+.second-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+.second-currency {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+.second-wrapper {
+  width: 18%;
+  padding: 15px;
+}
 
 
 
+@media (max-width:1500px) {
+  .second-wrapper {
+    width: auto
+  }
+}
 @media (max-width:1300px) {
   .header__contact-phone-text,
   .header__contact-phone-wrapper:nth-child(3),
@@ -340,6 +361,10 @@
   }
   .main-section__container {
     flex-wrap: wrap;
+  }
+  .second-wrapper {
+    width: auto;
+    padding: 15px;
   }
 }
 @media (max-width:1000px) {
