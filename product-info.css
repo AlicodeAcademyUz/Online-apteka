@@ -229,7 +229,9 @@
   footer {
     background: linear-gradient(269.93deg, #2fd3ae 0%, #011d71 100%);
   }
-
+.main-section {
+  margin-top: 50px;
+}
 .main-container {
     display: flex;
     flex-direction: row;
@@ -274,12 +276,60 @@
 .main-wrapper h2:nth-child(1) {
     border-bottom: 2px solid #F2C94C;
 }
+.main-section__container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 20px;
+}
+.main-section__icons {
+  display: flex;
+  gap: 20px;
+}
+.main-section__wrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: space-between;
+  width: 100%;
+}
+.main-section__title-wrapper div {
+  width: 100%;
+  padding: 10px 0 10px 20px;
+}
+.main-section__title-wrapper h2 {
+  font-family: 'Raleway', sans-serif;
+}
+.main-section__table-data {
+  display: flex;
+  gap: 30px;
+
+}
+.main-section__table {
+  border: 1px solid lightgray;
+}
+.main-section__column {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.main-section__table-data {
+  background-color: #F7FAFB;
+  padding: 20px 20px 50px;
+}
+.table-buttons div {
+  display: flex;
+}
+
 
 
 @media (max-width:1300px) {
   .header__contact-phone-text,
   .header__contact-phone-wrapper:nth-child(3),
-  .header__apteka-icon img {
+  .header__apteka-icon img,
+  .main-section__container > div > img {
     display: none;
   }
   .header__contact-catena-wrapper {
@@ -287,6 +337,9 @@
   }
   .main-wrapper h2 {
     padding: 20px 40px;
+  }
+  .main-section__container {
+    flex-wrap: wrap;
   }
 }
 @media (max-width:1000px) {
@@ -329,7 +382,7 @@
     background-color: #2fd3ae;
   }
 }
-@media (max-width:630px) {
+@media (max-width:645px) {
   .header__logo-wrapper  img {
     width: 30px;
   }
@@ -369,5 +422,13 @@
     border-bottom: none;
     font-size: 16px;
     text-transform: uppercase;
+  }
+  .main-section__container > img {
+    width: 100%;
+  }
+}
+@media (max-width:460px) {
+  .main-section__icons {
+    flex-wrap: wrap;
   }
 }
