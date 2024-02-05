@@ -161,6 +161,9 @@ p {
   color: #ffffff;
   cursor: pointer;
 }
+.header__contact-link:active {
+  transform: scale(0.98);
+}
 .header__contact-link:hover {
   background-color: #22b08f;
 }
@@ -482,6 +485,11 @@ p {
   list-style: none;
   line-height: 31.6px;
   padding: 0;
+}
+
+.main__katolog-link {
+  text-decoration: none;
+  color: #828282;
 }
 
 .main__katolog-text-box {
