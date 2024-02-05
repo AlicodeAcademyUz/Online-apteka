@@ -332,6 +332,10 @@ p {
   font-size: 12px;
   font-weight: 700;
   line-height: 14.09px;
+  cursor: pointer;
+}
+.main__kategoriya-link:hover {
+  background-color: #2bbc9a;
 }
 
 .main__filtr-box {
@@ -367,6 +371,13 @@ p {
   color: #dfdfdf;
   cursor: pointer;
   flex: 1;
+}
+.main__filtr-button:hover {
+  background-color: #86ebba;
+  color: #ffffff;
+}
+.main__filtr-button:active {
+  transform: scale(0.98);
 }
 
 .main__filtr-run-wrapper {
