@@ -463,6 +463,11 @@ p {
   border: 1px solid #e7e9eb;
   padding: 5px;
   cursor: pointer;
+  transition: 0.4s;
+}
+.main__katolog-box:hover {
+  transform: translate(0, -3px);
+  box-shadow: 0 5px 5px rgb(192, 192, 192);
 }
 .main__katolog-box:active {
   transform: scale(0.98);
