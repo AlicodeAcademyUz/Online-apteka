@@ -352,11 +352,10 @@ p {
   display: flex;
   align-items: center;
   justify-content: space-around;
+  gap: 16px;
 }
 
 .main__filtr-button {
-  max-width: 109px;
-  width: 100%;
   font-family: "Roboto";
   font-size: 12px;
   font-weight: 400;
@@ -366,6 +365,8 @@ p {
   border-radius: 5px;
   padding: 10px 20px;
   color: #dfdfdf;
+  cursor: pointer;
+  flex: 1;
 }
 
 .main__filtr-run-wrapper {
@@ -416,10 +417,20 @@ p {
   line-height: 15.23px;
   font-family: "Roboto";
   flex: 1;
+  cursor: pointer;
+}
+.main__filtr-link:hover {
+  background-color: #20ad8a;
+}
+.main__filtr-link:active {
+  transform: scale(0.98);
 }
 .main__filtr-link-bc {
   background-color: #f9f9f9;
   color: rgb(160, 160, 160);
+}
+.main__filtr-link-bc:hover {
+  color: rgb(255, 255, 255);
 }
 
 .main__filtr-drug-wrapper {
