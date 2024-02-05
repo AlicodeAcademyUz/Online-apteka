@@ -784,7 +784,7 @@ p {
 }
 .main__capsula-box:hover {
   transform: translate(0, -10px);
-  box-shadow: 0 5px 5px rgb(106, 106, 106);
+  box-shadow: 0 5px 5px rgb(150, 150, 150);
   transition: 0.5s;
 }
 
