@@ -441,6 +441,11 @@ p {
   background-color: #ffffff;
   border-radius: 5px;
   border: 1px solid #e7e9eb;
+  padding: 5px;
+  cursor: pointer;
+}
+.main__katolog-box:active {
+  transform: scale(0.98);
 }
 
 .main__katolog-list-wrapper {
