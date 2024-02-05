@@ -7,6 +7,9 @@ p {
   font-family: "Raleway";
 }
 
+a {
+  text-decoration: none;
+}
 .container {
   max-width: 1520px;
   margin: 0 auto;
@@ -455,7 +458,7 @@ p {
 }
 .main__filtr-drug-wrapper:hover {
   transform: translate(0, -10px);
-  box-shadow: 0 5px 5px rgb(166, 166, 166);
+  box-shadow: 0 5px 5px rgb(222, 222, 222);
 }
 .main__filtr-drug-text {
   display: flex;
@@ -504,7 +507,7 @@ p {
 }
 .main__katolog-box:hover {
   transform: translate(0, -3px);
-  box-shadow: 0 5px 5px rgb(192, 192, 192);
+  box-shadow: 0 5px 5px rgb(212, 212, 212);
 }
 .main__katolog-box:active {
   transform: scale(0.98);
@@ -553,7 +556,7 @@ p {
   transition: 0.5s;
 }
 .main__katolog-cards-box:hover {
-  box-shadow: 0 10px 10px rgb(141, 141, 141);
+  box-shadow: 0 10px 10px rgb(213, 213, 213);
   transform: translate(0px, -10px);
 }
 
@@ -784,7 +787,7 @@ p {
 }
 .main__capsula-box:hover {
   transform: translate(0, -10px);
-  box-shadow: 0 5px 5px rgb(150, 150, 150);
+  box-shadow: 0 5px 5px rgb(212, 212, 212);
   transition: 0.5s;
 }
 
@@ -831,7 +834,7 @@ footer {
   margin: 0 auto;
   background-color: #ffffff;
   border-radius: 5px;
-  box-shadow: 0 0 5px rgb(209, 209, 209);
+  box-shadow: 0 0 5px rgb(217, 217, 217);
   display: flex;
   flex-direction: column;
   padding: 0 10px;
