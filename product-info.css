@@ -350,6 +350,36 @@
 .third-img {
   margin-top: 30px;
 }
+.fifth-container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: nowrap;
+}
+.fifth-buttons button {
+  border: none;
+  background-color: #eff6f8;
+  border-radius: 30px;
+  padding: 10px;
+  color: #4f4f4f;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  margin: 5px;
+}
+.fifth-title {
+  font-size: 24px;
+}
+.fifth__container-phone {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  background-color: #2fd3ae;
+  border-radius: 10px;
+}
+.fifth p {
+  line-height: 24px;
+}
 
 @media (max-width:1500px) {
   .second-wrapper {
@@ -415,6 +445,9 @@
     justify-content: center;
     align-content: center;
     background-color: #2fd3ae;
+  }
+  .fifth-container {
+    flex-wrap: wrap;
   }
 }
 @media (max-width:645px) {
