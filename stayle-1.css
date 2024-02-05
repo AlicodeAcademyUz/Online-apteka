@@ -1,0 +1,147 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container{
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+
+ul{
+    list-style: none;
+}
+
+.header-page{
+    padding: 15px;
+}
+
+.page-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.link{
+    text-decoration: none;
+    color: grey;
+}
+
+.images{
+    display: flex;
+    align-items: center;
+    gap: 2%;
+    margin-top: 25px;
+}
+
+
+.imagess{
+    margin-right: 20px;
+}
+
+
+.text{
+    margin-right: 30px;
+}
+
+.book{
+    background-color: #2fd3ae;
+    padding: 15px;
+    border-radius: 30px;
+    color: rgba(255, 255, 255, 1);
+    border: none;
+    width: 144px;
+}
+
+.search-glass{
+    margin-right: 20px;
+    margin-left: 30px;
+}
+
+.about{
+width: 100%;
+}
+
+.down{
+    margin-top: -47px;
+    display: flex;
+    gap: 20px;
+}
+
+.down-text{
+    color: white;
+    text-decoration: none;
+}
+
+.sale{
+    background-color: #4BC1E8;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+}
+
+
+.boxes{
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+.important{
+    color: #2fd3ae;
+    text-decoration: none;
+    margin-right: 25px;
+}
+
+.tittle{
+    font-variant: 36px;
+}
+
+.buttons{
+    display: flex;
+}
+
+.test{
+    border: none;
+    padding: 5px 20px 10px 20px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.form{
+    background-color:  #f7fafb;
+    width: 100%;
+    height: 15vh;
+}
+
+.form-inp{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 70px;
+    padding: 20px;
+    border-radius: 30px;
+    border-color: grey;
+}
+
+
+.last-one{
+    background-color: #2fd3ae;
+    border: none;
+    padding: 10px;
+    border-radius: 30px;
+    color: white;
+}
+
+.form-button{
+    border: none;
+    margin-right: 40px;
+    margin-bottom: 30px;
+}
