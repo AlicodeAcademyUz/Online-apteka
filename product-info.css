@@ -326,6 +326,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  align-content: center;
   gap: 20px;
 }
 .second-currency {
@@ -337,9 +338,18 @@
 .second-wrapper {
   width: 18%;
   padding: 15px;
+  vertical-align: middle;
 }
-
-
+.third .second-wrapper {
+  width: auto;
+  padding: 0;
+}
+.third-image{
+  margin-top: -25px;
+}
+.third-img {
+  margin-top: 30px;
+}
 
 @media (max-width:1500px) {
   .second-wrapper {
@@ -455,5 +465,13 @@
 @media (max-width:460px) {
   .main-section__icons {
     flex-wrap: wrap;
+  }
+}
+@media (max-width:415px) {
+  .third-image {
+    width: 300px;
+  }
+  .third-img {
+    margin-top: 0;
   }
 }
