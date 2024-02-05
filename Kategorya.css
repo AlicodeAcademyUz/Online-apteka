@@ -733,22 +733,27 @@ p {
   color: #2fd3ae;
 }
 
-.main__capsula-box {
-  max-width: 358px;
-  width: 100%;
-
-  border-radius: 5px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
 .main__capsula-box-wrapper {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
   gap: 20px;
   padding-bottom: 100px;
+}
+
+.main__capsula-box {
+  max-width: 358px;
+  width: 100%;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: 0.5s;
+}
+.main__capsula-box:hover {
+  transform: translate(0, -10px);
+  box-shadow: 0 5px 5px rgb(106, 106, 106);
+  transition: 0.5s;
 }
 
 .main__capsula-title {
