@@ -427,6 +427,11 @@ p {
   align-items: center;
   border-radius: 5px;
   background-color: #f7fafb;
+  transition: 0.4s;
+}
+.main__filtr-drug-wrapper:hover {
+  transform: translate(0, -10px);
+  box-shadow: 0 5px 5px rgb(166, 166, 166);
 }
 
 .main__filtr-drug-img {
