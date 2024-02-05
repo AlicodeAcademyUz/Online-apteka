@@ -401,6 +401,7 @@ p {
 .main__filtr-link-wrapper {
   display: flex;
   justify-content: space-between;
+  gap: 8px;
 }
 
 .main__filtr-link {
@@ -414,6 +415,7 @@ p {
   font-weight: 700;
   line-height: 15.23px;
   font-family: "Roboto";
+  flex: 1;
 }
 .main__filtr-link-bc {
   background-color: #f9f9f9;
@@ -432,6 +434,11 @@ p {
 .main__filtr-drug-wrapper:hover {
   transform: translate(0, -10px);
   box-shadow: 0 5px 5px rgb(166, 166, 166);
+}
+.main__filtr-drug-text {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
 }
 
 .main__filtr-drug-img {
@@ -511,6 +518,9 @@ p {
   background-color: #ffffff;
   cursor: pointer;
   border-radius: 5px;
+}
+.main__katolog-box-button:active {
+  transform: scale(0.98);
 }
 
 .main__katolog-cards-box {
@@ -871,7 +881,7 @@ footer {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 100px 0 0 0;
+  padding: 100px 10px 0 10px;
 }
 
 .footer__logo-wrapper {
