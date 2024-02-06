@@ -90,10 +90,6 @@ a {
     display: none;
   }
 }
-@media screen and (max-width: 484px) {
-  .header__location-select {
-  }
-}
 
 /* header location stayle finish  */
 
@@ -384,6 +380,26 @@ a {
     display: none;
   }
 }
+@media screen and (max-width: 700px) {
+  .header__disease:nth-child(5) {
+    display: none;
+  }
+}
+@media screen and (max-width: 540px) {
+  .header__disease:nth-child(6) {
+    display: none;
+  }
+}
+@media screen and (max-width: 450px) {
+  .header__disease:nth-child(7) {
+    display: none;
+  }
+}
+@media screen and (max-width: 400px) {
+  .header__disease:nth-child(8) {
+    display: none;
+  }
+}
 
 /* header stayle finish */
 
@@ -585,6 +601,24 @@ a {
   color: rgb(255, 255, 255);
 }
 
+.main__filtr-mobile {
+  width: 100%;
+  border: 1px solid black;
+  background-color: #011d71;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 14.06px;
+  letter-spacing: 5%;
+  padding: 18px 20px;
+  border-radius: 5px;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  display: none;
+}
+
 .main__filtr-drug-wrapper {
   max-width: 280px;
   width: 100%;
@@ -654,7 +688,6 @@ a {
 .main__katolog-list-wrapper {
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap;
 }
 .main__katolog-list-wrapper ul {
   list-style: none;
@@ -789,10 +822,10 @@ a {
 
 .main__cards-biblateka-wrapper {
   width: 100%;
-  display: flex;
-  justify-content: space-around;
+  display: grid;
+  grid-template-columns: repeat(4, 25%);
   background-color: #f7fafb;
-  padding: 21px 0;
+  padding: 21px 10px;
 }
 .main__cards-biblateka {
   display: flex;
@@ -907,9 +940,8 @@ a {
 }
 
 .main__capsula-box-wrapper {
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
   gap: 20px;
   padding-bottom: 100px;
 }
@@ -921,11 +953,6 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
-  transition: 0.5s;
-}
-.main__capsula-box:hover {
-  transform: translate(0, -10px);
-  box-shadow: 0 5px 5px rgb(212, 212, 212);
   transition: 0.5s;
 }
 
@@ -958,6 +985,185 @@ a {
   color: #828282;
 }
 
+.main__capsula-img {
+  width: 100%;
+  height: 50vh;
+}
+
+@media screen and (max-width: 590px) {
+  .main__kategoriya-text {
+    display: none;
+  }
+  .main__line {
+    display: none;
+  }
+  .main__kategoriya-title {
+    display: none;
+  }
+  .main__kategoriya-link {
+    width: 100%;
+    border-radius: 5px;
+  }
+
+  .main__filtr-box {
+    display: none;
+  }
+
+  .main__filtr-drug-wrapper {
+    display: none;
+  }
+
+  .main__katolog-box {
+    max-width: 100%;
+  }
+
+  .main__filtr-mobile {
+    display: flex;
+  }
+}
+@media screen and (max-width: 590px) {
+  .main__kategoriya-wrapper {
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .main__katolog-list-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media screen and (max-width: 1216px) {
+  .main__katolog-box {
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 1223px) {
+  .main__katolog-cards-box {
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 1160px) {
+  .main__capsula-box-wrapper {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (max-width: 600px) {
+  .main__capsula-box-wrapper {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media screen and (max-width: 1160px) {
+  .main__capsula-box {
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 750px) {
+  .main__katolog-list-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (max-width: 590px) {
+  .main__katolog-list-wrapper {
+    height: 150px;
+    overflow-y: scroll;
+  }
+
+  .main__katolog-list-wrapper::-webkit-scrollbar {
+    display: none;
+  }
+}
+@media screen and (max-width: 835px) {
+  .main__katolog-text-box {
+    flex-direction: column;
+    gap: 8px;
+  }
+}
+@media screen and (max-width: 1020px) {
+  .main__cards-biblateka-wrapper {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+  }
+}
+@media screen and (max-width: 590px) {
+  .main__cards-biblateka-wrapper {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 16px;
+  }
+}
+@media screen and (max-width: 590px) {
+  .main__katolog-cards-box:nth-child(8) {
+    display: none;
+  }
+  .main__katolog-cards-box:nth-child(7) {
+    display: none;
+  }
+  .main__katolog-cards-box:nth-child(6) {
+    display: none;
+  }
+  .main__katolog-cards-box:nth-child(5) {
+    display: none;
+  }
+  .main__katolog-cards-box:nth-child(4) {
+    display: none;
+  }
+}
+@media screen and (max-width: 590px) {
+  .main__katolog-cards-box:nth-child() {
+    display: none;
+  }
+  .main__katolog-cards-box:nth-child() {
+    display: none;
+  }
+  .main__katolog-cards-box:nth-child() {
+    display: none;
+  }
+  .main__katolog-cards-box:nth-child(9) {
+    display: none;
+  }
+  .main__katolog-cards-box:nth-child(10) {
+    display: none;
+  }
+  .main__katolog-cards-box:nth-child(11) {
+    display: none;
+  }
+  .main__katolog-cards-box:nth-child(12) {
+    display: none;
+  }
+  .main__katolog-cards-box:nth-child(13) {
+    display: none;
+  }
+  .main__katolog-cards-box:nth-child(14) {
+    display: none;
+  }
+  .main__katolog-cards-box:nth-child(15) {
+    display: none;
+  }
+  .main__katolog-cards-box:nth-child(16) {
+    display: none;
+  }
+}
+@media screen and (max-width: 540px) {
+  .main__text-list-wrapper {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 540px) {
+  .main__text-box {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 390px) {
+  .main__capsula-title {
+    font-size: 12px;
+  }
+}
+
 /* main stayle finish */
 
 /* footer stayle start */
@@ -968,7 +1174,7 @@ footer {
 }
 
 .footer__form-wrapper {
-  width: 97%;
+  width: 100%;
   margin: 0 auto;
   background-color: #ffffff;
   border-radius: 5px;
@@ -976,13 +1182,21 @@ footer {
   display: flex;
   flex-direction: column;
   padding: 0 10px;
-  padding-left: 100px;
   position: absolute;
   top: -70px;
-  left: 20px;
+}
+
+.footer__form-title {
+  max-width: 1150px;
+  width: 100%;
+  padding: 30px 0 0 0;
+  margin: 0 auto;
 }
 
 .footer__form {
+  max-width: 1150px;
+  width: 100%;
+  margin: 0 auto;
   display: flex;
   align-items: center;
   gap: 30px;
@@ -1042,7 +1256,7 @@ footer {
 
 .footer__wrappper {
   display: flex;
-  align-items: center;
+
   justify-content: space-between;
   padding: 100px 10px 0 10px;
 }
@@ -1115,4 +1329,26 @@ footer {
 
 .footer__list-text {
   list-style: none;
+}
+ul {
+  padding: 0;
+}
+
+@media screen and (max-width: 1044px) {
+  .footer__form {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 1347px) {
+  .footer__wrappper {
+    flex-direction: column;
+  }
+  .footer__apteka-text {
+    gap: 20px;
+  }
+}
+@media screen and (max-width: 1045px) {
+  .footer__wrappper {
+    padding-top: 280px;
+  }
 }
