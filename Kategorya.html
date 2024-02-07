@@ -33,29 +33,36 @@
                 <a href="#"
                   ><img src="./img/near_me.svg" alt="here is a picture"
                 /></a>
-                <select class="header__location-select" name="location" id="">
-                  <option value="Москва и область">Москва и область</option>
-                  <option value="">Волга и область</option>
-                  <option value="">Нижни и область</option>
-                  <option value="">Оренбург и область</option>
-                  <option value="">Краснадор и область</option>
-                  <option value="">Сахалин и область</option>
-                </select>
+
+                <div class="header__location-select">
+                  <a class="header__location-select" href="#"
+                    >Москва и область</a
+                  >
+                </div>
               </div>
               <div class="header__location-bars-wrapper">
                 <a href="#">
                   <i class="fa-solid fa-bars header__icon-bars"></i
                 ></a>
-                Служебные страницы
+                <a class="header__location-select" href="#">
+                  Служебные страницы</a
+                >
               </div>
             </div>
             <div class="header__location-img-wrapper">
               <div class="header__location-img">
-                Избранное <img src="./img/heart.png" alt="" />
+                <a class="header__location-img" href="#"> Избранное</a>
+                <a href="#"
+                  ><img src="./img/heart.png" alt="here is a picture"
+                /></a>
               </div>
               <div class="header__location-kabinet-wrapper">
-                Личный кабинет
-                <img src="./img/person.png" alt="here is a picture" />
+                <a class="header__location-kabinet-wrapper" href="#"
+                  >Личный кабинет</a
+                >
+                <a href="#">
+                  <img src="./img/person.png" alt="here is a picture"
+                /></a>
               </div>
             </div>
           </div>
@@ -66,20 +73,39 @@
         <div class="container">
           <div class="header__contact-wrapper">
             <div class="header__logo-wrapper">
-              <img src="./img/apteka-logo.png" alt="" />
+              <div class="header__mobile-bars">
+                <a href="#"
+                  ><img
+                    src="./icon/header-mobile-bars.svg"
+                    alt="here is a picture"
+                /></a>
+              </div>
+              <a href="#">
+                <img src="./img/apteka-logo.png" alt="here is a picture"
+              /></a>
               <div>
                 <p class="header__contact-title"><b>Аптека</b>.онлайн</p>
                 <p class="header__contact-text">Ваша онлайн аптека</p>
               </div>
             </div>
             <div class="header__contact-web-wrapper">
-              <a href="#"><img src="./img/vk.svg" alt="here is a picture" /></a>
-              <a href="#"> <img src="./img/instagram.svg" alt="" /></a>
-              <a href="#"> <img src="./img/youtube.svg" alt="" /></a>
+              <a href="https://vk.com/"
+                ><img src="./img/vk.svg" alt="here is a picture"
+              /></a>
+              <a href="https://www.instagram.com/">
+                <img src="./img/instagram.svg" alt="here is a picture"
+              /></a>
+              <a href="https://www.youtube.com/">
+                <img src="./img/youtube.svg" alt="here is a picture"
+              /></a>
             </div>
+
             <div class="header__contact-catena-wrapper">
               <div class="header__contact-phone-wrapper">
-                <a href="#"> <img src="./img/Message_open.svg" alt="" /> </a>
+                <a href="https://mail.google.com/">
+                  <img src="./img/Message_open.svg" alt="here is a picture" />
+                </a>
+
                 <div class="header__contact-phone-text">
                   <span class="header__contact-number">
                     <b>info@restoll.ru</b></span
@@ -88,7 +114,9 @@
                 </div>
               </div>
               <div class="header__contact-phone-wrapper">
-                <a href="#"> <img src="./img/Phone_duotone.svg" alt="" /></a>
+                <a href="#">
+                  <img src="./img/Phone_duotone.svg" alt="here is a picture"
+                /></a>
                 <div class="header__contact-phone-text">
                   <span class="header__contact-number"
                     ><b>8-800-777-22-33</b></span
@@ -97,7 +125,9 @@
                 </div>
               </div>
               <div class="header__contact-phone-wrapper">
-                <a href="#"> <img src="./img/Phone_duotone.svg " alt="" /></a>
+                <a href="#">
+                  <img src="./img/Phone_duotone.svg " alt="here is a picture"
+                /></a>
                 <div class="header__contact-phone-text">
                   <span class="header__contact-number"
                     ><b>8 (495) 223-34-03</b></span
@@ -107,9 +137,23 @@
               </div>
             </div>
             <div class="header__contact-market">
-              <a href="#"> <img src="./img/Поиск.svg" alt="" /></a>
+              <a class="header__mobile-serch" href="#">
+                <img
+                  class="header__serch-img"
+                  src="./img/Поиск.svg"
+                  alt="here is a picture"
+              /></a>
+              <div class="header__hidden-serch-wrapper">
+                <input
+                  class="header__hidden-serch"
+                  type="search"
+                  placeholder="Начинайте писать или введите название товара..."
+                />
+              </div>
               <button class="header__contact-link">Заказать звонок</button>
-              <a href="#"> <img src="./img/Корзина.svg" alt="" /></a>
+              <a href="https://korzinka.uz/en">
+                <img src="./img/Корзина.svg" alt="here is a picture"
+              /></a>
             </div>
           </div>
         </div>
@@ -118,7 +162,15 @@
       <section class="header__apteka">
         <div class="container">
           <div class="header__apteka-wrapper">
-            <div class="header__apteka-icon">
+            <div class="header__apteka-mobile">
+              <a class="header__apteka-mobile" href="#"
+                ><img
+                  src="./katolog-img/mobile-chevron-duo.svg"
+                  alt="here is a picture"
+                />Мы вам перезвоним</a
+              >
+            </div>
+            <div class="header__apteka-icon-wrapper">
               <a class="header__apteka-icon" href="#">
                 <img
                   src="./icon/pills 1.png"
@@ -126,7 +178,7 @@
                 />Лекарства</a
               >
             </div>
-            <div class="header__apteka-icon">
+            <div class="header__apteka-icon-wrapper">
               <a class="header__apteka-icon" href="#">
                 <img
                   src="./icon/Group (1).png"
@@ -134,7 +186,7 @@
                 />Витамины и БАД</a
               >
             </div>
-            <div class="header__apteka-icon">
+            <div class="header__apteka-icon-wrapper">
               <a class="header__apteka-icon" href="#"
                 ><img
                   src="./icon/skin-care 1.png"
@@ -142,7 +194,7 @@
                 />КРАСОТА</a
               >
             </div>
-            <div class="header__apteka-icon">
+            <div class="header__apteka-icon-wrapper">
               <a class="header__apteka-icon" href="#">
                 <img
                   src="./icon/Group (1).png"
@@ -150,18 +202,18 @@
                 />ГИГИЕНА</a
               >
             </div>
-            <div class="header__apteka-icon">
+            <div class="header__apteka-icon-wrapper">
               <a class="header__apteka-icon" href="#">
                 <img src="./icon/eye 1.png" alt="here is a picture" />ЛИНЗЫ</a
               >
             </div>
-            <div class="header__apteka-icon">
+            <div class="header__apteka-icon-wrapper">
               <a class="header__apteka-icon" href="#">
                 <img src="./icon/baby-boy 1.png" alt="here is a picture" />МАТЬ
                 И ДИТЯ</a
               >
             </div>
-            <div class="header__apteka-icon">
+            <div class="header__apteka-icon-wrapper">
               <a class="header__apteka-icon" href="#">
                 <img
                   src="./icon/Group (2).png"
@@ -169,7 +221,7 @@
                 />МЕДТОВАРЫ</a
               >
             </div>
-            <div class="header__apteka-icon">
+            <div class="header__apteka-icon-wrapper">
               <a class="header__apteka-icon" href="#">
                 <img
                   src="./icon/dog 1.png"
@@ -177,7 +229,7 @@
                 />ЗООТОВАРЫ</a
               >
             </div>
-            <div class="header__apteka-icon">
+            <div class="header__apteka-icon-wrapper">
               <a class="header__apteka-icon" href="#">
                 <img
                   src="./icon/smartwatch 1.png"
@@ -189,7 +241,7 @@
         </div>
       </section>
 
-      <section class="header__diseases">
+      <section class="header__diseasess">
         <div class="container">
           <div class="header__diseases-wrapper">
             <button class="header__disease header__disease-blue">
@@ -212,16 +264,14 @@
 
     <main class="main">
       <div class="container">
-        <!--  -->
         <div class="main__title-wrapper">
           <div class="main__title-alfa">
-            <img src="./img/main-home-icon.svg" alt="" />
+            <img src="./img/main-home-icon.svg" alt="here is a picture" />
             <span class="main__title-glavni">Главная</span>
             <span class="main__title-text"> >> Поиск по алфавиту </span>
           </div>
         </div>
         <h2 class="main__title">Лекарственные средства</h2>
-        <!--  -->
 
         <div class="main__kategoriya-wrapper">
           <div class="main__kategorya-box-wrapper">
@@ -321,7 +371,10 @@
               </div>
 
               <button class="main__kategoriya-link">
-                <img src="./img/chevron_duo_right.svg " alt="" />
+                <img
+                  src="./img/chevron_duo_right.svg "
+                  alt="here is a picture"
+                />
                 показать Все категории
               </button>
             </div>
@@ -417,10 +470,24 @@
                 </button>
               </div>
             </div>
+            <div>
+              <a class="main__filtr-mobile" href="#"
+                ><img
+                  src="./katolog-img/main-filtr-mobile.svg"
+                  alt="here is a picture"
+                />
+                показать Все категории</a
+              >
+            </div>
             <div class="main__filtr-drug-wrapper">
               <div class="main__filtr-drug-img">
-                <img src="./icon/хит.svg" alt="" />
-                <img src="./icon/add 1 (1).svg" alt="" />
+                <a href="#">
+                  <img src="./icon/хит.svg" alt="here is a picture"
+                /></a>
+                <img
+                  src="./icon/filtr-img-analgin.svg"
+                  alt="here is a picture"
+                />
               </div>
               <div class="main__filtr-drug-text">
                 <p class="main__drug-text">
@@ -430,18 +497,20 @@
                 </p>
                 <div class="main__drug-money">
                   <b>244 руб.</b>
-                  <img src="./icon/star.svg" alt="" />
-                  <img src="./icon/star.svg" alt="" />
-                  <img src="./icon/star.svg" alt="" />
-                  <img src="./icon/star.svg" alt="" />
-                  <img src="./icon/star.svg" alt="" />
+                  <img src="./icon/star.svg" alt="here is a picture" />
+                  <img src="./icon/star.svg" alt="here is a picture" />
+                  <img src="./icon/star.svg" alt="here is a picture" />
+                  <img src="./icon/star.svg" alt="here is a picture" />
+                  <img src="./icon/star.svg" alt="here is a picture" />
                 </div>
               </div>
             </div>
             <div class="main__filtr-drug-wrapper">
               <div class="main__filtr-drug-img">
-                <img src="./icon/хит.svg" alt="" />
-                <img src="./icon/add 1 (1).svg" alt="" />
+                <a href="#">
+                  <img src="./icon/хит.svg" alt="here is a picture"
+                /></a>
+                <img src="./icon/add 1 (1).svg" alt="here is a picture" />
               </div>
               <div class="main__filtr-drug-text">
                 <p class="main__drug-text">
@@ -451,18 +520,20 @@
                 </p>
                 <div class="main__drug-money">
                   <b>244 руб.</b>
-                  <img src="./icon/star.svg" alt="" />
-                  <img src="./icon/star.svg" alt="" />
-                  <img src="./icon/star.svg" alt="" />
-                  <img src="./icon/star.svg" alt="" />
-                  <img src="./icon/star.svg" alt="" />
+                  <img src="./icon/star.svg" alt="here is a picture" />
+                  <img src="./icon/star.svg" alt="here is a picture" />
+                  <img src="./icon/star.svg" alt="here is a picture" />
+                  <img src="./icon/star.svg" alt="here is a picture" />
+                  <img src="./icon/star.svg" alt="here is a picture" />
                 </div>
               </div>
             </div>
             <div class="main__filtr-drug-wrapper">
               <div class="main__filtr-drug-img">
-                <img src="./icon/хит.svg" alt="" />
-                <img src="./icon/add 1 (1).svg" alt="" />
+                <a href="#">
+                  <img src="./icon/хит.svg" alt="here is a picture"
+                /></a>
+                <img src="./icon/filtr-img-gel.svg" alt="here is a picture" />
               </div>
               <div class="main__filtr-drug-text">
                 <p class="main__drug-text">
@@ -472,106 +543,113 @@
                 </p>
                 <div class="main__drug-money">
                   <b>244 руб.</b>
-                  <img src="./icon/star.svg" alt="" />
-                  <img src="./icon/star.svg" alt="" />
-                  <img src="./icon/star.svg" alt="" />
-                  <img src="./icon/star.svg" alt="" />
-                  <img src="./icon/star.svg" alt="" />
+                  <img src="./icon/star.svg" alt="here is a picture" />
+                  <img src="./icon/star.svg" alt="here is a picture" />
+                  <img src="./icon/star.svg" alt="here is a picture" />
+                  <img src="./icon/star.svg" alt="here is a picture" />
+                  <img src="./icon/star.svg" alt="here is a picture" />
                 </div>
               </div>
             </div>
           </div>
 
-          <!--   -->
           <div class="main__katolog-wrapper">
             <h2 class="main__katolog-title">Каталог</h2>
             <div class="main__katolog-box-wrapper">
               <button class="main__katolog-box">
-                <img src="./katolog-img/Rectangle 100.svg   " alt="" />Наружные
-                средства
+                <img
+                  src="./katolog-img/Rectangle 100.svg   "
+                  alt="here is a picture"
+                />Наружные средства
               </button>
               <button class="main__katolog-box">
                 <img
                   src="./katolog-img/Rectangle 100 (2).svg   "
-                  alt=""
+                  alt="here is a picture"
                 />Сиропы, капли, суспензии
               </button>
               <button class="main__katolog-box">
                 <img
                   src="./katolog-img/Rectangle 100 (1).svg   "
-                  alt=""
+                  alt="here is a picture"
                 />Таблетки и капсулы
               </button>
               <button class="main__katolog-box">
                 <img
                   src="./katolog-img/Rectangle 100 (2).svg   "
-                  alt=""
+                  alt="here is a picture"
                 />Наружные средства
               </button>
               <button class="main__katolog-box">
-                <img src="./katolog-img/Rectangle 100.svg" alt="" />Таблетки и
-                капсулы
+                <img
+                  src="./katolog-img/Rectangle 100.svg"
+                  alt="here is a picture"
+                />Таблетки и капсулы
               </button>
               <button class="main__katolog-box">
                 <img
                   src="./katolog-img/Rectangle 100 (1).svg   "
-                  alt=""
+                  alt="here is a picture"
                 />Сиропы, капли, суспензии
               </button>
               <button class="main__katolog-box">
                 <img
                   src="./katolog-img/Rectangle 100 (2).svg   "
-                  alt=""
+                  alt="here is a picture"
                 />Сиропы, капли, суспензии
               </button>
               <button class="main__katolog-box">
-                <img src="./katolog-img/Rectangle 100.svg   " alt="" />Сиропы,
-                капли, суспензии
+                <img
+                  src="./katolog-img/Rectangle 100.svg   "
+                  alt="here is a picture"
+                />Сиропы, капли, суспензии
               </button>
             </div>
             <h2>Популярные бренды</h2>
             <div class="main__katolog-list-wrapper">
               <ul>
-                <li>Smeg</li>
-                <li>Гродторгмаш</li>
-                <li>Mach Easy</li>
-                <li>Krupps</li>
+                <li><a class="main__katolog-link" href="#">Smeg</a></li>
+                <li><a class="main__katolog-link" href="#">Гродторгмаш</a></li>
+                <li><a class="main__katolog-link" href="#"> Mach Easy</a></li>
+                <li><a class="main__katolog-link" href="#">Krupps</a></li>
               </ul>
               <ul>
-                <li>Abat</li>
-                <li>Dihr</li>
-                <li>Adler Easy</li>
-                <li>MEC</li>
+                <li><a class="main__katolog-link" href="#">Abat</a></li>
+                <li><a class="main__katolog-link" href="#"> Dihr</a></li>
+                <li><a class="main__katolog-link" href="#">Adler Easy</a></li>
+                <li><a class="main__katolog-link" href="#">MEC</a></li>
               </ul>
               <ul>
-                <li>Comenda</li>
-                <li>Elettrobar</li>
-                <li>Solis Easy</li>
-                <li>Meiko</li>
+                <li><a class="main__katolog-link" href="#">Comenda</a></li>
+                <li><a class="main__katolog-link" href="#"> Elettrobar</a></li>
+                <li><a class="main__katolog-link" href="#">Solis Easy</a></li>
+                <li><a class="main__katolog-link" href="#"> Meiko</a></li>
               </ul>
               <ul>
-                <li>Kocateq</li>
-                <li>Silanos</li>
-                <li>Amika</li>
-                <li>Omniwash</li>
+                <li><a class="main__katolog-link" href="#">Kocateq</a></li>
+                <li><a class="main__katolog-link" href="#">Silanos</a></li>
+                <li><a class="main__katolog-link" href="#">Amika</a></li>
+                <li><a class="main__katolog-link" href="#"> Omniwash</a></li>
               </ul>
               <ul>
-                <li>Apach</li>
-                <li>Electrolux</li>
-                <li>Fagor</li>
-                <li>Tatra</li>
+                <li><a class="main__katolog-link" href="#">Apach</a></li>
+                <li><a class="main__katolog-link" href="#"> Electrolux</a></li>
+                <li><a class="main__katolog-link" href="#">Fagor</a></li>
+                <li><a class="main__katolog-link" href="#">Tatra</a></li>
               </ul>
               <ul>
-                <li>Compack</li>
-                <li>EKSI</li>
-                <li>Kromo</li>
-                <li>Winterhalter</li>
+                <li><a class="main__katolog-link" href="#">Compack</a></li>
+                <li><a class="main__katolog-link" href="#">EKSI</a></li>
+                <li><a class="main__katolog-link" href="#"> Kromo</a></li>
+                <li>
+                  <a class="main__katolog-link" href="#">Winterhalter</a>
+                </li>
               </ul>
               <ul>
-                <li>Apach</li>
-                <li>Electrolux</li>
-                <li>Fagor</li>
-                <li>Tatra</li>
+                <li><a class="main__katolog-link" href="#"> Apach</a></li>
+                <li><a class="main__katolog-link" href="#">Electrolux</a></li>
+                <li><a class="main__katolog-link" href="#">Fagor</a></li>
+                <li><a class="main__katolog-link" href="#">Tatra</a></li>
               </ul>
             </div>
             <div class="main__katolog-text-box">
@@ -587,1036 +665,1211 @@
                 <button class="main__katolog-box-button">32</button>
               </div>
             </div>
-            <div class="main__katolog-cards-wrapper">
-              <!--  -->
-              <div class="main__katolog-cards-box">
-                <div class="main__cards-img">
-                  <img src="./katolog-img/main-cards-dori.svg" alt="" />
-                  <img
-                    class="main__cards-tovar"
-                    src="./katolog-img/Товар дня.svg"
-                    alt=""
-                  />
-                </div>
-                <div class="main__cards-text-wrapper">
-                  <div class="main__cards-text-p">
-                    <p class="main__cards-p">Есть в наличии</p>
-                    <div>
-                      <img src="./icon/star.svg" alt="" />
-                      <img src="./icon/star.svg" alt="" />
-                      <img src="./icon/star.svg" alt="" />
-                      <img src="./icon/star.svg" alt="" />
-                      <img src="./icon/star.svg" alt="" />
-                    </div>
-                  </div>
-                  <p class="main__cards-text-bolt">
-                    Велсон таблетки покрыт. плен. об. 3 мг, 30 шт.
-                  </p>
-                  <ul class="main__cards-list">
-                    <li>Бренд: Lirina</li>
-                    <li>Количество в упаковке: 10 шт</li>
-                    <li>Код товара: 153249</li>
-                  </ul>
-                  <div class="main__cards-money">
-                    <div class="main__cards-money-text">
-                      <b class="main__cards-41">41 108 руб.</b>
-                      <span class="main__cards-49">49 999 руб.</span>
-                    </div>
-                    <div class="main__cards-money-button">
-                      <img src="./katolog-img/cards-korzinka.svg" alt="" />
-                    </div>
-                  </div>
-                </div>
-                <!--  -->
-              </div>
-              <div class="main__katolog-cards-box">
-                <div class="main__cards-img">
-                  <img src="./katolog-img/main-cards-dori.svg" alt="" />
-                  <img
-                    class="main__cards-tovar"
-                    src="./katolog-img/Товар дня.svg"
-                    alt=""
-                  />
-                </div>
-                <div class="main__cards-text-wrapper">
-                  <div class="main__cards-text-p">
-                    <p class="main__cards-p">Есть в наличии</p>
-                    <div>
-                      <img src="./icon/star.svg" alt="" />
-                      <img src="./icon/star.svg" alt="" />
-                      <img src="./icon/star.svg" alt="" />
-                      <img src="./icon/star.svg" alt="" />
-                      <img src="./icon/star.svg" alt="" />
-                    </div>
-                  </div>
-                  <p class="main__cards-text-bolt">
-                    Велсон таблетки покрыт. плен. об. 3 мг, 30 шт.
-                  </p>
-                  <ul class="main__cards-list">
-                    <li>Бренд: Lirina</li>
-                    <li>Количество в упаковке: 10 шт</li>
-                    <li>Код товара: 153249</li>
-                  </ul>
-                  <div class="main__cards-money">
-                    <div class="main__cards-money-text">
-                      <b class="main__cards-41">41 108 руб.</b>
-                      <span class="main__cards-49">49 999 руб.</span>
-                    </div>
-                    <div class="main__cards-money-button">
-                      <img src="./katolog-img/cards-korzinka.svg" alt="" />
-                    </div>
-                  </div>
-                </div>
-                <!--  -->
-              </div>
-              <div class="main__katolog-cards-box">
-                <div class="main__cards-img">
-                  <img src="./katolog-img/main-cards-dori.svg" alt="" />
-                  <img
-                    class="main__cards-tovar"
-                    src="./katolog-img/Товар дня.svg"
-                    alt=""
-                  />
-                </div>
-                <div class="main__cards-text-wrapper">
-                  <div class="main__cards-text-p">
-                    <p class="main__cards-p">Есть в наличии</p>
-                    <div>
-                      <img src="./icon/star.svg" alt="" />
-                      <img src="./icon/star.svg" alt="" />
-                      <img src="./icon/star.svg" alt="" />
-                      <img src="./icon/star.svg" alt="" />
-                      <img src="./icon/star.svg" alt="" />
-                    </div>
-                  </div>
-                  <p class="main__cards-text-bolt">
-                    Велсон таблетки покрыт. плен. об. 3 мг, 30 шт.
-                  </p>
-                  <ul class="main__cards-list">
-                    <li>Бренд: Lirina</li>
-                    <li>Количество в упаковке: 10 шт</li>
-                    <li>Код товара: 153249</li>
-                  </ul>
-                  <div class="main__cards-money">
-                    <div class="main__cards-money-text">
-                      <b class="main__cards-41">41 108 руб.</b>
-                      <span class="main__cards-49">49 999 руб.</span>
-                    </div>
-                    <div class="main__cards-money-button">
-                      <img src="./katolog-img/cards-korzinka.svg" alt="" />
-                    </div>
-                  </div>
-                </div>
-                <!--  -->
-              </div>
-              <div class="main__katolog-cards-box">
-                <div class="main__cards-img">
-                  <img src="./katolog-img/main-cards-dori.svg" alt="" />
-                  <img
-                    class="main__cards-tovar"
-                    src="./katolog-img/Товар дня.svg"
-                    alt=""
-                  />
-                </div>
-                <div class="main__cards-text-wrapper">
-                  <div class="main__cards-text-p">
-                    <p class="main__cards-p">Есть в наличии</p>
-                    <div>
-                      <img src="./icon/star.svg" alt="" />
-                      <img src="./icon/star.svg" alt="" />
-                      <img src="./icon/star.svg" alt="" />
-                      <img src="./icon/star.svg" alt="" />
-                      <img src="./icon/star.svg" alt="" />
-                    </div>
-                  </div>
-                  <p class="main__cards-text-bolt">
-                    Велсон таблетки покрыт. плен. об. 3 мг, 30 шт.
-                  </p>
-                  <ul class="main__cards-list">
-                    <li>Бренд: Lirina</li>
-                    <li>Количество в упаковке: 10 шт</li>
-                    <li>Код товара: 153249</li>
-                  </ul>
-                  <div class="main__cards-money">
-                    <div class="main__cards-money-text">
-                      <b class="main__cards-41">41 108 руб.</b>
-                      <span class="main__cards-49">49 999 руб.</span>
-                    </div>
-                    <div class="main__cards-money-button">
-                      <img src="./katolog-img/cards-korzinka.svg" alt="" />
-                    </div>
-                  </div>
-                </div>
-                <!--  -->
-              </div>
-              <div class="main__katolog-cards-box">
-                <div class="main__cards-img">
-                  <img src="./katolog-img/main-cards-dori.svg" alt="" />
-                  <img
-                    class="main__cards-tovar"
-                    src="./katolog-img/Товар дня.svg"
-                    alt=""
-                  />
-                </div>
-                <div class="main__cards-text-wrapper">
-                  <div class="main__cards-text-p">
-                    <p class="main__cards-p">Есть в наличии</p>
-                    <div>
-                      <img src="./icon/star.svg" alt="" />
-                      <img src="./icon/star.svg" alt="" />
-                      <img src="./icon/star.svg" alt="" />
-                      <img src="./icon/star.svg" alt="" />
-                      <img src="./icon/star.svg" alt="" />
-                    </div>
-                  </div>
-                  <p class="main__cards-text-bolt">
-                    Велсон таблетки покрыт. плен. об. 3 мг, 30 шт.
-                  </p>
-                  <ul class="main__cards-list">
-                    <li>Бренд: Lirina</li>
-                    <li>Количество в упаковке: 10 шт</li>
-                    <li>Код товара: 153249</li>
-                  </ul>
-                  <div class="main__cards-money">
-                    <div class="main__cards-money-text">
-                      <b class="main__cards-41">41 108 руб.</b>
-                      <span class="main__cards-49">49 999 руб.</span>
-                    </div>
-                    <div class="main__cards-money-button">
-                      <img src="./katolog-img/cards-korzinka.svg" alt="" />
-                    </div>
-                  </div>
-                </div>
-                <!--  -->
-              </div>
-              <div class="main__katolog-cards-box">
-                <div class="main__cards-img">
-                  <img src="./katolog-img/main-cards-dori.svg" alt="" />
-                  <img
-                    class="main__cards-tovar"
-                    src="./katolog-img/Товар дня.svg"
-                    alt=""
-                  />
-                </div>
-                <div class="main__cards-text-wrapper">
-                  <div class="main__cards-text-p">
-                    <p class="main__cards-p">Есть в наличии</p>
-                    <div>
-                      <img src="./icon/star.svg" alt="" />
-                      <img src="./icon/star.svg" alt="" />
-                      <img src="./icon/star.svg" alt="" />
-                      <img src="./icon/star.svg" alt="" />
-                      <img src="./icon/star.svg" alt="" />
-                    </div>
-                  </div>
-                  <p class="main__cards-text-bolt">
-                    Велсон таблетки покрыт. плен. об. 3 мг, 30 шт.
-                  </p>
-                  <ul class="main__cards-list">
-                    <li>Бренд: Lirina</li>
-                    <li>Количество в упаковке: 10 шт</li>
-                    <li>Код товара: 153249</li>
-                  </ul>
-                  <div class="main__cards-money">
-                    <div class="main__cards-money-text">
-                      <b class="main__cards-41">41 108 руб.</b>
-                      <span class="main__cards-49">49 999 руб.</span>
-                    </div>
-                    <div class="main__cards-money-button">
-                      <img src="./katolog-img/cards-korzinka.svg" alt="" />
-                    </div>
-                  </div>
-                </div>
-                <!--  -->
-              </div>
-              <div class="main__katolog-cards-box">
-                <div class="main__cards-img">
-                  <img src="./katolog-img/main-cards-dori.svg" alt="" />
-                  <img
-                    class="main__cards-tovar"
-                    src="./katolog-img/Товар дня.svg"
-                    alt=""
-                  />
-                </div>
-                <div class="main__cards-text-wrapper">
-                  <div class="main__cards-text-p">
-                    <p class="main__cards-p">Есть в наличии</p>
-                    <div>
-                      <img src="./icon/star.svg" alt="" />
-                      <img src="./icon/star.svg" alt="" />
-                      <img src="./icon/star.svg" alt="" />
-                      <img src="./icon/star.svg" alt="" />
-                      <img src="./icon/star.svg" alt="" />
-                    </div>
-                  </div>
-                  <p class="main__cards-text-bolt">
-                    Велсон таблетки покрыт. плен. об. 3 мг, 30 шт.
-                  </p>
-                  <ul class="main__cards-list">
-                    <li>Бренд: Lirina</li>
-                    <li>Количество в упаковке: 10 шт</li>
-                    <li>Код товара: 153249</li>
-                  </ul>
-                  <div class="main__cards-money">
-                    <div class="main__cards-money-text">
-                      <b class="main__cards-41">41 108 руб.</b>
-                      <span class="main__cards-49">49 999 руб.</span>
-                    </div>
-                    <div class="main__cards-money-button">
-                      <img src="./katolog-img/cards-korzinka.svg" alt="" />
-                    </div>
-                  </div>
-                </div>
-                <!--  -->
-              </div>
-              <div class="main__katolog-cards-box">
-                <div class="main__cards-img">
-                  <img src="./katolog-img/main-cards-dori.svg" alt="" />
-                  <img
-                    class="main__cards-tovar"
-                    src="./katolog-img/Товар дня.svg"
-                    alt=""
-                  />
-                </div>
-                <div class="main__cards-text-wrapper">
-                  <div class="main__cards-text-p">
-                    <p class="main__cards-p">Есть в наличии</p>
-                    <div>
-                      <img src="./icon/star.svg" alt="" />
-                      <img src="./icon/star.svg" alt="" />
-                      <img src="./icon/star.svg" alt="" />
-                      <img src="./icon/star.svg" alt="" />
-                      <img src="./icon/star.svg" alt="" />
-                    </div>
-                  </div>
-                  <p class="main__cards-text-bolt">
-                    Велсон таблетки покрыт. плен. об. 3 мг, 30 шт.
-                  </p>
-                  <ul class="main__cards-list">
-                    <li>Бренд: Lirina</li>
-                    <li>Количество в упаковке: 10 шт</li>
-                    <li>Код товара: 153249</li>
-                  </ul>
-                  <div class="main__cards-money">
-                    <div class="main__cards-money-text">
-                      <b class="main__cards-41">41 108 руб.</b>
-                      <span class="main__cards-49">49 999 руб.</span>
-                    </div>
-                    <div class="main__cards-money-button">
-                      <img src="./katolog-img/cards-korzinka.svg" alt="" />
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <!--  -->
-              <div class="main__cards-biblateka-wrapper">
-                <div class="main__cards-biblateka">
-                  <div class="main__cards-biblateka-img">
-                    <img src="./katolog-img/teble.svg" alt="" />
-                  </div>
-                  <div class="main__cards-biblateka-text">
-                    <b class="main__cards-biblateka-b">Ассортимент</b>
-                    <p class="main__p">
-                      Оборудование, мебель, посуда и инвентарь
-                    </p>
-                  </div>
-                </div>
-                <div class="main__cards-biblateka">
-                  <div class="main__cards-biblateka-img">
-                    <img src="./katolog-img/hand.svg" alt="" />
-                  </div>
-                  <div class="main__cards-biblateka-text">
-                    <b class="main__cards-biblateka-b">Ассортимент</b>
-                    <p class="main__p">
-                      Оборудование, мебель, посуда и инвентарь
-                    </p>
-                  </div>
-                </div>
-                <div class="main__cards-biblateka">
-                  <div class="main__cards-biblateka-img">
-                    <img src="./katolog-img/check.svg" alt="" />
-                  </div>
-                  <div class="main__cards-biblateka-text">
-                    <b class="main__cards-biblateka-b">Ассортимент</b>
-                    <p class="main__p">
-                      Оборудование, мебель, посуда и инвентарь
-                    </p>
-                  </div>
-                </div>
-                <div class="main__cards-biblateka">
-                  <div class="main__cards-biblateka-img">
-                    <img src="./katolog-img/chochqa-img.svg" alt="" />
-                  </div>
-                  <div class="main__cards-biblateka-text">
-                    <b class="main__cards-biblateka-b">Ассортимент</b>
-                    <p class="main__p">
-                      Оборудование, мебель, посуда и инвентарь
-                    </p>
-                  </div>
-                </div>
-              </div>
 
-              <!--  -->
-              <div class="main__katolog-cards-wrapper">
-                <div class="main__katolog-cards-box">
-                  <div class="main__cards-img">
-                    <img src="./katolog-img/main-cards-dori.svg" alt="" />
-                    <img
-                      class="main__cards-tovar"
-                      src="./katolog-img/Товар дня.svg"
-                      alt=""
-                    />
-                  </div>
-                  <div class="main__cards-text-wrapper">
-                    <div class="main__cards-text-p">
-                      <p class="main__cards-p">Есть в наличии</p>
-                      <div>
-                        <img src="./icon/star.svg" alt="" />
-                        <img src="./icon/star.svg" alt="" />
-                        <img src="./icon/star.svg" alt="" />
-                        <img src="./icon/star.svg" alt="" />
-                        <img src="./icon/star.svg" alt="" />
-                      </div>
+            <div class="main__katolog-cards-wrapper">
+              <div class="main__katolog-cards-box">
+                <div class="main__cards-img">
+                  <img
+                    src="./katolog-img/cards-img.svg"
+                    alt="here is a picture"
+                  />
+                  <img
+                    class="main__cards-tovar"
+                    src="./katolog-img/Товар дня.svg"
+                    alt="here is a picture"
+                  />
+                </div>
+                <div class="main__cards-text-wrapper">
+                  <div class="main__cards-text-p">
+                    <p class="main__cards-p">Есть в наличии</p>
+                    <div>
+                      <img src="./icon/star.svg" alt="here is a picture" />
+                      <img src="./icon/star.svg" alt="here is a picture" />
+                      <img src="./icon/star.svg" alt="here is a picture" />
+                      <img src="./icon/star.svg" alt="here is a picture" />
+                      <img src="./icon/star.svg" alt="here is a picture" />
                     </div>
-                    <p class="main__cards-text-bolt">
-                      Велсон таблетки покрыт. плен. об. 3 мг, 30 шт.
-                    </p>
-                    <ul class="main__cards-list">
-                      <li>Бренд: Lirina</li>
-                      <li>Количество в упаковке: 10 шт</li>
-                      <li>Код товара: 153249</li>
-                    </ul>
-                    <div class="main__cards-money">
-                      <div class="main__cards-money-text">
-                        <b class="main__cards-41">41 108 руб.</b>
-                        <span class="main__cards-49">49 999 руб.</span>
-                      </div>
-                      <div class="main__cards-money-button">
-                        <img src="./katolog-img/cards-korzinka.svg" alt="" />
-                      </div>
+                  </div>
+                  <p class="main__cards-text-bolt">
+                    Велсон таблетки покрыт. плен. об. 3 мг, 30 шт.
+                  </p>
+                  <ul class="main__cards-list">
+                    <li>Бренд: Lirina</li>
+                    <li>Количество в упаковке: 10 шт</li>
+                    <li>Код товара: 153249</li>
+                  </ul>
+                  <div class="main__cards-money">
+                    <div class="main__cards-money-text">
+                      <b class="main__cards-41">41 108 руб.</b>
+                      <span class="main__cards-49">49 999 руб.</span>
+                    </div>
+                    <div class="main__cards-money-button">
+                      <a href="https://korzinka.uz/en">
+                        <img
+                          src="./katolog-img/cards-korzinka.svg"
+                          alt="here is a picture"
+                      /></a>
                     </div>
                   </div>
                 </div>
-                <div class="main__katolog-cards-box">
-                  <div class="main__cards-img">
-                    <img src="./katolog-img/main-cards-dori.svg" alt="" />
-                    <img
-                      class="main__cards-tovar"
-                      src="./katolog-img/Товар дня.svg"
-                      alt=""
-                    />
-                  </div>
-                  <div class="main__cards-text-wrapper">
-                    <div class="main__cards-text-p">
-                      <p class="main__cards-p">Есть в наличии</p>
-                      <div>
-                        <img src="./icon/star.svg" alt="" />
-                        <img src="./icon/star.svg" alt="" />
-                        <img src="./icon/star.svg" alt="" />
-                        <img src="./icon/star.svg" alt="" />
-                        <img src="./icon/star.svg" alt="" />
-                      </div>
+              </div>
+              <div class="main__katolog-cards-box">
+                <div class="main__cards-img">
+                  <img
+                    src="./katolog-img/main-card-img-gel.svg"
+                    alt="here is a picture"
+                  />
+                  <img
+                    class="main__cards-tovar"
+                    src="./katolog-img/Товар дня.svg"
+                    alt="here is a picture"
+                  />
+                </div>
+                <div class="main__cards-text-wrapper">
+                  <div class="main__cards-text-p">
+                    <p class="main__cards-p">Есть в наличии</p>
+                    <div>
+                      <img src="./icon/star.svg" alt="here is a picture" />
+                      <img src="./icon/star.svg" alt="here is a picture" />
+                      <img src="./icon/star.svg" alt="here is a picture" />
+                      <img src="./icon/star.svg" alt="here is a picture" />
+                      <img src="./icon/star.svg" alt="here is a picture" />
                     </div>
-                    <p class="main__cards-text-bolt">
-                      Велсон таблетки покрыт. плен. об. 3 мг, 30 шт.
-                    </p>
-                    <ul class="main__cards-list">
-                      <li>Бренд: Lirina</li>
-                      <li>Количество в упаковке: 10 шт</li>
-                      <li>Код товара: 153249</li>
-                    </ul>
-                    <div class="main__cards-money">
-                      <div class="main__cards-money-text">
-                        <b class="main__cards-41">41 108 руб.</b>
-                        <span class="main__cards-49">49 999 руб.</span>
-                      </div>
-                      <div class="main__cards-money-button">
-                        <img src="./katolog-img/cards-korzinka.svg" alt="" />
-                      </div>
+                  </div>
+                  <p class="main__cards-text-bolt">
+                    Велсон таблетки покрыт. плен. об. 3 мг, 30 шт.
+                  </p>
+                  <ul class="main__cards-list">
+                    <li>Бренд: Lirina</li>
+                    <li>Количество в упаковке: 10 шт</li>
+                    <li>Код товара: 153249</li>
+                  </ul>
+                  <div class="main__cards-money">
+                    <div class="main__cards-money-text">
+                      <b class="main__cards-41">41 108 руб.</b>
+                      <span class="main__cards-49">49 999 руб.</span>
+                    </div>
+                    <div class="main__cards-money-button">
+                      <a href="https://korzinka.uz/en">
+                        <img
+                          src="./katolog-img/cards-korzinka.svg"
+                          alt="here is a picture"
+                      /></a>
                     </div>
                   </div>
                 </div>
-                <div class="main__katolog-cards-box">
-                  <div class="main__cards-img">
-                    <img src="./katolog-img/main-cards-dori.svg" alt="" />
-                    <img
-                      class="main__cards-tovar"
-                      src="./katolog-img/Товар дня.svg"
-                      alt=""
-                    />
-                  </div>
-                  <div class="main__cards-text-wrapper">
-                    <div class="main__cards-text-p">
-                      <p class="main__cards-p">Есть в наличии</p>
-                      <div>
-                        <img src="./icon/star.svg" alt="" />
-                        <img src="./icon/star.svg" alt="" />
-                        <img src="./icon/star.svg" alt="" />
-                        <img src="./icon/star.svg" alt="" />
-                        <img src="./icon/star.svg" alt="" />
-                      </div>
+              </div>
+              <div class="main__katolog-cards-box">
+                <div class="main__cards-img">
+                  <img
+                    src="./katolog-img/main-cards-dori.svg"
+                    alt="here is a picture"
+                  />
+                  <img
+                    class="main__cards-tovar"
+                    src="./katolog-img/Товар дня.svg"
+                    alt="here is a picture"
+                  />
+                </div>
+                <div class="main__cards-text-wrapper">
+                  <div class="main__cards-text-p">
+                    <p class="main__cards-p">Есть в наличии</p>
+                    <div>
+                      <img src="./icon/star.svg" alt="here is a picture" />
+                      <img src="./icon/star.svg" alt="here is a picture" />
+                      <img src="./icon/star.svg" alt="here is a picture" />
+                      <img src="./icon/star.svg" alt="here is a picture" />
+                      <img src="./icon/star.svg" alt="here is a picture" />
                     </div>
-                    <p class="main__cards-text-bolt">
-                      Велсон таблетки покрыт. плен. об. 3 мг, 30 шт.
-                    </p>
-                    <ul class="main__cards-list">
-                      <li>Бренд: Lirina</li>
-                      <li>Количество в упаковке: 10 шт</li>
-                      <li>Код товара: 153249</li>
-                    </ul>
-                    <div class="main__cards-money">
-                      <div class="main__cards-money-text">
-                        <b class="main__cards-41">41 108 руб.</b>
-                        <span class="main__cards-49">49 999 руб.</span>
-                      </div>
-                      <div class="main__cards-money-button">
-                        <img src="./katolog-img/cards-korzinka.svg" alt="" />
-                      </div>
+                  </div>
+                  <p class="main__cards-text-bolt">
+                    Велсон таблетки покрыт. плен. об. 3 мг, 30 шт.
+                  </p>
+                  <ul class="main__cards-list">
+                    <li>Бренд: Lirina</li>
+                    <li>Количество в упаковке: 10 шт</li>
+                    <li>Код товара: 153249</li>
+                  </ul>
+                  <div class="main__cards-money">
+                    <div class="main__cards-money-text">
+                      <b class="main__cards-41">41 108 руб.</b>
+                      <span class="main__cards-49">49 999 руб.</span>
+                    </div>
+                    <div class="main__cards-money-button">
+                      <a href="https://korzinka.uz/en">
+                        <img
+                          src="./katolog-img/cards-korzinka.svg"
+                          alt="here is a picture"
+                      /></a>
                     </div>
                   </div>
                 </div>
-                <div class="main__katolog-cards-box">
-                  <div class="main__cards-img">
-                    <img src="./katolog-img/main-cards-dori.svg" alt="" />
-                    <img
-                      class="main__cards-tovar"
-                      src="./katolog-img/Товар дня.svg"
-                      alt=""
-                    />
-                  </div>
-                  <div class="main__cards-text-wrapper">
-                    <div class="main__cards-text-p">
-                      <p class="main__cards-p">Есть в наличии</p>
-                      <div>
-                        <img src="./icon/star.svg" alt="" />
-                        <img src="./icon/star.svg" alt="" />
-                        <img src="./icon/star.svg" alt="" />
-                        <img src="./icon/star.svg" alt="" />
-                        <img src="./icon/star.svg" alt="" />
-                      </div>
+              </div>
+              <div class="main__katolog-cards-box">
+                <div class="main__cards-img">
+                  <img
+                    src="./katolog-img/main-card-img-biform.svg"
+                    alt="here is a picture"
+                  />
+                  <img
+                    class="main__cards-tovar"
+                    src="./katolog-img/Товар дня.svg"
+                    alt="here is a picture"
+                  />
+                </div>
+                <div class="main__cards-text-wrapper">
+                  <div class="main__cards-text-p">
+                    <p class="main__cards-p">Есть в наличии</p>
+                    <div>
+                      <img src="./icon/star.svg" alt="here is a picture" />
+                      <img src="./icon/star.svg" alt="here is a picture" />
+                      <img src="./icon/star.svg" alt="here is a picture" />
+                      <img src="./icon/star.svg" alt="here is a picture" />
+                      <img src="./icon/star.svg" alt="here is a picture" />
                     </div>
-                    <p class="main__cards-text-bolt">
-                      Велсон таблетки покрыт. плен. об. 3 мг, 30 шт.
-                    </p>
-                    <ul class="main__cards-list">
-                      <li>Бренд: Lirina</li>
-                      <li>Количество в упаковке: 10 шт</li>
-                      <li>Код товара: 153249</li>
-                    </ul>
-                    <div class="main__cards-money">
-                      <div class="main__cards-money-text">
-                        <b class="main__cards-41">41 108 руб.</b>
-                        <span class="main__cards-49">49 999 руб.</span>
-                      </div>
-                      <div class="main__cards-money-button">
-                        <img src="./katolog-img/cards-korzinka.svg" alt="" />
-                      </div>
+                  </div>
+                  <p class="main__cards-text-bolt">
+                    Велсон таблетки покрыт. плен. об. 3 мг, 30 шт.
+                  </p>
+                  <ul class="main__cards-list">
+                    <li>Бренд: Lirina</li>
+                    <li>Количество в упаковке: 10 шт</li>
+                    <li>Код товара: 153249</li>
+                  </ul>
+                  <div class="main__cards-money">
+                    <div class="main__cards-money-text">
+                      <b class="main__cards-41">41 108 руб.</b>
+                      <span class="main__cards-49">49 999 руб.</span>
+                    </div>
+                    <div class="main__cards-money-button">
+                      <a href="https://korzinka.uz/en">
+                        <img
+                          src="./katolog-img/cards-korzinka.svg"
+                          alt="here is a picture"
+                      /></a>
                     </div>
                   </div>
                 </div>
-                <div class="main__katolog-cards-box">
-                  <div class="main__cards-img">
-                    <img src="./katolog-img/main-cards-dori.svg" alt="" />
-                    <img
-                      class="main__cards-tovar"
-                      src="./katolog-img/Товар дня.svg"
-                      alt=""
-                    />
-                  </div>
-                  <div class="main__cards-text-wrapper">
-                    <div class="main__cards-text-p">
-                      <p class="main__cards-p">Есть в наличии</p>
-                      <div>
-                        <img src="./icon/star.svg" alt="" />
-                        <img src="./icon/star.svg" alt="" />
-                        <img src="./icon/star.svg" alt="" />
-                        <img src="./icon/star.svg" alt="" />
-                        <img src="./icon/star.svg" alt="" />
-                      </div>
+              </div>
+              <div class="main__katolog-cards-box">
+                <div class="main__cards-img">
+                  <img
+                    src="./katolog-img/main-card-img-gel.svg"
+                    alt="here is a picture"
+                  />
+                  <img
+                    class="main__cards-tovar"
+                    src="./katolog-img/Товар дня.svg"
+                    alt="here is a picture"
+                  />
+                </div>
+                <div class="main__cards-text-wrapper">
+                  <div class="main__cards-text-p">
+                    <p class="main__cards-p">Есть в наличии</p>
+                    <div>
+                      <img src="./icon/star.svg" alt="here is a picture" />
+                      <img src="./icon/star.svg" alt="here is a picture" />
+                      <img src="./icon/star.svg" alt="here is a picture" />
+                      <img src="./icon/star.svg" alt="here is a picture" />
+                      <img src="./icon/star.svg" alt="here is a picture" />
                     </div>
-                    <p class="main__cards-text-bolt">
-                      Велсон таблетки покрыт. плен. об. 3 мг, 30 шт.
-                    </p>
-                    <ul class="main__cards-list">
-                      <li>Бренд: Lirina</li>
-                      <li>Количество в упаковке: 10 шт</li>
-                      <li>Код товара: 153249</li>
-                    </ul>
-                    <div class="main__cards-money">
-                      <div class="main__cards-money-text">
-                        <b class="main__cards-41">41 108 руб.</b>
-                        <span class="main__cards-49">49 999 руб.</span>
-                      </div>
-                      <div class="main__cards-money-button">
-                        <img src="./katolog-img/cards-korzinka.svg" alt="" />
-                      </div>
+                  </div>
+                  <p class="main__cards-text-bolt">
+                    Велсон таблетки покрыт. плен. об. 3 мг, 30 шт.
+                  </p>
+                  <ul class="main__cards-list">
+                    <li>Бренд: Lirina</li>
+                    <li>Количество в упаковке: 10 шт</li>
+                    <li>Код товара: 153249</li>
+                  </ul>
+                  <div class="main__cards-money">
+                    <div class="main__cards-money-text">
+                      <b class="main__cards-41">41 108 руб.</b>
+                      <span class="main__cards-49">49 999 руб.</span>
+                    </div>
+                    <div class="main__cards-money-button">
+                      <a href="https://korzinka.uz/en">
+                        <img
+                          src="./katolog-img/cards-korzinka.svg"
+                          alt="here is a picture"
+                      /></a>
                     </div>
                   </div>
                 </div>
-                <div class="main__katolog-cards-box">
-                  <div class="main__cards-img">
-                    <img src="./katolog-img/main-cards-dori.svg" alt="" />
-                    <img
-                      class="main__cards-tovar"
-                      src="./katolog-img/Товар дня.svg"
-                      alt=""
-                    />
-                  </div>
-                  <div class="main__cards-text-wrapper">
-                    <div class="main__cards-text-p">
-                      <p class="main__cards-p">Есть в наличии</p>
-                      <div>
-                        <img src="./icon/star.svg" alt="" />
-                        <img src="./icon/star.svg" alt="" />
-                        <img src="./icon/star.svg" alt="" />
-                        <img src="./icon/star.svg" alt="" />
-                        <img src="./icon/star.svg" alt="" />
-                      </div>
+              </div>
+              <div class="main__katolog-cards-box">
+                <div class="main__cards-img">
+                  <img
+                    src="./katolog-img/main-cards-dori.svg"
+                    alt="here is a picture"
+                  />
+                  <img
+                    class="main__cards-tovar"
+                    src="./katolog-img/Товар дня.svg"
+                    alt="here is a picture"
+                  />
+                </div>
+                <div class="main__cards-text-wrapper">
+                  <div class="main__cards-text-p">
+                    <p class="main__cards-p">Есть в наличии</p>
+                    <div>
+                      <img src="./icon/star.svg" alt="here is a picture" />
+                      <img src="./icon/star.svg" alt="here is a picture" />
+                      <img src="./icon/star.svg" alt="here is a picture" />
+                      <img src="./icon/star.svg" alt="here is a picture" />
+                      <img src="./icon/star.svg" alt="here is a picture" />
                     </div>
-                    <p class="main__cards-text-bolt">
-                      Велсон таблетки покрыт. плен. об. 3 мг, 30 шт.
-                    </p>
-                    <ul class="main__cards-list">
-                      <li>Бренд: Lirina</li>
-                      <li>Количество в упаковке: 10 шт</li>
-                      <li>Код товара: 153249</li>
-                    </ul>
-                    <div class="main__cards-money">
-                      <div class="main__cards-money-text">
-                        <b class="main__cards-41">41 108 руб.</b>
-                        <span class="main__cards-49">49 999 руб.</span>
-                      </div>
-                      <div class="main__cards-money-button">
-                        <img src="./katolog-img/cards-korzinka.svg" alt="" />
-                      </div>
+                  </div>
+                  <p class="main__cards-text-bolt">
+                    Велсон таблетки покрыт. плен. об. 3 мг, 30 шт.
+                  </p>
+                  <ul class="main__cards-list">
+                    <li>Бренд: Lirina</li>
+                    <li>Количество в упаковке: 10 шт</li>
+                    <li>Код товара: 153249</li>
+                  </ul>
+                  <div class="main__cards-money">
+                    <div class="main__cards-money-text">
+                      <b class="main__cards-41">41 108 руб.</b>
+                      <span class="main__cards-49">49 999 руб.</span>
+                    </div>
+                    <div class="main__cards-money-button">
+                      <a href="https://korzinka.uz/en">
+                        <img
+                          src="./katolog-img/cards-korzinka.svg"
+                          alt="here is a picture"
+                      /></a>
                     </div>
                   </div>
                 </div>
-                <div class="main__katolog-cards-box">
-                  <div class="main__cards-img">
-                    <img src="./katolog-img/main-cards-dori.svg" alt="" />
-                    <img
-                      class="main__cards-tovar"
-                      src="./katolog-img/Товар дня.svg"
-                      alt=""
-                    />
-                  </div>
-                  <div class="main__cards-text-wrapper">
-                    <div class="main__cards-text-p">
-                      <p class="main__cards-p">Есть в наличии</p>
-                      <div>
-                        <img src="./icon/star.svg" alt="" />
-                        <img src="./icon/star.svg" alt="" />
-                        <img src="./icon/star.svg" alt="" />
-                        <img src="./icon/star.svg" alt="" />
-                        <img src="./icon/star.svg" alt="" />
-                      </div>
+              </div>
+              <div class="main__katolog-cards-box">
+                <div class="main__cards-img">
+                  <img
+                    src="./katolog-img/cards-img.svg"
+                    alt="here is a picture"
+                  />
+                  <img
+                    class="main__cards-tovar"
+                    src="./katolog-img/Товар дня.svg"
+                    alt="here is a picture"
+                  />
+                </div>
+                <div class="main__cards-text-wrapper">
+                  <div class="main__cards-text-p">
+                    <p class="main__cards-p">Есть в наличии</p>
+                    <div>
+                      <img src="./icon/star.svg" alt="here is a picture" />
+                      <img src="./icon/star.svg" alt="here is a picture" />
+                      <img src="./icon/star.svg" alt="here is a picture" />
+                      <img src="./icon/star.svg" alt="here is a picture" />
+                      <img src="./icon/star.svg" alt="here is a picture" />
                     </div>
-                    <p class="main__cards-text-bolt">
-                      Велсон таблетки покрыт. плен. об. 3 мг, 30 шт.
-                    </p>
-                    <ul class="main__cards-list">
-                      <li>Бренд: Lirina</li>
-                      <li>Количество в упаковке: 10 шт</li>
-                      <li>Код товара: 153249</li>
-                    </ul>
-                    <div class="main__cards-money">
-                      <div class="main__cards-money-text">
-                        <b class="main__cards-41">41 108 руб.</b>
-                        <span class="main__cards-49">49 999 руб.</span>
-                      </div>
-                      <div class="main__cards-money-button">
-                        <img src="./katolog-img/cards-korzinka.svg" alt="" />
-                      </div>
+                  </div>
+                  <p class="main__cards-text-bolt">
+                    Велсон таблетки покрыт. плен. об. 3 мг, 30 шт.
+                  </p>
+                  <ul class="main__cards-list">
+                    <li>Бренд: Lirina</li>
+                    <li>Количество в упаковке: 10 шт</li>
+                    <li>Код товара: 153249</li>
+                  </ul>
+                  <div class="main__cards-money">
+                    <div class="main__cards-money-text">
+                      <b class="main__cards-41">41 108 руб.</b>
+                      <span class="main__cards-49">49 999 руб.</span>
+                    </div>
+                    <div class="main__cards-money-button">
+                      <a href="https://korzinka.uz/en">
+                        <img
+                          src="./katolog-img/cards-korzinka.svg"
+                          alt="here is a picture"
+                      /></a>
                     </div>
                   </div>
                 </div>
-                <div class="main__katolog-cards-box">
-                  <div class="main__cards-img">
-                    <img src="./katolog-img/main-cards-dori.svg" alt="" />
-                    <img
-                      class="main__cards-tovar"
-                      src="./katolog-img/Товар дня.svg"
-                      alt=""
-                    />
-                  </div>
-                  <div class="main__cards-text-wrapper">
-                    <div class="main__cards-text-p">
-                      <p class="main__cards-p">Есть в наличии</p>
-                      <div>
-                        <img src="./icon/star.svg" alt="" />
-                        <img src="./icon/star.svg" alt="" />
-                        <img src="./icon/star.svg" alt="" />
-                        <img src="./icon/star.svg" alt="" />
-                        <img src="./icon/star.svg" alt="" />
-                      </div>
-                    </div>
-                    <p class="main__cards-text-bolt">
-                      Велсон таблетки покрыт. плен. об. 3 мг, 30 шт.
-                    </p>
-                    <ul class="main__cards-list">
-                      <li>Бренд: Lirina</li>
-                      <li>Количество в упаковке: 10 шт</li>
-                      <li>Код товара: 153249</li>
-                    </ul>
-                    <div class="main__cards-money">
-                      <div class="main__cards-money-text">
-                        <b class="main__cards-41">41 108 руб.</b>
-                        <span class="main__cards-49">49 999 руб.</span>
-                      </div>
-                      <div class="main__cards-money-button">
-                        <img src="./katolog-img/cards-korzinka.svg" alt="" />
-                      </div>
-                    </div>
-                  </div>
+              </div>
+              <div class="main__katolog-cards-box">
+                <div class="main__cards-img">
+                  <img
+                    src="./katolog-img/main-card-img-biform.svg"
+                    alt="here is a picture"
+                  />
+                  <img
+                    class="main__cards-tovar"
+                    src="./katolog-img/Товар дня.svg"
+                    alt="here is a picture"
+                  />
                 </div>
-                <div class="main__katolog-cards-box">
-                  <div class="main__cards-img">
-                    <img src="./katolog-img/main-cards-dori.svg" alt="" />
-                    <img
-                      class="main__cards-tovar"
-                      src="./katolog-img/Товар дня.svg"
-                      alt=""
-                    />
-                  </div>
-                  <div class="main__cards-text-wrapper">
-                    <div class="main__cards-text-p">
-                      <p class="main__cards-p">Есть в наличии</p>
-                      <div>
-                        <img src="./icon/star.svg" alt="" />
-                        <img src="./icon/star.svg" alt="" />
-                        <img src="./icon/star.svg" alt="" />
-                        <img src="./icon/star.svg" alt="" />
-                        <img src="./icon/star.svg" alt="" />
-                      </div>
-                    </div>
-                    <p class="main__cards-text-bolt">
-                      Велсон таблетки покрыт. плен. об. 3 мг, 30 шт.
-                    </p>
-                    <ul class="main__cards-list">
-                      <li>Бренд: Lirina</li>
-                      <li>Количество в упаковке: 10 шт</li>
-                      <li>Код товара: 153249</li>
-                    </ul>
-                    <div class="main__cards-money">
-                      <div class="main__cards-money-text">
-                        <b class="main__cards-41">41 108 руб.</b>
-                        <span class="main__cards-49">49 999 руб.</span>
-                      </div>
-                      <div class="main__cards-money-button">
-                        <img src="./katolog-img/cards-korzinka.svg" alt="" />
-                      </div>
+                <div class="main__cards-text-wrapper">
+                  <div class="main__cards-text-p">
+                    <p class="main__cards-p">Есть в наличии</p>
+                    <div>
+                      <img src="./icon/star.svg" alt="here is a picture" />
+                      <img src="./icon/star.svg" alt="here is a picture" />
+                      <img src="./icon/star.svg" alt="here is a picture" />
+                      <img src="./icon/star.svg" alt="here is a picture" />
+                      <img src="./icon/star.svg" alt="here is a picture" />
                     </div>
                   </div>
-                </div>
-                <div class="main__katolog-cards-box">
-                  <div class="main__cards-img">
-                    <img src="./katolog-img/main-cards-dori.svg" alt="" />
-                    <img
-                      class="main__cards-tovar"
-                      src="./katolog-img/Товар дня.svg"
-                      alt=""
-                    />
-                  </div>
-                  <div class="main__cards-text-wrapper">
-                    <div class="main__cards-text-p">
-                      <p class="main__cards-p">Есть в наличии</p>
-                      <div>
-                        <img src="./icon/star.svg" alt="" />
-                        <img src="./icon/star.svg" alt="" />
-                        <img src="./icon/star.svg" alt="" />
-                        <img src="./icon/star.svg" alt="" />
-                        <img src="./icon/star.svg" alt="" />
-                      </div>
+                  <p class="main__cards-text-bolt">
+                    Велсон таблетки покрыт. плен. об. 3 мг, 30 шт.
+                  </p>
+                  <ul class="main__cards-list">
+                    <li>Бренд: Lirina</li>
+                    <li>Количество в упаковке: 10 шт</li>
+                    <li>Код товара: 153249</li>
+                  </ul>
+                  <div class="main__cards-money">
+                    <div class="main__cards-money-text">
+                      <b class="main__cards-41">41 108 руб.</b>
+                      <span class="main__cards-49">49 999 руб.</span>
                     </div>
-                    <p class="main__cards-text-bolt">
-                      Велсон таблетки покрыт. плен. об. 3 мг, 30 шт.
-                    </p>
-                    <ul class="main__cards-list">
-                      <li>Бренд: Lirina</li>
-                      <li>Количество в упаковке: 10 шт</li>
-                      <li>Код товара: 153249</li>
-                    </ul>
-                    <div class="main__cards-money">
-                      <div class="main__cards-money-text">
-                        <b class="main__cards-41">41 108 руб.</b>
-                        <span class="main__cards-49">49 999 руб.</span>
-                      </div>
-                      <div class="main__cards-money-button">
-                        <img src="./katolog-img/cards-korzinka.svg" alt="" />
-                      </div>
+                    <div class="main__cards-money-button">
+                      <a href="https://korzinka.uz/en">
+                        <img
+                          src="./katolog-img/cards-korzinka.svg"
+                          alt="here is a picture"
+                      /></a>
                     </div>
-                  </div>
-                </div>
-                <div class="main__katolog-cards-box">
-                  <div class="main__cards-img">
-                    <img src="./katolog-img/main-cards-dori.svg" alt="" />
-                    <img
-                      class="main__cards-tovar"
-                      src="./katolog-img/Товар дня.svg"
-                      alt=""
-                    />
-                  </div>
-                  <div class="main__cards-text-wrapper">
-                    <div class="main__cards-text-p">
-                      <p class="main__cards-p">Есть в наличии</p>
-                      <div>
-                        <img src="./icon/star.svg" alt="" />
-                        <img src="./icon/star.svg" alt="" />
-                        <img src="./icon/star.svg" alt="" />
-                        <img src="./icon/star.svg" alt="" />
-                        <img src="./icon/star.svg" alt="" />
-                      </div>
-                    </div>
-                    <p class="main__cards-text-bolt">
-                      Велсон таблетки покрыт. плен. об. 3 мг, 30 шт.
-                    </p>
-                    <ul class="main__cards-list">
-                      <li>Бренд: Lirina</li>
-                      <li>Количество в упаковке: 10 шт</li>
-                      <li>Код товара: 153249</li>
-                    </ul>
-                    <div class="main__cards-money">
-                      <div class="main__cards-money-text">
-                        <b class="main__cards-41">41 108 руб.</b>
-                        <span class="main__cards-49">49 999 руб.</span>
-                      </div>
-                      <div class="main__cards-money-button">
-                        <img src="./katolog-img/cards-korzinka.svg" alt="" />
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="main__katolog-cards-box">
-                  <div class="main__cards-img">
-                    <img src="./katolog-img/main-cards-dori.svg" alt="" />
-                    <img
-                      class="main__cards-tovar"
-                      src="./katolog-img/Товар дня.svg"
-                      alt=""
-                    />
-                  </div>
-                  <div class="main__cards-text-wrapper">
-                    <div class="main__cards-text-p">
-                      <p class="main__cards-p">Есть в наличии</p>
-                      <div>
-                        <img src="./icon/star.svg" alt="" />
-                        <img src="./icon/star.svg" alt="" />
-                        <img src="./icon/star.svg" alt="" />
-                        <img src="./icon/star.svg" alt="" />
-                        <img src="./icon/star.svg" alt="" />
-                      </div>
-                    </div>
-                    <p class="main__cards-text-bolt">
-                      Велсон таблетки покрыт. плен. об. 3 мг, 30 шт.
-                    </p>
-                    <ul class="main__cards-list">
-                      <li>Бренд: Lirina</li>
-                      <li>Количество в упаковке: 10 шт</li>
-                      <li>Код товара: 153249</li>
-                    </ul>
-                    <div class="main__cards-money">
-                      <div class="main__cards-money-text">
-                        <b class="main__cards-41">41 108 руб.</b>
-                        <span class="main__cards-49">49 999 руб.</span>
-                      </div>
-                      <div class="main__cards-money-button">
-                        <img src="./katolog-img/cards-korzinka.svg" alt="" />
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="main__katolog-cards-box">
-                  <div class="main__cards-img">
-                    <img src="./katolog-img/main-cards-dori.svg" alt="" />
-                    <img
-                      class="main__cards-tovar"
-                      src="./katolog-img/Товар дня.svg"
-                      alt=""
-                    />
-                  </div>
-                  <div class="main__cards-text-wrapper">
-                    <div class="main__cards-text-p">
-                      <p class="main__cards-p">Есть в наличии</p>
-                      <div>
-                        <img src="./icon/star.svg" alt="" />
-                        <img src="./icon/star.svg" alt="" />
-                        <img src="./icon/star.svg" alt="" />
-                        <img src="./icon/star.svg" alt="" />
-                        <img src="./icon/star.svg" alt="" />
-                      </div>
-                    </div>
-                    <p class="main__cards-text-bolt">
-                      Велсон таблетки покрыт. плен. об. 3 мг, 30 шт.
-                    </p>
-                    <ul class="main__cards-list">
-                      <li>Бренд: Lirina</li>
-                      <li>Количество в упаковке: 10 шт</li>
-                      <li>Код товара: 153249</li>
-                    </ul>
-                    <div class="main__cards-money">
-                      <div class="main__cards-money-text">
-                        <b class="main__cards-41">41 108 руб.</b>
-                        <span class="main__cards-49">49 999 руб.</span>
-                      </div>
-                      <div class="main__cards-money-button">
-                        <img src="./katolog-img/cards-korzinka.svg" alt="" />
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="main__katolog-cards-box">
-                  <div class="main__cards-img">
-                    <img src="./katolog-img/main-cards-dori.svg" alt="" />
-                    <img
-                      class="main__cards-tovar"
-                      src="./katolog-img/Товар дня.svg"
-                      alt=""
-                    />
-                  </div>
-                  <div class="main__cards-text-wrapper">
-                    <div class="main__cards-text-p">
-                      <p class="main__cards-p">Есть в наличии</p>
-                      <div>
-                        <img src="./icon/star.svg" alt="" />
-                        <img src="./icon/star.svg" alt="" />
-                        <img src="./icon/star.svg" alt="" />
-                        <img src="./icon/star.svg" alt="" />
-                        <img src="./icon/star.svg" alt="" />
-                      </div>
-                    </div>
-                    <p class="main__cards-text-bolt">
-                      Велсон таблетки покрыт. плен. об. 3 мг, 30 шт.
-                    </p>
-                    <ul class="main__cards-list">
-                      <li>Бренд: Lirina</li>
-                      <li>Количество в упаковке: 10 шт</li>
-                      <li>Код товара: 153249</li>
-                    </ul>
-                    <div class="main__cards-money">
-                      <div class="main__cards-money-text">
-                        <b class="main__cards-41">41 108 руб.</b>
-                        <span class="main__cards-49">49 999 руб.</span>
-                      </div>
-                      <div class="main__cards-money-button">
-                        <img src="./katolog-img/cards-korzinka.svg" alt="" />
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="main__katolog-cards-box">
-                  <div class="main__cards-img">
-                    <img src="./katolog-img/main-cards-dori.svg" alt="" />
-                    <img
-                      class="main__cards-tovar"
-                      src="./katolog-img/Товар дня.svg"
-                      alt=""
-                    />
-                  </div>
-                  <div class="main__cards-text-wrapper">
-                    <div class="main__cards-text-p">
-                      <p class="main__cards-p">Есть в наличии</p>
-                      <div>
-                        <img src="./icon/star.svg" alt="" />
-                        <img src="./icon/star.svg" alt="" />
-                        <img src="./icon/star.svg" alt="" />
-                        <img src="./icon/star.svg" alt="" />
-                        <img src="./icon/star.svg" alt="" />
-                      </div>
-                    </div>
-                    <p class="main__cards-text-bolt">
-                      Велсон таблетки покрыт. плен. об. 3 мг, 30 шт.
-                    </p>
-                    <ul class="main__cards-list">
-                      <li>Бренд: Lirina</li>
-                      <li>Количество в упаковке: 10 шт</li>
-                      <li>Код товара: 153249</li>
-                    </ul>
-                    <div class="main__cards-money">
-                      <div class="main__cards-money-text">
-                        <b class="main__cards-41">41 108 руб.</b>
-                        <span class="main__cards-49">49 999 руб.</span>
-                      </div>
-                      <div class="main__cards-money-button">
-                        <img src="./katolog-img/cards-korzinka.svg" alt="" />
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="main__katolog-cards-box">
-                  <div class="main__cards-img">
-                    <img src="./katolog-img/main-cards-dori.svg" alt="" />
-                    <img
-                      class="main__cards-tovar"
-                      src="./katolog-img/Товар дня.svg"
-                      alt=""
-                    />
-                  </div>
-                  <div class="main__cards-text-wrapper">
-                    <div class="main__cards-text-p">
-                      <p class="main__cards-p">Есть в наличии</p>
-                      <div>
-                        <img src="./icon/star.svg" alt="" />
-                        <img src="./icon/star.svg" alt="" />
-                        <img src="./icon/star.svg" alt="" />
-                        <img src="./icon/star.svg" alt="" />
-                        <img src="./icon/star.svg" alt="" />
-                      </div>
-                    </div>
-                    <p class="main__cards-text-bolt">
-                      Велсон таблетки покрыт. плен. об. 3 мг, 30 шт.
-                    </p>
-                    <ul class="main__cards-list">
-                      <li>Бренд: Lirina</li>
-                      <li>Количество в упаковке: 10 шт</li>
-                      <li>Код товара: 153249</li>
-                    </ul>
-                    <div class="main__cards-money">
-                      <div class="main__cards-money-text">
-                        <b class="main__cards-41">41 108 руб.</b>
-                        <span class="main__cards-49">49 999 руб.</span>
-                      </div>
-                      <div class="main__cards-money-button">
-                        <img src="./katolog-img/cards-korzinka.svg" alt="" />
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="main__katolog-text-box">
-                  <div class="main__katolog-box-link">
-                    <button class="main__katolog-box-button">1</button>
-                    <button class="main__katolog-box-button">2</button>
-                    <button class="main__katolog-box-button">3</button>
-                    <button class="main__katolog-box-button">4</button>
-                    <button class="main__katolog-box-button">...</button>
-                    <button class="main__katolog-box-button">32</button>
                   </div>
                 </div>
               </div>
             </div>
+            <div class="main__cards-biblateka-wrapper">
+              <div class="main__cards-biblateka">
+                <div class="main__cards-biblateka-img">
+                  <a href="#">
+                    <img src="./katolog-img/teble.svg" alt="here is a picture"
+                  /></a>
+                </div>
+                <div class="main__cards-biblateka-text">
+                  <b class="main__cards-biblateka-b">Ассортимент</b>
+                  <p class="main__p">
+                    Оборудование, мебель, посуда и инвентарь
+                  </p>
+                </div>
+              </div>
+              <div class="main__cards-biblateka">
+                <div class="main__cards-biblateka-img">
+                  <a href="#">
+                    <img src="./katolog-img/hand.svg" alt="here is a picture"
+                  /></a>
+                </div>
+                <div class="main__cards-biblateka-text">
+                  <b class="main__cards-biblateka-b">Ассортимент</b>
+                  <p class="main__p">
+                    Оборудование, мебель, посуда и инвентарь
+                  </p>
+                </div>
+              </div>
+              <div class="main__cards-biblateka">
+                <div class="main__cards-biblateka-img">
+                  <a href="#"
+                    ><img src="./katolog-img/check.svg" alt="here is a picture"
+                  /></a>
+                </div>
+                <div class="main__cards-biblateka-text">
+                  <b class="main__cards-biblateka-b">Ассортимент</b>
+                  <p class="main__p">
+                    Оборудование, мебель, посуда и инвентарь
+                  </p>
+                </div>
+              </div>
+              <div class="main__cards-biblateka">
+                <div class="main__cards-biblateka-img">
+                  <a href="#"
+                    ><img
+                      src="./katolog-img/chochqa-img.svg"
+                      alt="here is a picture"
+                  /></a>
+                </div>
+                <div class="main__cards-biblateka-text">
+                  <b class="main__cards-biblateka-b">Ассортимент</b>
+                  <p class="main__p">
+                    Оборудование, мебель, посуда и инвентарь
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="main__katolog-cards-wrapper">
+              <div class="main__katolog-cards-box">
+                <div class="main__cards-img">
+                  <img
+                    src="./katolog-img/cards-img.svg"
+                    alt="here is a picture"
+                  />
+                  <img
+                    class="main__cards-tovar"
+                    src="./katolog-img/Товар дня.svg"
+                    alt="here is a picture"
+                  />
+                </div>
+                <div class="main__cards-text-wrapper">
+                  <div class="main__cards-text-p">
+                    <p class="main__cards-p">Есть в наличии</p>
+                    <div>
+                      <img src="./icon/star.svg" alt="here is a picture" />
+                      <img src="./icon/star.svg" alt="here is a picture" />
+                      <img src="./icon/star.svg" alt="here is a picture" />
+                      <img src="./icon/star.svg" alt="here is a picture" />
+                      <img src="./icon/star.svg" alt="here is a picture" />
+                    </div>
+                  </div>
+                  <p class="main__cards-text-bolt">
+                    Велсон таблетки покрыт. плен. об. 3 мг, 30 шт.
+                  </p>
+                  <ul class="main__cards-list">
+                    <li>Бренд: Lirina</li>
+                    <li>Количество в упаковке: 10 шт</li>
+                    <li>Код товара: 153249</li>
+                  </ul>
+                  <div class="main__cards-money">
+                    <div class="main__cards-money-text">
+                      <b class="main__cards-41">41 108 руб.</b>
+                      <span class="main__cards-49">49 999 руб.</span>
+                    </div>
+                    <div class="main__cards-money-button">
+                      <a href="https://korzinka.uz/en">
+                        <img
+                          src="./katolog-img/cards-korzinka.svg"
+                          alt="here is a picture"
+                      /></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="main__katolog-cards-box">
+                <div class="main__cards-img">
+                  <img
+                    src="./katolog-img/main-card-img-biform.svg"
+                    alt="here is a picture"
+                  />
+                  <img
+                    class="main__cards-tovar"
+                    src="./katolog-img/Товар дня.svg"
+                    alt="here is a picture"
+                  />
+                </div>
+                <div class="main__cards-text-wrapper">
+                  <div class="main__cards-text-p">
+                    <p class="main__cards-p">Есть в наличии</p>
+                    <div>
+                      <img src="./icon/star.svg" alt="here is a picture" />
+                      <img src="./icon/star.svg" alt="here is a picture" />
+                      <img src="./icon/star.svg" alt="here is a picture" />
+                      <img src="./icon/star.svg" alt="here is a picture" />
+                      <img src="./icon/star.svg" alt="here is a picture" />
+                    </div>
+                  </div>
+                  <p class="main__cards-text-bolt">
+                    Велсон таблетки покрыт. плен. об. 3 мг, 30 шт.
+                  </p>
+                  <ul class="main__cards-list">
+                    <li>Бренд: Lirina</li>
+                    <li>Количество в упаковке: 10 шт</li>
+                    <li>Код товара: 153249</li>
+                  </ul>
+                  <div class="main__cards-money">
+                    <div class="main__cards-money-text">
+                      <b class="main__cards-41">41 108 руб.</b>
+                      <span class="main__cards-49">49 999 руб.</span>
+                    </div>
+                    <div class="main__cards-money-button">
+                      <a href="https://korzinka.uz/en">
+                        <img
+                          src="./katolog-img/cards-korzinka.svg"
+                          alt="here is a picture"
+                      /></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="main__katolog-cards-box">
+                <div class="main__cards-img">
+                  <img
+                    src="./katolog-img/main-cards-dori.svg"
+                    alt="here is a picture"
+                  />
+                  <img
+                    class="main__cards-tovar"
+                    src="./katolog-img/Товар дня.svg"
+                    alt="here is a picture"
+                  />
+                </div>
+                <div class="main__cards-text-wrapper">
+                  <div class="main__cards-text-p">
+                    <p class="main__cards-p">Есть в наличии</p>
+                    <div>
+                      <img src="./icon/star.svg" alt="here is a picture" />
+                      <img src="./icon/star.svg" alt="here is a picture" />
+                      <img src="./icon/star.svg" alt="here is a picture" />
+                      <img src="./icon/star.svg" alt="here is a picture" />
+                      <img src="./icon/star.svg" alt="here is a picture" />
+                    </div>
+                  </div>
+                  <p class="main__cards-text-bolt">
+                    Велсон таблетки покрыт. плен. об. 3 мг, 30 шт.
+                  </p>
+                  <ul class="main__cards-list">
+                    <li>Бренд: Lirina</li>
+                    <li>Количество в упаковке: 10 шт</li>
+                    <li>Код товара: 153249</li>
+                  </ul>
+                  <div class="main__cards-money">
+                    <div class="main__cards-money-text">
+                      <b class="main__cards-41">41 108 руб.</b>
+                      <span class="main__cards-49">49 999 руб.</span>
+                    </div>
+                    <div class="main__cards-money-button">
+                      <a href="https://korzinka.uz/en">
+                        <img
+                          src="./katolog-img/cards-korzinka.svg"
+                          alt="here is a picture"
+                      /></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="main__katolog-cards-box">
+                <div class="main__cards-img">
+                  <img
+                    src="./katolog-img/main-card-img-gel.svg"
+                    alt="here is a picture"
+                  />
+                  <img
+                    class="main__cards-tovar"
+                    src="./katolog-img/Товар дня.svg"
+                    alt="here is a picture"
+                  />
+                </div>
+                <div class="main__cards-text-wrapper">
+                  <div class="main__cards-text-p">
+                    <p class="main__cards-p">Есть в наличии</p>
+                    <div>
+                      <img src="./icon/star.svg" alt="here is a picture" />
+                      <img src="./icon/star.svg" alt="here is a picture" />
+                      <img src="./icon/star.svg" alt="here is a picture" />
+                      <img src="./icon/star.svg" alt="here is a picture" />
+                      <img src="./icon/star.svg" alt="here is a picture" />
+                    </div>
+                  </div>
+                  <p class="main__cards-text-bolt">
+                    Велсон таблетки покрыт. плен. об. 3 мг, 30 шт.
+                  </p>
+                  <ul class="main__cards-list">
+                    <li>Бренд: Lirina</li>
+                    <li>Количество в упаковке: 10 шт</li>
+                    <li>Код товара: 153249</li>
+                  </ul>
+                  <div class="main__cards-money">
+                    <div class="main__cards-money-text">
+                      <b class="main__cards-41">41 108 руб.</b>
+                      <span class="main__cards-49">49 999 руб.</span>
+                    </div>
+                    <div class="main__cards-money-button">
+                      <a href="https://korzinka.uz/en">
+                        <img
+                          src="./katolog-img/cards-korzinka.svg"
+                          alt="here is a picture"
+                      /></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="main__katolog-cards-box">
+                <div class="main__cards-img">
+                  <img
+                    src="./katolog-img/main-cards-dori.svg"
+                    alt="here is a picture"
+                  />
+                  <img
+                    class="main__cards-tovar"
+                    src="./katolog-img/Товар дня.svg"
+                    alt="here is a picture"
+                  />
+                </div>
+                <div class="main__cards-text-wrapper">
+                  <div class="main__cards-text-p">
+                    <p class="main__cards-p">Есть в наличии</p>
+                    <div>
+                      <img src="./icon/star.svg" alt="here is a picture" />
+                      <img src="./icon/star.svg" alt="here is a picture" />
+                      <img src="./icon/star.svg" alt="here is a picture" />
+                      <img src="./icon/star.svg" alt="here is a picture" />
+                      <img src="./icon/star.svg" alt="here is a picture" />
+                    </div>
+                  </div>
+                  <p class="main__cards-text-bolt">
+                    Велсон таблетки покрыт. плен. об. 3 мг, 30 шт.
+                  </p>
+                  <ul class="main__cards-list">
+                    <li>Бренд: Lirina</li>
+                    <li>Количество в упаковке: 10 шт</li>
+                    <li>Код товара: 153249</li>
+                  </ul>
+                  <div class="main__cards-money">
+                    <div class="main__cards-money-text">
+                      <b class="main__cards-41">41 108 руб.</b>
+                      <span class="main__cards-49">49 999 руб.</span>
+                    </div>
+                    <div class="main__cards-money-button">
+                      <a href="https://korzinka.uz/en">
+                        <img
+                          src="./katolog-img/cards-korzinka.svg"
+                          alt="here is a picture"
+                      /></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="main__katolog-cards-box">
+                <div class="main__cards-img">
+                  <img
+                    src="./katolog-img/cards-img.svg"
+                    alt="here is a picture"
+                  />
+                  <img
+                    class="main__cards-tovar"
+                    src="./katolog-img/Товар дня.svg"
+                    alt="here is a picture"
+                  />
+                </div>
+                <div class="main__cards-text-wrapper">
+                  <div class="main__cards-text-p">
+                    <p class="main__cards-p">Есть в наличии</p>
+                    <div>
+                      <img src="./icon/star.svg" alt="here is a picture" />
+                      <img src="./icon/star.svg" alt="here is a picture" />
+                      <img src="./icon/star.svg" alt="here is a picture" />
+                      <img src="./icon/star.svg" alt="here is a picture" />
+                      <img src="./icon/star.svg" alt="here is a picture" />
+                    </div>
+                  </div>
+                  <p class="main__cards-text-bolt">
+                    Велсон таблетки покрыт. плен. об. 3 мг, 30 шт.
+                  </p>
+                  <ul class="main__cards-list">
+                    <li>Бренд: Lirina</li>
+                    <li>Количество в упаковке: 10 шт</li>
+                    <li>Код товара: 153249</li>
+                  </ul>
+                  <div class="main__cards-money">
+                    <div class="main__cards-money-text">
+                      <b class="main__cards-41">41 108 руб.</b>
+                      <span class="main__cards-49">49 999 руб.</span>
+                    </div>
+                    <div class="main__cards-money-button">
+                      <a href="https://korzinka.uz/en">
+                        <img
+                          src="./katolog-img/cards-korzinka.svg"
+                          alt="here is a picture"
+                      /></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="main__katolog-cards-box">
+                <div class="main__cards-img">
+                  <img
+                    src="./katolog-img/main-card-img-gel.svg"
+                    alt="here is a picture"
+                  />
+                  <img
+                    class="main__cards-tovar"
+                    src="./katolog-img/Товар дня.svg"
+                    alt="here is a picture"
+                  />
+                </div>
+                <div class="main__cards-text-wrapper">
+                  <div class="main__cards-text-p">
+                    <p class="main__cards-p">Есть в наличии</p>
+                    <div>
+                      <img src="./icon/star.svg" alt="here is a picture" />
+                      <img src="./icon/star.svg" alt="here is a picture" />
+                      <img src="./icon/star.svg" alt="here is a picture" />
+                      <img src="./icon/star.svg" alt="here is a picture" />
+                      <img src="./icon/star.svg" alt="here is a picture" />
+                    </div>
+                  </div>
+                  <p class="main__cards-text-bolt">
+                    Велсон таблетки покрыт. плен. об. 3 мг, 30 шт.
+                  </p>
+                  <ul class="main__cards-list">
+                    <li>Бренд: Lirina</li>
+                    <li>Количество в упаковке: 10 шт</li>
+                    <li>Код товара: 153249</li>
+                  </ul>
+                  <div class="main__cards-money">
+                    <div class="main__cards-money-text">
+                      <b class="main__cards-41">41 108 руб.</b>
+                      <span class="main__cards-49">49 999 руб.</span>
+                    </div>
+                    <div class="main__cards-money-button">
+                      <a href="https://korzinka.uz/en">
+                        <img
+                          src="./katolog-img/cards-korzinka.svg"
+                          alt="here is a picture"
+                      /></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="main__katolog-cards-box">
+                <div class="main__cards-img">
+                  <img
+                    src="./katolog-img/main-card-img-biform.svg"
+                    alt="here is a picture"
+                  />
+                  <img
+                    class="main__cards-tovar"
+                    src="./katolog-img/Товар дня.svg"
+                    alt="here is a picture"
+                  />
+                </div>
+                <div class="main__cards-text-wrapper">
+                  <div class="main__cards-text-p">
+                    <p class="main__cards-p">Есть в наличии</p>
+                    <div>
+                      <img src="./icon/star.svg" alt="here is a picture" />
+                      <img src="./icon/star.svg" alt="here is a picture" />
+                      <img src="./icon/star.svg" alt="here is a picture" />
+                      <img src="./icon/star.svg" alt="here is a picture" />
+                      <img src="./icon/star.svg" alt="here is a picture" />
+                    </div>
+                  </div>
+                  <p class="main__cards-text-bolt">
+                    Велсон таблетки покрыт. плен. об. 3 мг, 30 шт.
+                  </p>
+                  <ul class="main__cards-list">
+                    <li>Бренд: Lirina</li>
+                    <li>Количество в упаковке: 10 шт</li>
+                    <li>Код товара: 153249</li>
+                  </ul>
+                  <div class="main__cards-money">
+                    <div class="main__cards-money-text">
+                      <b class="main__cards-41">41 108 руб.</b>
+                      <span class="main__cards-49">49 999 руб.</span>
+                    </div>
+                    <div class="main__cards-money-button">
+                      <a href="https://korzinka.uz/en">
+                        <img
+                          src="./katolog-img/cards-korzinka.svg"
+                          alt="here is a picture"
+                      /></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="main__katolog-cards-box">
+                <div class="main__cards-img">
+                  <img
+                    src="./katolog-img/cards-img.svg"
+                    alt="here is a picture"
+                  />
+                  <img
+                    class="main__cards-tovar"
+                    src="./katolog-img/Товар дня.svg"
+                    alt="here is a picture"
+                  />
+                </div>
+                <div class="main__cards-text-wrapper">
+                  <div class="main__cards-text-p">
+                    <p class="main__cards-p">Есть в наличии</p>
+                    <div>
+                      <img src="./icon/star.svg" alt="here is a picture" />
+                      <img src="./icon/star.svg" alt="here is a picture" />
+                      <img src="./icon/star.svg" alt="here is a picture" />
+                      <img src="./icon/star.svg" alt="here is a picture" />
+                      <img src="./icon/star.svg" alt="here is a picture" />
+                    </div>
+                  </div>
+                  <p class="main__cards-text-bolt">
+                    Велсон таблетки покрыт. плен. об. 3 мг, 30 шт.
+                  </p>
+                  <ul class="main__cards-list">
+                    <li>Бренд: Lirina</li>
+                    <li>Количество в упаковке: 10 шт</li>
+                    <li>Код товара: 153249</li>
+                  </ul>
+                  <div class="main__cards-money">
+                    <div class="main__cards-money-text">
+                      <b class="main__cards-41">41 108 руб.</b>
+                      <span class="main__cards-49">49 999 руб.</span>
+                    </div>
+                    <div class="main__cards-money-button">
+                      <a href="https://korzinka.uz/en">
+                        <img
+                          src="./katolog-img/cards-korzinka.svg"
+                          alt="here is a picture"
+                      /></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="main__katolog-cards-box">
+                <div class="main__cards-img">
+                  <img
+                    src="./katolog-img/main-card-img-biform.svg"
+                    alt="here is a picture"
+                  />
+                  <img
+                    class="main__cards-tovar"
+                    src="./katolog-img/Товар дня.svg"
+                    alt="here is a picture"
+                  />
+                </div>
+                <div class="main__cards-text-wrapper">
+                  <div class="main__cards-text-p">
+                    <p class="main__cards-p">Есть в наличии</p>
+                    <div>
+                      <img src="./icon/star.svg" alt="here is a picture" />
+                      <img src="./icon/star.svg" alt="here is a picture" />
+                      <img src="./icon/star.svg" alt="here is a picture" />
+                      <img src="./icon/star.svg" alt="here is a picture" />
+                      <img src="./icon/star.svg" alt="here is a picture" />
+                    </div>
+                  </div>
+                  <p class="main__cards-text-bolt">
+                    Велсон таблетки покрыт. плен. об. 3 мг, 30 шт.
+                  </p>
+                  <ul class="main__cards-list">
+                    <li>Бренд: Lirina</li>
+                    <li>Количество в упаковке: 10 шт</li>
+                    <li>Код товара: 153249</li>
+                  </ul>
+                  <div class="main__cards-money">
+                    <div class="main__cards-money-text">
+                      <b class="main__cards-41">41 108 руб.</b>
+                      <span class="main__cards-49">49 999 руб.</span>
+                    </div>
+                    <div class="main__cards-money-button">
+                      <a href="https://korzinka.uz/en">
+                        <img
+                          src="./katolog-img/cards-korzinka.svg"
+                          alt="here is a picture"
+                      /></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="main__katolog-cards-box">
+                <div class="main__cards-img">
+                  <img
+                    src="./katolog-img/main-card-img-gel.svg"
+                    alt="here is a picture"
+                  />
+                  <img
+                    class="main__cards-tovar"
+                    src="./katolog-img/Товар дня.svg"
+                    alt="here is a picture"
+                  />
+                </div>
+                <div class="main__cards-text-wrapper">
+                  <div class="main__cards-text-p">
+                    <p class="main__cards-p">Есть в наличии</p>
+                    <div>
+                      <img src="./icon/star.svg" alt="here is a picture" />
+                      <img src="./icon/star.svg" alt="here is a picture" />
+                      <img src="./icon/star.svg" alt="here is a picture" />
+                      <img src="./icon/star.svg" alt="here is a picture" />
+                      <img src="./icon/star.svg" alt="here is a picture" />
+                    </div>
+                  </div>
+                  <p class="main__cards-text-bolt">
+                    Велсон таблетки покрыт. плен. об. 3 мг, 30 шт.
+                  </p>
+                  <ul class="main__cards-list">
+                    <li>Бренд: Lirina</li>
+                    <li>Количество в упаковке: 10 шт</li>
+                    <li>Код товара: 153249</li>
+                  </ul>
+                  <div class="main__cards-money">
+                    <div class="main__cards-money-text">
+                      <b class="main__cards-41">41 108 руб.</b>
+                      <span class="main__cards-49">49 999 руб.</span>
+                    </div>
+                    <div class="main__cards-money-button">
+                      <a href="https://korzinka.uz/en">
+                        <img
+                          src="./katolog-img/cards-korzinka.svg"
+                          alt="here is a picture"
+                      /></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="main__katolog-cards-box">
+                <div class="main__cards-img">
+                  <img
+                    src="./katolog-img/main-cards-dori.svg"
+                    alt="here is a picture"
+                  />
+                  <img
+                    class="main__cards-tovar"
+                    src="./katolog-img/Товар дня.svg"
+                    alt="here is a picture"
+                  />
+                </div>
+                <div class="main__cards-text-wrapper">
+                  <div class="main__cards-text-p">
+                    <p class="main__cards-p">Есть в наличии</p>
+                    <div>
+                      <img src="./icon/star.svg" alt="here is a picture" />
+                      <img src="./icon/star.svg" alt="here is a picture" />
+                      <img src="./icon/star.svg" alt="here is a picture" />
+                      <img src="./icon/star.svg" alt="here is a picture" />
+                      <img src="./icon/star.svg" alt="here is a picture" />
+                    </div>
+                  </div>
+                  <p class="main__cards-text-bolt">
+                    Велсон таблетки покрыт. плен. об. 3 мг, 30 шт.
+                  </p>
+                  <ul class="main__cards-list">
+                    <li>Бренд: Lirina</li>
+                    <li>Количество в упаковке: 10 шт</li>
+                    <li>Код товара: 153249</li>
+                  </ul>
+                  <div class="main__cards-money">
+                    <div class="main__cards-money-text">
+                      <b class="main__cards-41">41 108 руб.</b>
+                      <span class="main__cards-49">49 999 руб.</span>
+                    </div>
+                    <div class="main__cards-money-button">
+                      <a href="https://korzinka.uz/en">
+                        <img
+                          src="./katolog-img/cards-korzinka.svg"
+                          alt="here is a picture"
+                      /></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="main__katolog-cards-box">
+                <div class="main__cards-img">
+                  <img
+                    src="./katolog-img/main-card-img-gel.svg"
+                    alt="here is a picture"
+                  />
+                  <img
+                    class="main__cards-tovar"
+                    src="./katolog-img/Товар дня.svg"
+                    alt="here is a picture"
+                  />
+                </div>
+                <div class="main__cards-text-wrapper">
+                  <div class="main__cards-text-p">
+                    <p class="main__cards-p">Есть в наличии</p>
+                    <div>
+                      <img src="./icon/star.svg" alt="here is a picture" />
+                      <img src="./icon/star.svg" alt="here is a picture" />
+                      <img src="./icon/star.svg" alt="here is a picture" />
+                      <img src="./icon/star.svg" alt="here is a picture" />
+                      <img src="./icon/star.svg" alt="here is a picture" />
+                    </div>
+                  </div>
+                  <p class="main__cards-text-bolt">
+                    Велсон таблетки покрыт. плен. об. 3 мг, 30 шт.
+                  </p>
+                  <ul class="main__cards-list">
+                    <li>Бренд: Lirina</li>
+                    <li>Количество в упаковке: 10 шт</li>
+                    <li>Код товара: 153249</li>
+                  </ul>
+                  <div class="main__cards-money">
+                    <div class="main__cards-money-text">
+                      <b class="main__cards-41">41 108 руб.</b>
+                      <span class="main__cards-49">49 999 руб.</span>
+                    </div>
+                    <div class="main__cards-money-button">
+                      <a href="https://korzinka.uz/en">
+                        <img
+                          src="./katolog-img/cards-korzinka.svg"
+                          alt="here is a picture"
+                      /></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="main__katolog-cards-box">
+                <div class="main__cards-img">
+                  <img
+                    src="./katolog-img/main-cards-dori.svg"
+                    alt="here is a picture"
+                  />
+                  <img
+                    class="main__cards-tovar"
+                    src="./katolog-img/Товар дня.svg"
+                    alt="here is a picture"
+                  />
+                </div>
+                <div class="main__cards-text-wrapper">
+                  <div class="main__cards-text-p">
+                    <p class="main__cards-p">Есть в наличии</p>
+                    <div>
+                      <img src="./icon/star.svg" alt="here is a picture" />
+                      <img src="./icon/star.svg" alt="here is a picture" />
+                      <img src="./icon/star.svg" alt="here is a picture" />
+                      <img src="./icon/star.svg" alt="here is a picture" />
+                      <img src="./icon/star.svg" alt="here is a picture" />
+                    </div>
+                  </div>
+                  <p class="main__cards-text-bolt">
+                    Велсон таблетки покрыт. плен. об. 3 мг, 30 шт.
+                  </p>
+                  <ul class="main__cards-list">
+                    <li>Бренд: Lirina</li>
+                    <li>Количество в упаковке: 10 шт</li>
+                    <li>Код товара: 153249</li>
+                  </ul>
+                  <div class="main__cards-money">
+                    <div class="main__cards-money-text">
+                      <b class="main__cards-41">41 108 руб.</b>
+                      <span class="main__cards-49">49 999 руб.</span>
+                    </div>
+                    <div class="main__cards-money-button">
+                      <a href="https://korzinka.uz/en">
+                        <img
+                          src="./katolog-img/cards-korzinka.svg"
+                          alt="here is a picture"
+                      /></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="main__katolog-cards-box">
+                <div class="main__cards-img">
+                  <img
+                    src="./katolog-img/cards-img.svg"
+                    alt="here is a picture"
+                  />
+                  <img
+                    class="main__cards-tovar"
+                    src="./katolog-img/Товар дня.svg"
+                    alt="here is a picture"
+                  />
+                </div>
+                <div class="main__cards-text-wrapper">
+                  <div class="main__cards-text-p">
+                    <p class="main__cards-p">Есть в наличии</p>
+                    <div>
+                      <img src="./icon/star.svg" alt="here is a picture" />
+                      <img src="./icon/star.svg" alt="here is a picture" />
+                      <img src="./icon/star.svg" alt="here is a picture" />
+                      <img src="./icon/star.svg" alt="here is a picture" />
+                      <img src="./icon/star.svg" alt="here is a picture" />
+                    </div>
+                  </div>
+                  <p class="main__cards-text-bolt">
+                    Велсон таблетки покрыт. плен. об. 3 мг, 30 шт.
+                  </p>
+                  <ul class="main__cards-list">
+                    <li>Бренд: Lirina</li>
+                    <li>Количество в упаковке: 10 шт</li>
+                    <li>Код товара: 153249</li>
+                  </ul>
+                  <div class="main__cards-money">
+                    <div class="main__cards-money-text">
+                      <b class="main__cards-41">41 108 руб.</b>
+                      <span class="main__cards-49">49 999 руб.</span>
+                    </div>
+                    <div class="main__cards-money-button">
+                      <a href="https://korzinka.uz/en">
+                        <img
+                          src="./katolog-img/cards-korzinka.svg"
+                          alt="here is a picture"
+                      /></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="main__katolog-cards-box">
+                <div class="main__cards-img">
+                  <img
+                    src="./katolog-img/main-card-img-biform.svg"
+                    alt="here is a picture"
+                  />
+                  <img
+                    class="main__cards-tovar"
+                    src="./katolog-img/Товар дня.svg"
+                    alt="here is a picture"
+                  />
+                </div>
+                <div class="main__cards-text-wrapper">
+                  <div class="main__cards-text-p">
+                    <p class="main__cards-p">Есть в наличии</p>
+                    <div>
+                      <img src="./icon/star.svg" alt="here is a picture" />
+                      <img src="./icon/star.svg" alt="here is a picture" />
+                      <img src="./icon/star.svg" alt="here is a picture" />
+                      <img src="./icon/star.svg" alt="here is a picture" />
+                      <img src="./icon/star.svg" alt="here is a picture" />
+                    </div>
+                  </div>
+                  <p class="main__cards-text-bolt">
+                    Велсон таблетки покрыт. плен. об. 3 мг, 30 шт.
+                  </p>
+                  <ul class="main__cards-list">
+                    <li>Бренд: Lirina</li>
+                    <li>Количество в упаковке: 10 шт</li>
+                    <li>Код товара: 153249</li>
+                  </ul>
+                  <div class="main__cards-money">
+                    <div class="main__cards-money-text">
+                      <b class="main__cards-41">41 108 руб.</b>
+                      <span class="main__cards-49">49 999 руб.</span>
+                    </div>
+                    <div class="main__cards-money-button">
+                      <a href="https://korzinka.uz/en">
+                        <img
+                          src="./katolog-img/cards-korzinka.svg"
+                          alt="here is a picture"
+                      /></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="main__katolog-text-box">
+              <div class="main__katolog-box-link">
+                <button class="main__katolog-box-button">1</button>
+                <button class="main__katolog-box-button">2</button>
+                <button class="main__katolog-box-button">3</button>
+                <button class="main__katolog-box-button">4</button>
+                <button class="main__katolog-box-button">...</button>
+                <button class="main__katolog-box-button">32</button>
+              </div>
+            </div>
           </div>
         </div>
+
         <div class="main__aksiya">
           <div class="main__aksiya-title"><h1>Акция месяца</h1></div>
           <div class="main__aksiya-cards-wrapper">
             <div class="main__katolog-cards-box">
               <div class="main__cards-img">
-                <img src="./katolog-img/main-cards-dori.svg" alt="" />
+                <img
+                  src="./katolog-img/main-cards-dori.svg"
+                  alt="here is a picture"
+                />
                 <img
                   class="main__cards-tovar"
                   src="./katolog-img/Товар дня.svg"
-                  alt=""
+                  alt="here is a picture"
                 />
               </div>
               <div class="main__cards-text-wrapper">
                 <div class="main__cards-text-p">
                   <p class="main__cards-p">Есть в наличии</p>
                   <div>
-                    <img src="./icon/star.svg" alt="" />
-                    <img src="./icon/star.svg" alt="" />
-                    <img src="./icon/star.svg" alt="" />
-                    <img src="./icon/star.svg" alt="" />
-                    <img src="./icon/star.svg" alt="" />
+                    <img src="./icon/star.svg" alt="here is a picture" />
+                    <img src="./icon/star.svg" alt="here is a picture" />
+                    <img src="./icon/star.svg" alt="here is a picture" />
+                    <img src="./icon/star.svg" alt="here is a picture" />
+                    <img src="./icon/star.svg" alt="here is a picture" />
                   </div>
                 </div>
                 <p class="main__cards-text-bolt">
@@ -1633,29 +1886,36 @@
                     <span class="main__cards-49">49 999 руб.</span>
                   </div>
                   <div class="main__cards-money-button">
-                    <img src="./katolog-img/cards-korzinka.svg" alt="" />
+                    <a href="https://korzinka.uz/en">
+                      <img
+                        src="./katolog-img/cards-korzinka.svg"
+                        alt="here is a picture"
+                    /></a>
                   </div>
                 </div>
               </div>
             </div>
             <div class="main__katolog-cards-box">
               <div class="main__cards-img">
-                <img src="./katolog-img/main-cards-dori.svg" alt="" />
+                <img
+                  src="./katolog-img/cards-img.svg"
+                  alt="here is a picture"
+                />
                 <img
                   class="main__cards-tovar"
                   src="./katolog-img/Товар дня.svg"
-                  alt=""
+                  alt="here is a picture"
                 />
               </div>
               <div class="main__cards-text-wrapper">
                 <div class="main__cards-text-p">
                   <p class="main__cards-p">Есть в наличии</p>
                   <div>
-                    <img src="./icon/star.svg" alt="" />
-                    <img src="./icon/star.svg" alt="" />
-                    <img src="./icon/star.svg" alt="" />
-                    <img src="./icon/star.svg" alt="" />
-                    <img src="./icon/star.svg" alt="" />
+                    <img src="./icon/star.svg" alt="here is a picture" />
+                    <img src="./icon/star.svg" alt="here is a picture" />
+                    <img src="./icon/star.svg" alt="here is a picture" />
+                    <img src="./icon/star.svg" alt="here is a picture" />
+                    <img src="./icon/star.svg" alt="here is a picture" />
                   </div>
                 </div>
                 <p class="main__cards-text-bolt">
@@ -1672,29 +1932,36 @@
                     <span class="main__cards-49">49 999 руб.</span>
                   </div>
                   <div class="main__cards-money-button">
-                    <img src="./katolog-img/cards-korzinka.svg" alt="" />
+                    <a href="https://korzinka.uz/en">
+                      <img
+                        src="./katolog-img/cards-korzinka.svg"
+                        alt="here is a picture"
+                    /></a>
                   </div>
                 </div>
               </div>
             </div>
             <div class="main__katolog-cards-box">
               <div class="main__cards-img">
-                <img src="./katolog-img/main-cards-dori.svg" alt="" />
+                <img
+                  src="./katolog-img/main-card-img-biform.svg"
+                  alt="here is a picture"
+                />
                 <img
                   class="main__cards-tovar"
                   src="./katolog-img/Товар дня.svg"
-                  alt=""
+                  alt="here is a picture"
                 />
               </div>
               <div class="main__cards-text-wrapper">
                 <div class="main__cards-text-p">
                   <p class="main__cards-p">Есть в наличии</p>
                   <div>
-                    <img src="./icon/star.svg" alt="" />
-                    <img src="./icon/star.svg" alt="" />
-                    <img src="./icon/star.svg" alt="" />
-                    <img src="./icon/star.svg" alt="" />
-                    <img src="./icon/star.svg" alt="" />
+                    <img src="./icon/star.svg" alt="here is a picture" />
+                    <img src="./icon/star.svg" alt="here is a picture" />
+                    <img src="./icon/star.svg" alt="here is a picture" />
+                    <img src="./icon/star.svg" alt="here is a picture" />
+                    <img src="./icon/star.svg" alt="here is a picture" />
                   </div>
                 </div>
                 <p class="main__cards-text-bolt">
@@ -1711,29 +1978,36 @@
                     <span class="main__cards-49">49 999 руб.</span>
                   </div>
                   <div class="main__cards-money-button">
-                    <img src="./katolog-img/cards-korzinka.svg" alt="" />
+                    <a href="https://korzinka.uz/en">
+                      <img
+                        src="./katolog-img/cards-korzinka.svg"
+                        alt="here is a picture"
+                    /></a>
                   </div>
                 </div>
               </div>
             </div>
             <div class="main__katolog-cards-box">
               <div class="main__cards-img">
-                <img src="./katolog-img/main-cards-dori.svg" alt="" />
+                <img
+                  src="./katolog-img/main-card-img-gel.svg"
+                  alt="here is a picture"
+                />
                 <img
                   class="main__cards-tovar"
                   src="./katolog-img/Товар дня.svg"
-                  alt=""
+                  alt="here is a picture"
                 />
               </div>
               <div class="main__cards-text-wrapper">
                 <div class="main__cards-text-p">
                   <p class="main__cards-p">Есть в наличии</p>
                   <div>
-                    <img src="./icon/star.svg" alt="" />
-                    <img src="./icon/star.svg" alt="" />
-                    <img src="./icon/star.svg" alt="" />
-                    <img src="./icon/star.svg" alt="" />
-                    <img src="./icon/star.svg" alt="" />
+                    <img src="./icon/star.svg" alt="here is a picture" />
+                    <img src="./icon/star.svg" alt="here is a picture" />
+                    <img src="./icon/star.svg" alt="here is a picture" />
+                    <img src="./icon/star.svg" alt="here is a picture" />
+                    <img src="./icon/star.svg" alt="here is a picture" />
                   </div>
                 </div>
                 <p class="main__cards-text-bolt">
@@ -1750,29 +2024,36 @@
                     <span class="main__cards-49">49 999 руб.</span>
                   </div>
                   <div class="main__cards-money-button">
-                    <img src="./katolog-img/cards-korzinka.svg" alt="" />
+                    <a href="https://korzinka.uz/en">
+                      <img
+                        src="./katolog-img/cards-korzinka.svg"
+                        alt="here is a picture"
+                    /></a>
                   </div>
                 </div>
               </div>
             </div>
             <div class="main__katolog-cards-box">
               <div class="main__cards-img">
-                <img src="./katolog-img/main-cards-dori.svg" alt="" />
+                <img
+                  src="./katolog-img/main-cards-gentral.svg"
+                  alt="here is a picture"
+                />
                 <img
                   class="main__cards-tovar"
                   src="./katolog-img/Товар дня.svg"
-                  alt=""
+                  alt="here is a picture"
                 />
               </div>
               <div class="main__cards-text-wrapper">
                 <div class="main__cards-text-p">
                   <p class="main__cards-p">Есть в наличии</p>
                   <div>
-                    <img src="./icon/star.svg" alt="" />
-                    <img src="./icon/star.svg" alt="" />
-                    <img src="./icon/star.svg" alt="" />
-                    <img src="./icon/star.svg" alt="" />
-                    <img src="./icon/star.svg" alt="" />
+                    <img src="./icon/star.svg" alt="here is a picture" />
+                    <img src="./icon/star.svg" alt="here is a picture" />
+                    <img src="./icon/star.svg" alt="here is a picture" />
+                    <img src="./icon/star.svg" alt="here is a picture" />
+                    <img src="./icon/star.svg" alt="here is a picture" />
                   </div>
                 </div>
                 <p class="main__cards-text-bolt">
@@ -1789,34 +2070,42 @@
                     <span class="main__cards-49">49 999 руб.</span>
                   </div>
                   <div class="main__cards-money-button">
-                    <img src="./katolog-img/cards-korzinka.svg" alt="" />
+                    <a href="https://korzinka.uz/en">
+                      <img
+                        src="./katolog-img/cards-korzinka.svg"
+                        alt="here is a picture"
+                    /></a>
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
+
         <div class="main__aksiya">
           <div class="main__aksiya-title"><h1>Вы смотрели</h1></div>
           <div class="main__aksiya-cards-wrapper">
             <div class="main__katolog-cards-box">
               <div class="main__cards-img">
-                <img src="./katolog-img/main-cards-dori.svg" alt="" />
+                <img
+                  src="./katolog-img/cards-img.svg"
+                  alt="here is a picture"
+                />
                 <img
                   class="main__cards-tovar"
                   src="./katolog-img/Товар дня.svg"
-                  alt=""
+                  alt="here is a picture"
                 />
               </div>
               <div class="main__cards-text-wrapper">
                 <div class="main__cards-text-p">
                   <p class="main__cards-p">Есть в наличии</p>
                   <div>
-                    <img src="./icon/star.svg" alt="" />
-                    <img src="./icon/star.svg" alt="" />
-                    <img src="./icon/star.svg" alt="" />
-                    <img src="./icon/star.svg" alt="" />
-                    <img src="./icon/star.svg" alt="" />
+                    <img src="./icon/star.svg" alt="here is a picture" />
+                    <img src="./icon/star.svg" alt="here is a picture" />
+                    <img src="./icon/star.svg" alt="here is a picture" />
+                    <img src="./icon/star.svg" alt="here is a picture" />
+                    <img src="./icon/star.svg" alt="here is a picture" />
                   </div>
                 </div>
                 <p class="main__cards-text-bolt">
@@ -1833,29 +2122,36 @@
                     <span class="main__cards-49">49 999 руб.</span>
                   </div>
                   <div class="main__cards-money-button">
-                    <img src="./katolog-img/cards-korzinka.svg" alt="" />
+                    <a href="https://korzinka.uz/en">
+                      <img
+                        src="./katolog-img/cards-korzinka.svg"
+                        alt="here is a picture"
+                    /></a>
                   </div>
                 </div>
               </div>
             </div>
             <div class="main__katolog-cards-box">
               <div class="main__cards-img">
-                <img src="./katolog-img/main-cards-dori.svg" alt="" />
+                <img
+                  src="./katolog-img/main-card-img-biform.svg"
+                  alt="here is a picture"
+                />
                 <img
                   class="main__cards-tovar"
                   src="./katolog-img/Товар дня.svg"
-                  alt=""
+                  alt="here is a picture"
                 />
               </div>
               <div class="main__cards-text-wrapper">
                 <div class="main__cards-text-p">
                   <p class="main__cards-p">Есть в наличии</p>
                   <div>
-                    <img src="./icon/star.svg" alt="" />
-                    <img src="./icon/star.svg" alt="" />
-                    <img src="./icon/star.svg" alt="" />
-                    <img src="./icon/star.svg" alt="" />
-                    <img src="./icon/star.svg" alt="" />
+                    <img src="./icon/star.svg" alt="here is a picture" />
+                    <img src="./icon/star.svg" alt="here is a picture" />
+                    <img src="./icon/star.svg" alt="here is a picture" />
+                    <img src="./icon/star.svg" alt="here is a picture" />
+                    <img src="./icon/star.svg" alt="here is a picture" />
                   </div>
                 </div>
                 <p class="main__cards-text-bolt">
@@ -1872,29 +2168,36 @@
                     <span class="main__cards-49">49 999 руб.</span>
                   </div>
                   <div class="main__cards-money-button">
-                    <img src="./katolog-img/cards-korzinka.svg" alt="" />
+                    <a href="https://korzinka.uz/en">
+                      <img
+                        src="./katolog-img/cards-korzinka.svg"
+                        alt="here is a picture"
+                    /></a>
                   </div>
                 </div>
               </div>
             </div>
             <div class="main__katolog-cards-box">
               <div class="main__cards-img">
-                <img src="./katolog-img/main-cards-dori.svg" alt="" />
+                <img
+                  src="./katolog-img/main-cards-dori.svg"
+                  alt="here is a picture"
+                />
                 <img
                   class="main__cards-tovar"
                   src="./katolog-img/Товар дня.svg"
-                  alt=""
+                  alt="here is a picture"
                 />
               </div>
               <div class="main__cards-text-wrapper">
                 <div class="main__cards-text-p">
                   <p class="main__cards-p">Есть в наличии</p>
                   <div>
-                    <img src="./icon/star.svg" alt="" />
-                    <img src="./icon/star.svg" alt="" />
-                    <img src="./icon/star.svg" alt="" />
-                    <img src="./icon/star.svg" alt="" />
-                    <img src="./icon/star.svg" alt="" />
+                    <img src="./icon/star.svg" alt="here is a picture" />
+                    <img src="./icon/star.svg" alt="here is a picture" />
+                    <img src="./icon/star.svg" alt="here is a picture" />
+                    <img src="./icon/star.svg" alt="here is a picture" />
+                    <img src="./icon/star.svg" alt="here is a picture" />
                   </div>
                 </div>
                 <p class="main__cards-text-bolt">
@@ -1911,29 +2214,36 @@
                     <span class="main__cards-49">49 999 руб.</span>
                   </div>
                   <div class="main__cards-money-button">
-                    <img src="./katolog-img/cards-korzinka.svg" alt="" />
+                    <a href="https://korzinka.uz/en">
+                      <img
+                        src="./katolog-img/cards-korzinka.svg"
+                        alt="here is a picture"
+                    /></a>
                   </div>
                 </div>
               </div>
             </div>
             <div class="main__katolog-cards-box">
               <div class="main__cards-img">
-                <img src="./katolog-img/main-cards-dori.svg" alt="" />
+                <img
+                  src="./katolog-img/main-card-img-gel.svg"
+                  alt="here is a picture"
+                />
                 <img
                   class="main__cards-tovar"
                   src="./katolog-img/Товар дня.svg"
-                  alt=""
+                  alt="here is a picture"
                 />
               </div>
               <div class="main__cards-text-wrapper">
                 <div class="main__cards-text-p">
                   <p class="main__cards-p">Есть в наличии</p>
                   <div>
-                    <img src="./icon/star.svg" alt="" />
-                    <img src="./icon/star.svg" alt="" />
-                    <img src="./icon/star.svg" alt="" />
-                    <img src="./icon/star.svg" alt="" />
-                    <img src="./icon/star.svg" alt="" />
+                    <img src="./icon/star.svg" alt="here is a picture" />
+                    <img src="./icon/star.svg" alt="here is a picture" />
+                    <img src="./icon/star.svg" alt="here is a picture" />
+                    <img src="./icon/star.svg" alt="here is a picture" />
+                    <img src="./icon/star.svg" alt="here is a picture" />
                   </div>
                 </div>
                 <p class="main__cards-text-bolt">
@@ -1950,29 +2260,36 @@
                     <span class="main__cards-49">49 999 руб.</span>
                   </div>
                   <div class="main__cards-money-button">
-                    <img src="./katolog-img/cards-korzinka.svg" alt="" />
+                    <a href="https://korzinka.uz/en">
+                      <img
+                        src="./katolog-img/cards-korzinka.svg"
+                        alt="here is a picture"
+                    /></a>
                   </div>
                 </div>
               </div>
             </div>
             <div class="main__katolog-cards-box">
               <div class="main__cards-img">
-                <img src="./katolog-img/main-cards-dori.svg" alt="" />
+                <img
+                  src="./katolog-img/main-cards-gentral.svg"
+                  alt="here is a picture"
+                />
                 <img
                   class="main__cards-tovar"
                   src="./katolog-img/Товар дня.svg"
-                  alt=""
+                  alt="here is a picture"
                 />
               </div>
               <div class="main__cards-text-wrapper">
                 <div class="main__cards-text-p">
                   <p class="main__cards-p">Есть в наличии</p>
                   <div>
-                    <img src="./icon/star.svg" alt="" />
-                    <img src="./icon/star.svg" alt="" />
-                    <img src="./icon/star.svg" alt="" />
-                    <img src="./icon/star.svg" alt="" />
-                    <img src="./icon/star.svg" alt="" />
+                    <img src="./icon/star.svg" alt="here is a picture" />
+                    <img src="./icon/star.svg" alt="here is a picture" />
+                    <img src="./icon/star.svg" alt="here is a picture" />
+                    <img src="./icon/star.svg" alt="here is a picture" />
+                    <img src="./icon/star.svg" alt="here is a picture" />
                   </div>
                 </div>
                 <p class="main__cards-text-bolt">
@@ -1989,13 +2306,18 @@
                     <span class="main__cards-49">49 999 руб.</span>
                   </div>
                   <div class="main__cards-money-button">
-                    <img src="./katolog-img/cards-korzinka.svg" alt="" />
+                    <a href="https://korzinka.uz/en">
+                      <img
+                        src="./katolog-img/cards-korzinka.svg"
+                        alt="here is a picture"
+                    /></a>
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
+
         <div class="main__text">
           <h2 class="main__text-title">Сео текст</h2>
           <div class="main__text-list-wrapper">
@@ -2065,7 +2387,7 @@
             столовых, детских садов и школ
           </p>
           <div class="main__text-box">
-            <img src="./katolog-img/p-img.svg" alt="" />
+            <img src="./katolog-img/p-img.svg" alt="here is a picture" />
             <p class="main__text-p2">
               Деятельность нашей компании основана на обеспечении
               профессиональным кухонным оборудованием заведений общественного
@@ -2091,16 +2413,22 @@
             столовых, детских садов и школ
           </p>
           <div class="main__text-all">
-            <img src="./katolog-img/chevron_duo_right.svg" alt="" /> Показать
-            весь текст
+            <img
+              src="./katolog-img/chevron_duo_right.svg"
+              alt="here is a picture"
+            />
+            Показать весь текст
           </div>
         </div>
         <div class="main__capsula">
           <div class="main__capsula-title">
             <h2>Блог о здоровье</h2>
             <div class="main__title-rec">
-              <img src="./katolog-img/chevron_duo_right.svg" alt="" /> Последние
-              записи
+              <img
+                src="./katolog-img/chevron_duo_right.svg"
+                alt="here is a picture"
+              />
+              Последние записи
             </div>
           </div>
 
@@ -2109,8 +2437,8 @@
               <div class="main__box-img">
                 <img
                   class="main__capsula-img"
-                  src="./katolog-img/Rectangle 21.png"
-                  alt=""
+                  src="./katolog-img/Rectangle 21 (4).png"
+                  alt="here is a picture"
                 />
               </div>
               <div class="main__box-text-wrapper">
@@ -2127,8 +2455,8 @@
               <div class="main__box-img">
                 <img
                   class="main__capsula-img"
-                  src="./katolog-img/Rectangle 21.png"
-                  alt=""
+                  src="./katolog-img/Rectangle 21 (3) (1).png"
+                  alt="here is a picture"
                 />
               </div>
               <div class="main__box-text-wrapper">
@@ -2145,8 +2473,8 @@
               <div class="main__box-img">
                 <img
                   class="main__capsula-img"
-                  src="./katolog-img/Rectangle 21.png"
-                  alt=""
+                  src="./katolog-img/Rectangle 21 (2) (1).png"
+                  alt="here is a picture"
                 />
               </div>
               <div class="main__box-text-wrapper">
@@ -2163,8 +2491,8 @@
               <div class="main__box-img">
                 <img
                   class="main__capsula-img"
-                  src="./katolog-img/Rectangle 21.png"
-                  alt=""
+                  src="./katolog-img/Rectangle 21 (1) (1).png"
+                  alt="here is a picture"
                 />
               </div>
               <div class="main__box-text-wrapper">
@@ -2185,13 +2513,13 @@
     <footer class="footer">
       <div class="container">
         <div class="footer__form-wrapper">
-          <h4>Остались вопросы?</h4>
-          <div class="footer__form">
+          <h4 class="footer__form-title">Остались вопросы?</h4>
+          <form class="footer__form">
             <input
               class="footer__form-name"
               type="text"
               name="name"
-              placeholder="name"
+              placeholder="имя"
             />
             <input
               class="footer__form-tel"
@@ -2204,15 +2532,17 @@
             </p>
             <input
               class="footer__form-submit"
-              type="submit"
+              type="reset"
               value="Задать вопрос"
             />
-          </div>
+          </form>
         </div>
         <div class="footer__wrappper">
           <div class="footer__logo-wrapper">
             <div class="footer__apteka-logo">
-              <div><img src="./img/heart-footer.svg" alt="" /></div>
+              <div>
+                <img src="./img/heart-footer.svg" alt="here is a picture" />
+              </div>
               <div class="footer__apteka-text">
                 <div>
                   <p style="color: white" class="header__contact-title">
@@ -2226,6 +2556,7 @@
               </div>
             </div>
           </div>
+
           <ul class="footer__list">
             <li>
               <a href="#">О компании </a>
@@ -2260,7 +2591,9 @@
             <li>
               <div class="footer__contact-catena-wrapper">
                 <div class="footer__contact-phone-wrapper">
-                  <a href="#"> <img src="./img/Message_open.png" alt="" /> </a>
+                  <a href="https://email.com">
+                    <img src="./img/Message_open.png" alt="here is a picture" />
+                  </a>
                   <div class="footer__contact-phone-text">
                     <span class="footer__contact-number">
                       <b>info@restoll.ru</b></span
@@ -2272,7 +2605,7 @@
             </li>
             <li>
               <div class="footer__contact-phone-wrapper">
-                <img src="./img/Phone_duotone.png" alt="" />
+                <img src="./img/Phone_duotone.png" alt="here is a picture" />
                 <div class="footer__contact-phone-text">
                   <span class="footer__contact-number"
                     ><b>8-800-777-22-33</b></span
@@ -2282,12 +2615,24 @@
               </div>
             </li>
             <li>
-              <a href="#"><img src="./icon/vk.svg" alt="" /> </a>
-              <a href="#"><img src="./icon/facebook.svg" alt="" /></a>
-              <a href="#"><img src="/icon/Odnoklassniki.svg" alt="" /></a>
-              <a href="#"><img src="./icon/twitter.svg" alt="" /></a>
-              <a href="#"><img src="./icon/instagram.svg" alt="" /></a>
-              <a href="#"><img src="./icon/youtube.svg" alt="" /></a>
+              <a href="https://vk.com/"
+                ><img src="./icon/vk.svg" alt="here is a picture" />
+              </a>
+              <a href="https://www.facebook.com/"
+                ><img src="./icon/facebook.svg" alt="here is a picture"
+              /></a>
+              <a href="https://ok.ru/"
+                ><img src="./icon/Odnoklassniki.svg" alt="here is a picture"
+              /></a>
+              <a href="https://twitter.com/"
+                ><img src="./icon/twitter.svg" alt="here is a picture"
+              /></a>
+              <a href="https://www.instagram.com/"
+                ><img src="./icon/instagram.svg" alt="here is a picture"
+              /></a>
+              <a href="https://www.youtube.com/"
+                ><img src="./icon/youtube.svg" alt="here is a picture"
+              /></a>
             </li>
           </ul>
           <ul class="footer__list-text">
