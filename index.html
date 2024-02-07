@@ -4,8 +4,740 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Online Apteka</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
-    
+    <nav>
+      <header>
+        <div class="head">
+          <div style="display: flex">
+            <i
+              style="color: #2fd3ae"
+              class="fa-regular fa-paper-plane fa-paper-plane"
+            ></i>
+            <select class="head-select" name="name" id="">
+              <option value="">Москва и область</option>
+              <option value="">Москва и область</option>
+            </select>
+            <i style="color: #2fd3ae" class="fa-solid fa-bars fa-bars"></i>
+            <p>Служебные страницы</p>
+          </div>
+          <div style="display: flex">
+            <p class="section-block">
+              Избранное
+              <i style="color: #2fd3ae" class="fa-regular fa-heart"></i>
+            </p>
+
+            <p class="head-text-feature">
+              Личный кабинет
+              <i style="color: #2fd3ae" class="fa-regular fa-user"></i>
+            </p>
+          </div>
+        </div>
+        <hr />
+      </header>
+
+      <header class="new-header">
+        <div class="new-header-img">
+          <img src="./Header-img/Logo (1).png" alt="" />
+        </div>
+        <div class="new-header-icon">
+          <i style="color: #2fd3ae" class="fa-brands fa-wordpress"></i>
+          <i
+            style="color: #2fd3ae"
+            class="fa-brands fa-instagram fa-instagram"
+          ></i>
+          <i
+            style="color: #2fd3ae"
+            class="fa-brands fa-square-youtube fa-square-youtube"
+          ></i>
+          <i
+            style="color: #2fd3ae"
+            class="fa-regular fa-envelope-open fa-envelope-open"
+          ></i>
+        </div>
+        <p class="section-block">
+          <span class="new-header-span"
+            ><b style="font-size: 20px">info@restoll.ru</b></span
+          >
+          <br />Напишите нам
+        </p>
+        <p class="new-header-p1">
+          <i style="color: #2fd3ae" class="fa-solid fa-phone fa-phone"></i>
+        </p>
+        <p class="section-block">
+          <b style="font-size: 20px">8-800-777-22-33 </b><br />Круглосуточно
+        </p>
+        <p class="new-header-p1">
+          <i style="color: #2fd3ae" class="fa-solid fa-phone fa-phone"></i>
+        </p>
+        <p class="section-block">
+          <b style="font-size: 20px">8 (495) 223-34-03 </b><br />Интернет-аптека
+        </p>
+        <p class="new-header-p1">
+          <i
+            style="color: #2fd3ae"
+            class="fa-solid fa-magnifying-glass fa-magnifying-glass"
+          ></i>
+        </p>
+        <p class="new-header-p">Заказать звонок</p>
+        <p class="new-header-p1">
+          <i
+            style="color: #2fd3ae"
+            class="fa-solid fa-cart-plus fa-cart-plus"
+          ></i>
+        </p>
+      </header>
+      <header>
+        <div class="header-home">
+          <div class="header-home-display-none">
+            <h1 class="header-home-display-none">Меню</h1>
+            <p>
+              <i class="fa-solid fa-bars fa-bars"></i>
+            </p>
+          </div>
+
+          <img class="header-home-img1" src="./img/pills 1.png" alt="" />
+          <p class="header-home-text1">Лекарства</p>
+          <img class="header-home-img1" src="./img/vitamins 1.png" alt="" />
+          <p class="header-home-text1">Витамины и БАД</p>
+          <img class="header-home-img1" src="./img/skin-care 1.png" alt="" />
+          <p class="header-home-text1">КРАСОТА</p>
+          <img
+            class="header-home-img1"
+            src="./img/washing-hands 1 (1).png"
+            alt=""
+          />
+          <p class="header-home-text1">ГИГИЕНА</p>
+          <img class="header-home-img1" src="./img/eye 1.png" alt="" />
+          <p class="header-home-text1">ЛИНЗЫ</p>
+          <img class="header-home-img1" src="./img/baby-boy 1.png" alt="" />
+          <p class="header-home-text1">МАТЬ И ДИТЯ</p>
+          <img
+            class="header-home-img1"
+            src="./img/first-aid-kit 1.png"
+            alt=""
+          />
+          <p class="header-home-text1">МЕДТОВАРЫ</p>
+          <img class="header-home-img1" src="./img/dog 1.png" alt="" />
+          <p class="header-home-text1">ЗООТОВАРЫ</p>
+          <img class="header-home-img1" src="./img/smartwatch 1.png" alt="" />
+          <p class="header-home-text1">МЕДТЕХНИКА</p>
+        </div>
+      </header>
+      <section>
+        <div class="section-home-header">
+          <div class="section-home-header-div1">
+            <b>%</b>
+            <b class="section-home-header-div-b">Акции</b>
+          </div>
+          <div class="section-home-header-div2">
+            <img src="./home-img/₽.png" alt="" /><b
+              class="section-home-header-div-b"
+              >Скидки</b
+            >
+          </div>
+          <p class="section-home-header-p">COVID-19</p>
+          <p class="section-home-header-p">Аллергия</p>
+          <p class="section-home-header-p">Лечебная косметика</p>
+          <p class="section-home-header-p">Кишечник</p>
+          <p class="section-home-header-p">Молочница</p>
+          <p class="section-home-header-p">Суставы</p>
+          <p class="section-home-header-p">Еще 52</p>
+        </div>
+        <div class="section-home">
+          <div>
+            <p class="section-home-p1">
+              <b>Oral-b vitality</b><br />
+              электрическая зубная<br />
+              щетка
+            </p>
+            <br /><br />
+            <p class="section-home-p2">
+              Клинически доказано, что электрическая зубная щетка более
+              эффективно очищает полость рта по сравнению с обычной мануальной
+              зубной щеткой.
+            </p>
+            <br /><br />
+            <button class="section-home-button">Перейти в каталог</button>
+          </div>
+          <div class="">
+            <img src="./home-img/502896762_la-cimbali-m100i 1.png" alt="" />
+          </div>
+          <div><img src="./home-img/Banner 2.png" alt="" /></div>
+          <div>
+            <img src="./home-img/Популярные товары.png" alt="" />
+          </div>
+        </div>
+        <h1 class="home-h1">Акция месяца</h1>
+        <div class="home">
+          <div class="home-div1">
+            <img
+              src="./home-img/22fd1d7c22daa83db2ffde9c416f2672 1.png"
+              alt=""
+            />
+            <p style="color: #2fd3ae">
+              Есть в наличии
+              <span style="color: yellow"
+                ><i style="margin-left: 30px" class="fa-solid fa-star"></i
+                ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                ><i class="fa-regular fa-star"></i
+              ></span>
+            </p>
+            <br />
+            <h3 style="color: #525a68">
+              Велсон таблетки покрыт. плен. об. 3 мг, 30 шт.
+            </h3>
+            <br />
+            <p>
+              <i style="color: yellow" class="fa-solid fa-circle"></i
+              ><span style="color: rgb(99, 98, 98)">Бренд:</span>
+              Lirina
+            </p>
+            <p>
+              <i style="color: yellow" class="fa-solid fa-circle"></i
+              ><span style="color: rgb(99, 98, 98)"
+                >Количество в упаковке:</span
+              >
+              10 шт
+            </p>
+            <p>
+              <i style="color: yellow" class="fa-solid fa-circle"></i
+              ><span style="color: rgb(99, 98, 98)"> Код товара: </span>
+              153249
+            </p>
+            <h1 style="font-size: 25px">41 108 руб.</h1>
+            <p class="home-p1">49 999 руб.</p>
+            <i class="fa-solid fa-cart-shopping fa-cart-shopping"></i>
+          </div>
+          <div class="home-div1">
+            <img src="./Aksiya-img/femibion.png" alt="" />
+            <p style="color: #2fd3ae">
+              Есть в наличии
+              <span style="color: yellow"
+                ><i style="margin-left: 30px" class="fa-solid fa-star"></i
+                ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                ><i class="fa-regular fa-star"></i
+              ></span>
+            </p>
+            <br />
+            <h3 style="color: #525a68">
+              Велсон таблетки покрыт. плен. об. 3 мг, 30 шт.
+            </h3>
+            <br />
+            <p>
+              <i style="color: yellow" class="fa-solid fa-circle"></i
+              ><span style="color: rgb(99, 98, 98)">Бренд:</span>
+              Lirina
+            </p>
+            <p>
+              <i style="color: yellow" class="fa-solid fa-circle"></i
+              ><span style="color: rgb(99, 98, 98)"
+                >Количество в упаковке:</span
+              >
+              10 шт
+            </p>
+            <p>
+              <i style="color: yellow" class="fa-solid fa-circle"></i
+              ><span style="color: rgb(99, 98, 98)"> Код товара: </span>
+              153249
+            </p>
+            <h1 style="font-size: 25px">41 108 руб.</h1>
+            <p class="home-p1">49 999 руб.</p>
+            <i class="fa-solid fa-cart-shopping fa-cart-shopping"></i>
+          </div>
+          <div class="home-div1">
+            <img src="./Aksiya-img/geptral.png" alt="" />
+            <p style="color: #2fd3ae">
+              Есть в наличии
+              <span style="color: yellow"
+                ><i style="margin-left: 30px" class="fa-solid fa-star"></i
+                ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                ><i class="fa-regular fa-star"></i
+              ></span>
+            </p>
+            <br />
+            <h3 style="color: #525a68">
+              Велсон таблетки покрыт. плен. об. 3 мг, 30 шт.
+            </h3>
+            <br />
+            <p>
+              <i style="color: yellow" class="fa-solid fa-circle"></i
+              ><span style="color: rgb(99, 98, 98)">Бренд:</span>
+              Lirina
+            </p>
+            <p>
+              <i style="color: yellow" class="fa-solid fa-circle"></i
+              ><span style="color: rgb(99, 98, 98)"
+                >Количество в упаковке:</span
+              >
+              10 шт
+            </p>
+            <p>
+              <i style="color: yellow" class="fa-solid fa-circle"></i
+              ><span style="color: rgb(99, 98, 98)"> Код товара: </span>
+              153249
+            </p>
+            <h1 style="font-size: 25px">41 108 руб.</h1>
+            <p class="home-p1">49 999 руб.</p>
+            <i class="fa-solid fa-cart-shopping fa-cart-shopping"></i>
+          </div>
+          <div class="home-div1">
+            <img src="./Aksiya-img/detragel.png" alt="" />
+            <p style="color: #2fd3ae">
+              Есть в наличии
+              <span style="color: yellow"
+                ><i style="margin-left: 30px" class="fa-solid fa-star"></i
+                ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                ><i class="fa-regular fa-star"></i
+              ></span>
+            </p>
+            <br />
+            <h3 style="color: #525a68">
+              Велсон таблетки покрыт. плен. об. 3 мг, 30 шт.
+            </h3>
+            <br />
+            <p>
+              <i style="color: yellow" class="fa-solid fa-circle"></i
+              ><span style="color: rgb(99, 98, 98)">Бренд:</span>
+              Lirina
+            </p>
+            <p>
+              <i style="color: yellow" class="fa-solid fa-circle"></i
+              ><span style="color: rgb(99, 98, 98)"
+                >Количество в упаковке:</span
+              >
+              10 шт
+            </p>
+            <p>
+              <i style="color: yellow" class="fa-solid fa-circle"></i
+              ><span style="color: rgb(99, 98, 98)"> Код товара: </span>
+              153249
+            </p>
+            <h1 style="font-size: 25px">41 108 руб.</h1>
+            <p class="home-p1">49 999 руб.</p>
+            <i class="fa-solid fa-cart-shopping fa-cart-shopping"></i>
+          </div>
+          <div class="home-div1">
+            <img src="./Aksiya-img/femibion.png" alt="" />
+            <p style="color: #2fd3ae">
+              Есть в наличии
+              <span style="color: yellow"
+                ><i style="margin-left: 30px" class="fa-solid fa-star"></i
+                ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                ><i class="fa-regular fa-star"></i
+              ></span>
+            </p>
+            <br />
+            <h3 style="color: #525a68">
+              Велсон таблетки покрыт. плен. об. 3 мг, 30 шт.
+            </h3>
+            <br />
+            <p>
+              <i style="color: yellow" class="fa-solid fa-circle"></i
+              ><span style="color: rgb(99, 98, 98)">Бренд:</span>
+              Lirina
+            </p>
+            <p>
+              <i style="color: yellow" class="fa-solid fa-circle"></i
+              ><span style="color: rgb(99, 98, 98)"
+                >Количество в упаковке:</span
+              >
+              10 шт
+            </p>
+            <p>
+              <i style="color: yellow" class="fa-solid fa-circle"></i
+              ><span style="color: rgb(99, 98, 98)"> Код товара: </span>
+              153249
+            </p>
+            <h1 style="font-size: 25px">41 108 руб.</h1>
+            <p class="home-p1">49 999 руб.</p>
+            <i class="fa-solid fa-cart-shopping fa-cart-shopping"></i>
+          </div>
+          <div class="home-div1">
+            <img src="./Aksiya-img/detragel.png" alt="" />
+            <p style="color: #2fd3ae">
+              Есть в наличии
+              <span style="color: yellow"
+                ><i style="margin-left: 30px" class="fa-solid fa-star"></i
+                ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                ><i class="fa-regular fa-star"></i
+              ></span>
+            </p>
+            <br />
+            <h3 style="color: #525a68">
+              Велсон таблетки покрыт. плен. об. 3 мг, 30 шт.
+            </h3>
+            <br />
+            <p>
+              <i style="color: yellow" class="fa-solid fa-circle"></i
+              ><span style="color: rgb(99, 98, 98)">Бренд:</span>
+              Lirina
+            </p>
+            <p>
+              <i style="color: yellow" class="fa-solid fa-circle"></i
+              ><span style="color: rgb(99, 98, 98)"
+                >Количество в упаковке:</span
+              >
+              10 шт
+            </p>
+            <p>
+              <i style="color: yellow" class="fa-solid fa-circle"></i
+              ><span style="color: rgb(99, 98, 98)"> Код товара: </span>
+              153249
+            </p>
+            <h1 style="font-size: 25px">41 108 руб.</h1>
+            <p class="home-p1">49 999 руб.</p>
+            <i class="fa-solid fa-cart-shopping fa-cart-shopping"></i>
+          </div>
+          <div class="home-div1">
+            <img src="./Aksiya-img/detragel.png" alt="" />
+            <p style="color: #2fd3ae">
+              Есть в наличии
+              <span style="color: yellow"
+                ><i style="margin-left: 30px" class="fa-solid fa-star"></i
+                ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                ><i class="fa-regular fa-star"></i
+              ></span>
+            </p>
+            <br />
+            <h3 style="color: #525a68">
+              Велсон таблетки покрыт. плен. об. 3 мг, 30 шт.
+            </h3>
+            <br />
+            <p>
+              <i style="color: yellow" class="fa-solid fa-circle"></i
+              ><span style="color: rgb(99, 98, 98)">Бренд:</span>
+              Lirina
+            </p>
+            <p>
+              <i style="color: yellow" class="fa-solid fa-circle"></i
+              ><span style="color: rgb(99, 98, 98)"
+                >Количество в упаковке:</span
+              >
+              10 шт
+            </p>
+            <p>
+              <i style="color: yellow" class="fa-solid fa-circle"></i
+              ><span style="color: rgb(99, 98, 98)"> Код товара: </span>
+              153249
+            </p>
+            <h1 style="font-size: 25px">41 108 руб.</h1>
+            <p class="home-p1">49 999 руб.</p>
+            <i class="fa-solid fa-cart-shopping fa-cart-shopping"></i>
+          </div>
+          <div class="home-div1">
+            <img src="./Aksiya-img/geptral.png" alt="" />
+            <p style="color: #2fd3ae">
+              Есть в наличии
+              <span style="color: yellow"
+                ><i style="margin-left: 30px" class="fa-solid fa-star"></i
+                ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                ><i class="fa-regular fa-star"></i
+              ></span>
+            </p>
+            <br />
+            <h3 style="color: #525a68">
+              Велсон таблетки покрыт. плен. об. 3 мг, 30 шт.
+            </h3>
+            <br />
+            <p>
+              <i style="color: yellow" class="fa-solid fa-circle"></i
+              ><span style="color: rgb(99, 98, 98)">Бренд:</span>
+              Lirina
+            </p>
+            <p>
+              <i style="color: yellow" class="fa-solid fa-circle"></i
+              ><span style="color: rgb(99, 98, 98)"
+                >Количество в упаковке:</span
+              >
+              10 шт
+            </p>
+            <p>
+              <i style="color: yellow" class="fa-solid fa-circle"></i
+              ><span style="color: rgb(99, 98, 98)"> Код товара: </span>
+              153249
+            </p>
+            <h1 style="font-size: 25px">41 108 руб.</h1>
+            <p class="home-p1">49 999 руб.</p>
+            <i class="fa-solid fa-cart-shopping fa-cart-shopping"></i>
+          </div>
+          <div class="home-div1">
+            <img src="./Aksiya-img/femibion.png" alt="" />
+            <p style="color: #2fd3ae">
+              Есть в наличии
+              <span style="color: yellow"
+                ><i style="margin-left: 30px" class="fa-solid fa-star"></i
+                ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                ><i class="fa-regular fa-star"></i
+              ></span>
+            </p>
+            <br />
+            <h3 style="color: #525a68">
+              Велсон таблетки покрыт. плен. об. 3 мг, 30 шт.
+            </h3>
+            <br />
+            <p>
+              <i style="color: yellow" class="fa-solid fa-circle"></i
+              ><span style="color: rgb(99, 98, 98)">Бренд:</span>
+              Lirina
+            </p>
+            <p>
+              <i style="color: yellow" class="fa-solid fa-circle"></i
+              ><span style="color: rgb(99, 98, 98)"
+                >Количество в упаковке:</span
+              >
+              10 шт
+            </p>
+            <p>
+              <i style="color: yellow" class="fa-solid fa-circle"></i
+              ><span style="color: rgb(99, 98, 98)"> Код товара: </span>
+              153249
+            </p>
+            <h1 style="font-size: 25px">41 108 руб.</h1>
+            <p class="home-p1">49 999 руб.</p>
+            <i class="fa-solid fa-cart-shopping fa-cart-shopping"></i>
+          </div>
+          <div class="home-div1">
+            <img src="./Aksiya-img/femibion.png" alt="" />
+            <p style="color: #2fd3ae">
+              Есть в наличии
+              <span style="color: yellow"
+                ><i style="margin-left: 30px" class="fa-solid fa-star"></i
+                ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                ><i class="fa-regular fa-star"></i
+              ></span>
+            </p>
+            <br />
+            <h3 style="color: #525a68">
+              Велсон таблетки покрыт. плен. об. 3 мг, 30 шт.
+            </h3>
+            <br />
+            <p>
+              <i style="color: yellow" class="fa-solid fa-circle"></i
+              ><span style="color: rgb(99, 98, 98)">Бренд:</span>
+              Lirina
+            </p>
+            <p>
+              <i style="color: yellow" class="fa-solid fa-circle"></i
+              ><span style="color: rgb(99, 98, 98)"
+                >Количество в упаковке:</span
+              >
+              10 шт
+            </p>
+            <p>
+              <i style="color: yellow" class="fa-solid fa-circle"></i
+              ><span style="color: rgb(99, 98, 98)"> Код товара: </span>
+              153249
+            </p>
+            <h1 style="font-size: 25px">41 108 руб.</h1>
+            <p class="home-p1">49 999 руб.</p>
+            <i class="fa-solid fa-cart-shopping fa-cart-shopping"></i>
+          </div>
+          <div class="home-div1">
+            <img src="./Aksiya-img/detragel.png" alt="" />
+            <p style="color: #2fd3ae">
+              Есть в наличии
+              <span style="color: yellow"
+                ><i style="margin-left: 30px" class="fa-solid fa-star"></i
+                ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                ><i class="fa-regular fa-star"></i
+              ></span>
+            </p>
+            <br />
+            <h3 style="color: #525a68">
+              Велсон таблетки покрыт. плен. об. 3 мг, 30 шт.
+            </h3>
+            <br />
+            <p>
+              <i style="color: yellow" class="fa-solid fa-circle"></i
+              ><span style="color: rgb(99, 98, 98)">Бренд:</span>
+              Lirina
+            </p>
+            <p>
+              <i style="color: yellow" class="fa-solid fa-circle"></i
+              ><span style="color: rgb(99, 98, 98)"
+                >Количество в упаковке:</span
+              >
+              10 шт
+            </p>
+            <p>
+              <i style="color: yellow" class="fa-solid fa-circle"></i
+              ><span style="color: rgb(99, 98, 98)"> Код товара: </span>
+              153249
+            </p>
+            <h1 style="font-size: 25px">41 108 руб.</h1>
+            <p class="home-p1">49 999 руб.</p>
+            <i class="fa-solid fa-cart-shopping fa-cart-shopping"></i>
+          </div>
+          <div class="home-div1">
+            <img src="./Aksiya-img/bifiform.png" alt="" />
+            <p style="color: #2fd3ae">
+              Есть в наличии
+              <span style="color: yellow"
+                ><i style="margin-left: 30px" class="fa-solid fa-star"></i
+                ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                ><i class="fa-regular fa-star"></i
+              ></span>
+            </p>
+            <br />
+            <h3 style="color: #525a68">
+              Велсон таблетки покрыт. плен. об. 3 мг, 30 шт.
+            </h3>
+            <br />
+            <p>
+              <i style="color: yellow" class="fa-solid fa-circle"></i
+              ><span style="color: rgb(99, 98, 98)">Бренд:</span>
+              Lirina
+            </p>
+            <p>
+              <i style="color: yellow" class="fa-solid fa-circle"></i
+              ><span style="color: rgb(99, 98, 98)"
+                >Количество в упаковке:</span
+              >
+              10 шт
+            </p>
+            <p>
+              <i style="color: yellow" class="fa-solid fa-circle"></i
+              ><span style="color: rgb(99, 98, 98)"> Код товара: </span>
+              153249
+            </p>
+            <h1 style="font-size: 25px">41 108 руб.</h1>
+            <p class="home-p1">49 999 руб.</p>
+            <i class="fa-solid fa-cart-shopping fa-cart-shopping"></i>
+          </div>
+          <div class="home-div1">
+            <img src="./Aksiya-img/geptral.png" alt="" />
+            <p style="color: #2fd3ae">
+              Есть в наличии
+              <span style="color: yellow"
+                ><i style="margin-left: 30px" class="fa-solid fa-star"></i
+                ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                ><i class="fa-regular fa-star"></i
+              ></span>
+            </p>
+            <br />
+            <h3 style="color: #525a68">
+              Велсон таблетки покрыт. плен. об. 3 мг, 30 шт.
+            </h3>
+            <br />
+            <p>
+              <i style="color: yellow" class="fa-solid fa-circle"></i
+              ><span style="color: rgb(99, 98, 98)">Бренд:</span>
+              Lirina
+            </p>
+            <p>
+              <i style="color: yellow" class="fa-solid fa-circle"></i
+              ><span style="color: rgb(99, 98, 98)"
+                >Количество в упаковке:</span
+              >
+              10 шт
+            </p>
+            <p>
+              <i style="color: yellow" class="fa-solid fa-circle"></i
+              ><span style="color: rgb(99, 98, 98)"> Код товара: </span>
+              153249
+            </p>
+            <h1 style="font-size: 25px">41 108 руб.</h1>
+            <p class="home-p1">49 999 руб.</p>
+            <i class="fa-solid fa-cart-shopping fa-cart-shopping"></i>
+          </div>
+          <div class="home-div1">
+            <img src="./Aksiya-img/detragel.png" alt="" />
+            <p style="color: #2fd3ae">
+              Есть в наличии
+              <span style="color: yellow"
+                ><i style="margin-left: 30px" class="fa-solid fa-star"></i
+                ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                ><i class="fa-regular fa-star"></i
+              ></span>
+            </p>
+            <br />
+            <h3 style="color: #525a68">
+              Велсон таблетки покрыт. плен. об. 3 мг, 30 шт.
+            </h3>
+            <br />
+            <p>
+              <i style="color: yellow" class="fa-solid fa-circle"></i
+              ><span style="color: rgb(99, 98, 98)">Бренд:</span>
+              Lirina
+            </p>
+            <p>
+              <i style="color: yellow" class="fa-solid fa-circle"></i
+              ><span style="color: rgb(99, 98, 98)"
+                >Количество в упаковке:</span
+              >
+              10 шт
+            </p>
+            <p>
+              <i style="color: yellow" class="fa-solid fa-circle"></i
+              ><span style="color: rgb(99, 98, 98)"> Код товара: </span>
+              153249
+            </p>
+            <h1 style="font-size: 25px">41 108 руб.</h1>
+            <p class="home-p1">49 999 руб.</p>
+            <i class="fa-solid fa-cart-shopping fa-cart-shopping"></i>
+          </div>
+          <div class="home-div1">
+            <img src="./Aksiya-img/bifiform.png" alt="" />
+            <p style="color: #2fd3ae">
+              Есть в наличии
+              <span style="color: yellow"
+                ><i style="margin-left: 30px" class="fa-solid fa-star"></i
+                ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                ><i class="fa-regular fa-star"></i
+              ></span>
+            </p>
+            <br />
+            <h3 style="color: #525a68">
+              Велсон таблетки покрыт. плен. об. 3 мг, 30 шт.
+            </h3>
+            <br />
+            <p>
+              <i style="color: yellow" class="fa-solid fa-circle"></i
+              ><span style="color: rgb(99, 98, 98)">Бренд:</span>
+              Lirina
+            </p>
+            <p>
+              <i style="color: yellow" class="fa-solid fa-circle"></i
+              ><span style="color: rgb(99, 98, 98)"
+                >Количество в упаковке:</span
+              >
+              10 шт
+            </p>
+            <p>
+              <i style="color: yellow" class="fa-solid fa-circle"></i
+              ><span style="color: rgb(99, 98, 98)"> Код товара: </span>
+              153249
+            </p>
+            <h1 style="font-size: 25px">41 108 руб.</h1>
+            <p class="home-p1">49 999 руб.</p>
+            <i class="fa-solid fa-cart-shopping fa-cart-shopping"></i>
+          </div>
+        </div>
+      </section>
+    </nav>
   </body>
 </html>
