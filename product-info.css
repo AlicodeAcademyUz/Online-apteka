@@ -455,6 +455,20 @@ tr td, .seventh p {
   line-height: 24px;
   padding: 5px 0 5px 40px;
 }
+.tenth {
+  margin: 5px 70px;
+}
+.tenth-form {
+  display: flex;
+  gap: 30px;
+  padding-left: 50px;
+}
+.tenth-form form {
+  width: 50%;
+}
+.tenth-form form input {
+  width: 50%;
+}
 @media (max-width:1500px) {
   .second-wrapper {
     width: auto
@@ -542,6 +556,16 @@ tr td, .seventh p {
     line-height: 24px;
     padding: 5px 0 5px 40px;
   }
+  .tenth-form form {
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .tenth-form form input {
+    width: 100%;
+  }
+  .tenth-form {
+    flex-wrap: wrap;
+  }
 }
 @media (max-width:800px) {
   .header__contact-bars {
@@ -579,6 +603,9 @@ tr td, .seventh p {
   .eighth-wrapper {
     flex-wrap: wrap;
     justify-content: center;
+  }
+  .tenth-form {
+    justify-items: center;
   }
 }
 @media (max-width:645px) {
@@ -631,6 +658,14 @@ tr td, .seventh p {
     box-sizing: border-box;
     justify-content: center;
     gap: 5px;
+  }
+  .tenth {
+    margin: 5px 30px;
+  }
+  .tenth-form {
+    display: flex;
+    gap: 30px;
+    padding-left: 0px;
   }
 }
 @media (max-width:460px) {
