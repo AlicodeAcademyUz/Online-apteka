@@ -1,7 +1,7 @@
+body,
 p {
   margin: 0;
 }
-
 * {
   box-sizing: border-box;
   font-family: "Raleway";
@@ -11,13 +11,13 @@ p {
 a {
   text-decoration: none;
 }
-
 .container {
   max-width: 1520px;
   margin: 0 auto;
 }
 
 /* header locatin stayle start */
+
 .header__location {
   background-color: rgb(244, 244, 244);
 }
@@ -91,8 +91,11 @@ a {
     display: none;
   }
 }
+
 /* header location stayle finish  */
+
 /* header__contact statle start */
+
 .header__contact-wrapper {
   display: flex;
   align-items: center;
@@ -195,11 +198,9 @@ a {
   color: #ffffff;
   cursor: pointer;
 }
-
 .header__contact-link:active {
   transform: scale(0.98);
 }
-
 .header__contact-link:hover {
   background-color: #22b08f;
 }
@@ -223,6 +224,7 @@ a {
   .header__contact-phone-wrapper:nth-child(3) {
     display: none;
   }
+
   .header__mobile-bars {
     display: flex;
   }
@@ -242,8 +244,11 @@ a {
     font-size: 20px;
   }
 }
+
 /* header__contact stayle finish */
+
 /* header apteka stayle start */
+
 .header__apteka {
   background: linear-gradient(269.93deg, #2fd3ae 0%, #011d71 100%);
 }
@@ -327,6 +332,7 @@ a {
     background: #2fd3ae;
   }
 }
+
 .header__diseasess {
   background-color: #f7fafb;
   padding: 20px 10px;
@@ -352,11 +358,9 @@ a {
   color: #4f4f4f;
   cursor: pointer;
 }
-
 .header__disease:hover {
   background-color: #e5e4e4;
 }
-
 .header__disease:active {
   transform: scale(0.98);
 }
@@ -365,17 +369,14 @@ a {
   background-color: #4bc1e9;
   color: #ffffff;
 }
-
 .header__disease-blue:hover {
   background-color: #42abcf;
   color: #ffffff;
 }
-
 .header__disease-yellow {
   background-color: #ff9e19;
   color: #ffffff;
 }
-
 .header__disease-yellow:hover {
   background-color: #e78f13;
   color: #ffffff;
@@ -411,4 +412,5 @@ a {
     display: none;
   }
 }
-/* header stayle finish *//*# sourceMappingURL=blog-header.css.map */
+
+/* header stayle finish */
