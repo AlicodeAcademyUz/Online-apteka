@@ -5,6 +5,7 @@ p {
 * {
   box-sizing: border-box;
   font-family: "Raleway";
+  font-weight: 400;
 }
 
 a {
@@ -111,6 +112,17 @@ a {
   border-radius: 50%;
   width: 50px;
   height: 50px;
+  display: none;
+}
+
+.header__hidden-serch {
+  width: 100%;
+  font-size: 14px;
+  color: #828282;
+  border: 1px solid #e0e0e0;
+  border-radius: 50px;
+  padding: 17px 0 17px 28px;
+  outline: none;
   display: none;
 }
 

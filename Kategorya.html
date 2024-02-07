@@ -34,24 +34,32 @@
                   ><img src="./img/near_me.svg" alt="here is a picture"
                 /></a>
 
-                <div class="header__location-select">Москва и область</div>
+                <div class="header__location-select">
+                  <a class="header__location-select" href="#"
+                    >Москва и область</a
+                  >
+                </div>
               </div>
               <div class="header__location-bars-wrapper">
                 <a href="#">
                   <i class="fa-solid fa-bars header__icon-bars"></i
                 ></a>
-                Служебные страницы
+                <a class="header__location-select" href="#">
+                  Служебные страницы</a
+                >
               </div>
             </div>
             <div class="header__location-img-wrapper">
               <div class="header__location-img">
-                Избранное
+                <a class="header__location-img" href="#"> Избранное</a>
                 <a href="#"
                   ><img src="./img/heart.png" alt="here is a picture"
                 /></a>
               </div>
               <div class="header__location-kabinet-wrapper">
-                Личный кабинет
+                <a class="header__location-kabinet-wrapper" href="#"
+                  >Личный кабинет</a
+                >
                 <a href="#">
                   <img src="./img/person.png" alt="here is a picture"
                 /></a>
@@ -91,11 +99,13 @@
                 <img src="./img/youtube.svg" alt="here is a picture"
               /></a>
             </div>
+
             <div class="header__contact-catena-wrapper">
               <div class="header__contact-phone-wrapper">
                 <a href="https://mail.google.com/">
                   <img src="./img/Message_open.svg" alt="here is a picture" />
                 </a>
+
                 <div class="header__contact-phone-text">
                   <span class="header__contact-number">
                     <b>info@restoll.ru</b></span
@@ -128,8 +138,18 @@
             </div>
             <div class="header__contact-market">
               <a class="header__mobile-serch" href="#">
-                <img src="./img/Поиск.svg" alt="here is a picture"
+                <img
+                  class="header__serch-img"
+                  src="./img/Поиск.svg"
+                  alt="here is a picture"
               /></a>
+              <div class="header__hidden-serch-wrapper">
+                <input
+                  class="header__hidden-serch"
+                  type="search"
+                  placeholder="Начинайте писать или введите название товара..."
+                />
+              </div>
               <button class="header__contact-link">Заказать звонок</button>
               <a href="https://korzinka.uz/en">
                 <img src="./img/Корзина.svg" alt="here is a picture"
