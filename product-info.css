@@ -398,13 +398,16 @@
   font-size: 16px; 
   color: #4f4f4f;
 }
-tr td {
+tr td, .seventh p {
   padding: 15px 20px;
 }
 .sixth-container {
   display: grid;
   grid-template-columns: auto auto;
   gap: 20px;
+}
+.sixth-container__hidden {
+  display: none;
 }
 
 @media (max-width:1500px) {
@@ -482,6 +485,12 @@ tr td {
   .fifth-container {
     flex-wrap: wrap;
   }
+  .sixth-container {
+    display: none;
+  }
+  .sixth-container__hidden {
+    display: block;
+  }
 }
 @media (max-width:645px) {
   .header__logo-wrapper  img {
@@ -539,12 +548,22 @@ tr td {
     font-size: 14px; 
     color: #4f4f4f;
   }
-  tr td {
+  .sixth-container__hidden tr td {
+    padding: 15px 10px 0px;
+  }
+  .sixth-container__hidden p,
+  .sixth-container tr td {
     padding: 15px 10px;
   }
   .sixth-container {
     display: grid;
     gap: 10px;
+  }
+  .sixth-container {
+    display: none;
+  }
+  .sixth-container__hidden {
+    display: block;
   }
 }
 @media (max-width:415px) {
