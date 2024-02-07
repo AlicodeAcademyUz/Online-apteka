@@ -11,9 +11,10 @@ body{
     margin: 0 auto;
 }
 .our-partner-wrapper{
+    width: 90%;
     display: flex;
+    margin: 0 auto;
     justify-content: space-between;
-    gap: 700px;
     margin-bottom: 30px;
     margin-top: 20px;
 }
@@ -43,24 +44,25 @@ body{
     background: transparent;
 }
 .credit-card-wrapper{
-   
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+
+}
+.image-wrapper{
+    width: 70%;
     margin: 0 auto;
-    gap: 47px;
 }
 .about-company{
+    width: 90%;
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+   justify-content: center;
 }
 .credit-card-wrapper img{
-    width: 140px;
+    width: 170px;
 }
 .about-company-text{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     gap: 10px;
 }
 li{
@@ -81,7 +83,6 @@ li{
     width: 350px;
     display: flex;
     flex-direction: column;
-    gap: 10px;
 }
 
 .main-text p{
@@ -126,6 +127,8 @@ li{
 }
 .alphabet-wrapper{
     margin-top: 20px;
+    width: 90%;
+    margin: 0 auto;
 }
 .alpha-title{
     margin: 0;
