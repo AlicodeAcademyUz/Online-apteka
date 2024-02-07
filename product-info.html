@@ -550,7 +550,7 @@
           </div>
           <p style="font-family: 'Roboto'; font-weight: 600; font-size: 16px; margin: 5px 0 15px;">Велсон таблетки покрыт. плен. <br>  об. 3 мг, 30 шт.</p>
         </div>
-        <div class="second-wrapper">
+        <div class="second-wrapper" style="border: none; box-shadow: none;">
           <img class="third-img" src="./img/+.png" alt="">
         </div>
             <div class="second-wrapper">
@@ -567,17 +567,23 @@
               </div>
               <p style="font-family: 'Roboto'; font-weight: 600; font-size: 16px; margin: 5px 0 15px;">Велсон таблетки покрыт. плен. <br>  об. 3 мг, 30 шт.</p>
             </div>
-            <div class="second-wrapper">
+            <div class="second-wrapper" style="border: none; box-shadow: none;">
               <img class="third-img" src="./img/=.png" alt="">
             </div>
-            <div class="second-wrapper">
-              <img class="third-image" src="./img/Group 46.png" alt="">
+            <div class="second-wrapper" style="padding: 30px;">
+              <span style="color: #7B818C;">Вместе дешевле</span>
+              <div style="margin-top: 20px;">
+                <p style="font-size: 24px; font-weight: 700; font-family: 'Roboto', sans-serif; text-transform: uppercase;">41 108 руб.</p>
+                <p style="color: #DD8888; font-weight: 700; font-size: 14px;"><del>49 999 руб.</del></p>
+                <button style="border: none; border-radius: 50px; padding: 15px 25px; height: 50px; margin-top: 40px; background-color: #2FD3AE; color: white; font-weight: 600; text-transform: uppercase;">В корзину</button>
+              </div>
+
             </div>
       </div>
     </section>
     <section class="second fourth">
       <h1 class="main-title">Аналоги</h1>
-      <div class="second-container" style="justify-content: flex-start;">
+      <div class="second-container" style="justify-content: flex-start; margin-bottom: 50px;">
         <div class="second-wrapper">
           <img src="./img/Rectangle 271.png" alt="">
           <div style="display: flex; gap: 15px; justify-content: space-between;">
@@ -819,13 +825,13 @@
                 <i class="fa-solid fa-star" style="color: #D9D9D9;"></i>
               </div>
             </div>
-            <div style="display: flex; gap: 10px; margin-top: 20px;">
-              <button style="border: 1px solid #C7CFE3; border-radius: 30px;padding: 10px 15px; color: #828282; width: 50%;">Ваше имя</button>
-              <button style="border: 1px solid #C7CFE3; border-radius: 30px;padding: 10px 15px; color: #828282; width: 50%;">Ваш e-mail</button>
-            </div>
-            <div style=" margin-top: 20px;">
-              <button style="border: 1px solid #C7CFE3; border-radius: 30px;padding: 10px 15px; color: #828282; width: 100%;">Напишите подробный отзыв, это важно ...</button>
-            </div>
+            <form style="display: flex; gap: 10px; margin-top: 20px;">
+              <input type="name" name="name" placeholder="Ваше имя" style="border: 1px solid #C7CFE3; outline: none; border-radius: 30px;padding: 10px 15px; color: #828282; width: 50%;"></input>
+              <input type="email" name="email" placeholder="Ваш e-mail" style="border: 1px solid #C7CFE3; outline: none; border-radius: 30px;padding: 10px 15px; color: #828282; width: 50%;"></input>
+            </form>
+            <form style=" margin-top: 20px;">
+              <input type="text" placeholder="Напишите подробный отзыв, это важно ..." style="border: 1px solid #C7CFE3; outline: none; border-radius: 30px;padding: 10px 15px; color: #828282; width: 100%;"></input>
+            </form>
             <div style="display: flex; flex-wrap: wrap;margin-top: 10px;">
               <button style="border: none; border-radius: 50px; padding: 15px 35px; height: 50px; background-color: #2FD3AE; color: white; font-weight: 600; text-transform: uppercase;">отправить</button>
               <p style="  padding: 15px;font-family: 'Roboto', sans-serif; color: #4f4f4f; font-size: 14px; font-weight: 400;">Нажимая на кнопку, вы соглашаетесь на обработку <ins style="color: #2FD3AE;">персональных данных</ins> </p>
@@ -882,7 +888,39 @@
     </section>
     <section class="sixth">
       <h1 class="main-title fifth-title">Доставка и самовывоз в Москве и области</h1>
-      
+      <div class="sixth-container">
+        <div>
+          <p style="font-family: 'Raleway', sans-serif; font-weight: 400; font-size: 18px; color: rgba(51, 51, 51, 1); margin-bottom: 20px;">Доставка заказов в пределах МКАД</p>
+        <table>
+            <tr style="background-color: #F7FAFB;">
+              <td>Доставка заказов</td>
+              <td>до 500 руб.</td>
+              <td>от 500 руб.</td>
+            </tr>
+            <tr>
+              <td>в пределах МКАД</td>
+              <td>150 руб.</td>
+              <td>Бесплатно</td>
+            </tr>
+        </table>
+        </div>
+        <div>
+          <p style="font-family: 'Raleway', sans-serif; font-weight: 400; font-size: 18px; color: rgba(51, 51, 51, 1); margin-bottom: 20px;">Доставка заказов в пределах МКАД</p>
+        <table>
+            <tr style="background-color: #F7FAFB;">
+              <td>Доставка заказов</td>
+              <td>до 500 руб.</td>
+              <td>от 500 руб.</td>
+            </tr>
+            <tr>
+              <td>в пределах МКАД</td>
+              <td>150 руб.</td>
+              <td>Бесплатно</td>
+            </tr>
+        </table>
+        </div>
+      </div>
+
     </section>
   </body>
 </html>
