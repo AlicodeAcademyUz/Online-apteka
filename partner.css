@@ -8,6 +8,7 @@ body{
 }
 .container{
     width: 80%;
+    height: 400vh;
     margin: 0 auto;
 }
 .our-partner-wrapper{
@@ -124,6 +125,9 @@ li{
     gap: 10px;
     color: rgba(47, 211, 174, 1);
 }
+.error-link a{
+    color: rgba(47, 211, 174, 1);
+}
 .alphabet-wrapper{
     margin-top: 20px;
 }
@@ -138,4 +142,233 @@ li{
 .alpha-title a{
     align-self: center;
     color: rgba(47, 211, 174, 1);
+}
+.alaphabet-btn{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    line-height: 30px;
+    font-weight: bold;
+}
+.alaphabet-btn button{
+    border: 0;
+    margin: 0 3px;
+    background: transparent;
+    cursor: pointer;
+}
+.uperlatter{
+    font-size: 80px;
+    margin: 26px 0;
+    color: rgba(219, 246, 240, 1);
+}
+.text-box-wrapper{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr );
+    gap: 20px;
+    margin-top: 40px;
+}
+.text-box-Medicine{
+    background: rgba(246, 251, 250, 1);
+    padding: 20px 20px;
+    border-radius: 8px;
+    font-size: 13px;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.tetx-box-Vitamins{
+    background: rgba(246, 251, 250, 1);
+    padding: 20px 25px;
+    border-radius: 8px;
+    font-size: 13px;
+    height: 555px;
+}
+.text-box-beauty{
+    background: rgba(246, 251, 250, 1);
+    padding: 20px 25px;
+    border-radius: 8px;
+    font-size: 13px;
+    height: 250px;
+}
+.text-box-Hygiene{
+    background: rgba(246, 251, 250, 1);
+    padding: 20px 25px;
+    border-radius: 8px;
+    font-size: 13px;
+    height: 250px;
+}
+.text-box-Medical-products{
+    background: rgba(246, 251, 250, 1);
+    padding: 20px 25px;
+    border-radius: 8px;
+    font-size: 13px;
+}
+.text-box-Pet-supplies{
+    background: rgba(246, 251, 250, 1);
+    padding: 20px 25px;
+    border-radius: 8px;
+    margin-top: -310px;
+    font-size: 13px;
+    height: 250px;
+}
+.text-box-Mother-child{
+    background: rgba(246, 251, 250, 1);
+    padding: 20px 25px;
+    border-radius: 8px;
+    grid-column-start: 3;
+    font-size: 13px;
+    height: 250px;
+    margin-top: -310px;
+}
+.text-box-Lenses{
+    background: rgba(246, 251, 250, 1);
+    padding: 20px 25px;
+    border-radius: 8px;
+    font-size: 13px;
+    grid-column-start: 4;
+    grid-row-start: 2;
+}
+.text-box-Medical-equipment{
+    background: rgba(246, 251, 250, 1);
+    padding: 20px 25px;
+    border-radius: 8px;
+    font-size: 13px;
+    grid-column-start: 4;
+    grid-row-start: 2;
+    margin-top: -310px;
+    height: 250px;
+}
+.box-link{
+    color: rgba(47, 211, 174, 1);
+}
+.box-link a{
+    color: rgba(47, 211, 174, 1);
+}
+.text-box-wrapper img{
+    padding: 0 10px;
+}
+.health-blog{
+    margin-top: 50px;
+}
+.health__wrapper{
+    display: flex;
+    gap: 20px;
+}
+.health__wrapper a{
+    align-self: center;
+    font-size: 14px;
+}
+.health__wrapper h1{
+    margin: 0;
+}
+.health-img-wrapper{
+    display: flex;
+    justify-content: center;
+}
+.helth-box{
+  width: 280px;
+  display: flex;
+  flex-direction: column;
+}
+.helth-text{
+    text-align: center;
+}
+.helth-text h1{
+    font-size: 15px;
+    margin: -16px 0;
+    margin-bottom: 10px;
+}
+.helth-text p{
+    width: 250px;
+    text-align: left;
+    font-size: 13px;
+}
+.any-question-wrapper{
+    margin: 0 auto;
+    background: #fff;
+    margin-top: 90px;
+    padding: 20px 25px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+input{
+    outline: none;
+}
+.input-wrapper{
+    display: flex;
+    gap: 40px;
+    position: relative;
+}
+.input-text{
+    width: 200px;
+    height: 30px;
+    border-radius: 30px;
+    border: 1px solid black;
+    padding: 0 20px;
+    align-self: center;
+}
+.input-number{
+    width: 200px;
+    height: 30px;
+    border-radius: 30px;
+    padding: 0 20px;
+    border: 1px solid black;
+    align-self: center;
+}
+.input-wrapper p{
+    width: 350px;
+    align-self: center;
+}
+.input-wrapper a{
+    color: rgba(47, 211, 174, 1);
+}
+.input-wrapper button{
+    background: rgba(47, 211, 174, 1);
+    width: 242px;
+    height: 46px;
+    border-radius: 50px;
+    align-self: center;
+    border: 0;
+    color: #fff;
+    font-size: 15px;
+    outline-color: rgba(40, 211, 174, 1);
+}
+footer{
+    width: 85%;
+    height: 40vh;
+    padding: 180px 100px;
+    position: absolute;
+    z-index: -1;
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(87.45deg, #011D71 0%, #2FD3AE 100%);
+}
+.footer-link{
+    display: flex;
+}
+.logo-wrapper p{
+    width: 200px;
+    margin: 300px 20px;
+}
+.footer-link ul{
+   line-height: 30px;
+}
+.footer-link a{
+    font-size: 17px;
+    color: #000000;
+}
+.contact-us{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.contact-us h1{
+    margin: 0;
+    font-size: 20px;
+}
+.contact-number h1{
+    margin: 0;
+    font-size: 15px;
 }
