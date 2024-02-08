@@ -60,15 +60,12 @@ body{
 }
 .about-company-text{
     display: flex;
-    justify-content: space-between;
-    gap: 10px;
-}
-li{
-    display: flex;
-    font-size: 13px;
+    justify-content: center;
+    gap: 90px;
+    font-size: 14px;
 }
 .text-row-1{
-    width: 340px;
+    width: 400px;
     display: flex;
     flex-direction: column;
 }
@@ -360,14 +357,56 @@ footer{
     background: linear-gradient(87.45deg, #011D71 0%, #2FD3AE 100%);
 }
 .logo-wrapper{
-    
+    margin-top: -140px;
 }
 .footer-link{
     display: flex;
     justify-content: center;
-    align-items: center;
+    margin-top: 35px;
     gap: 70px;
 }
+.footer-link a{
+    color: #fff;
+    font-size: 15px;
+    line-height: 40px;
+}
+.footer-link a:hover{
+    color: #2FD3AE;
+}
+.email-number{
+    display: flex;
+    gap: 10px;
+    color: #fff;
+}
+.email-number h1{
+    font-size: 20px;
+}
+.phone-number h1{
+    font-size: 20px;
+    margin-top: 12px;
+}
+.icons-wrapper{
+    margin-top: 100px;
+}
+.phone-number{
+    display: flex;
+    gap: 10px;
+    color: #fff;
+}
 .abou-servese{
-    width: 300px;
+    width: 290px;
+    font-size: 14px;
+    margin-top: 17px;
+    line-height: 23px;
+}
+.fa-envelope{
+    align-self: center;
+}
+.fa-phone{
+    align-self: center;
+}
+.contact-us{
+    display: flex;
+    flex-direction: column;
+    margin-top: 16px;
 }
