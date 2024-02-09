@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
 }
-nav {
+.nav {
   width: 100%;
   max-width: 1300px;
   padding-left: 20px;
@@ -101,6 +101,7 @@ nav {
   display: flex;
   align-items: center;
   height: 70px;
+  width: 100%;
 }
 .header-home-img1 {
   margin-left: 40px;
@@ -241,5 +242,21 @@ section {
   .new-header-img {
     display: flex;
     justify-content: center;
+  }
+  .header-home {
+    max-width: 380px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .header-home {
+    max-width: 300px;
+  }
+  .hr {
+    display: none;
+  }
+  .header-home-display-none {
+    gap: 50px;
+    display: flex;
+    justify-content: space-around;
   }
 }
