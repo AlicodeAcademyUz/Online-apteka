@@ -99,7 +99,6 @@ a {
   align-items: center;
   justify-content: space-between;
   padding: 28px 10px 29px 10px;
-  gap: 8px;
 }
 
 .header__mobile-bars {
@@ -315,9 +314,19 @@ a {
   color: #2fd3ae;
 }
 
+.main__img-text-hidden {
+  font-size: 14px;
+  color: #bdbdbd;
+  display: none;
+}
+
 .main__girl-img {
   width: 100%;
+  height: 500px;
   padding: 0 10px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 20px;
 }
 
 .main__img-girl_wrapper {
@@ -340,6 +349,7 @@ a {
   font-size: 48px;
   font-weight: 700;
   line-height: 56.35px;
+  padding: 0 10px;
   color: #ffffff;
 }
 
@@ -382,6 +392,7 @@ a {
 .main__text-button-wrapper {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
   gap: 7px;
 }
 
@@ -436,8 +447,7 @@ a {
 }
 
 .main__list-box {
-  max-width: 487px;
-  width: 100%;
+  flex: 1;
   background-color: #f7fafb;
   border-radius: 20px;
   padding: 30px 29px 0 30px;
@@ -456,7 +466,7 @@ a {
 }
 
 .main__list-box {
-  margin: 0 0 0 20px;
+  margin: 0 10px 0 20px;
   line-height: 40px;
 }
 .main__list-box li {
@@ -468,14 +478,16 @@ a {
   font-size: 40px;
   font-weight: 700;
   color: #333333;
+  padding: 0 10px;
 }
 
 .main__text-box {
+  flex: 1;
   width: 100%;
   display: flex;
   flex-direction: column;
   gap: 38px;
-  padding: 30px 0 30px 0;
+  padding: 30px 10px 30px 10px;
 }
 .main__text-box p {
   font-size: 18px;
@@ -501,12 +513,14 @@ a {
   font-size: 18px;
   line-height: 30px;
   color: #828282;
+  padding: 0 10px;
 }
 
 .main__box-p {
   font-size: 18px;
   line-height: 30px;
   color: #828282;
+  padding: 0 10px;
 }
 
 .main__cost-wrapper {
@@ -517,11 +531,13 @@ a {
   font-weight: 700;
   font-size: 36px;
   color: #333333;
+  padding: 0 10px;
 }
 
 .main__cost {
   display: flex;
   gap: 30px;
+  padding: 0 10px;
 }
 
 .main__cost-box {
@@ -644,16 +660,18 @@ a {
   font-size: 36px;
   font-weight: 700;
   color: #333333;
+  padding: 0 10px;
 }
 
 .main__heading-text {
   font-size: 18px;
   line-height: 30px;
   color: #828282;
+  padding: 0 10px;
 }
 
 ol {
-  padding: 0 0 0 15px;
+  padding: 0 10px 0 25px;
 }
 ol li {
   font-size: 18px;
@@ -666,6 +684,7 @@ ol li {
   font-weight: 700;
   font-size: 30px;
   color: #333333;
+  padding: 0 10px;
 }
 
 .main__about {
@@ -678,6 +697,7 @@ ol li {
   font-size: 18px;
   line-height: 30px;
   color: #828282;
+  padding: 0 10px;
 }
 
 .main__about-box {
@@ -1270,6 +1290,11 @@ ul {
     font-size: 20px;
   }
 }
+@media screen and (max-width: 391px) {
+  .header__logo-wrapper {
+    gap: 10px;
+  }
+}
 @media screen and (max-width: 1150px) {
   .header__apteka-icon-wrapper:nth-child(2) {
     display: none;
@@ -1345,6 +1370,96 @@ ul {
 @media screen and (max-width: 400px) {
   .header__disease:nth-child(8) {
     display: none;
+  }
+}
+@media screen and (max-width: 750px) {
+  .main__img-text-link:nth-child(8) {
+    display: none;
+  }
+  .main__img-text-link:nth-child(7) {
+    display: none;
+  }
+}
+@media screen and (max-width: 570px) {
+  .main__img-text-link:nth-child(6) {
+    display: none;
+  }
+  .main__img-text-link:nth-child(5) {
+    display: none;
+  }
+}
+@media screen and (max-width: 400px) {
+  .main__img-text-link:nth-child(4) {
+    display: none;
+  }
+  .main__img-text-hidden {
+    display: block;
+  }
+}
+@media screen and (max-width: 1135px) {
+  .main__img-text {
+    font-size: 38px;
+  }
+}
+@media screen and (max-width: 1070px) {
+  .main__img-text-wrapper {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .main__img-text {
+    font-size: 28px;
+    line-height: 20px;
+  }
+}
+@media screen and (max-width: 655px) {
+  .main__img-text {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+@media screen and (max-width: 1155px) {
+  .main__text-link {
+    flex-direction: column;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 800px) {
+  .main__text-link {
+    align-items: baseline;
+  }
+}
+@media screen and (max-width: 420px) {
+  .main__stars {
+    flex-direction: column-reverse;
+  }
+}
+@media screen and (max-width: 1162px) {
+  .main__text-box-wrapper {
+    flex-direction: column-reverse;
+  }
+}
+@media screen and (max-width: 900px) {
+  .main__cost {
+    flex-direction: column;
+  }
+  .main__img-plus-wrapper {
+    display: none;
+  }
+  .main__img-equa {
+    display: none;
+  }
+  .main__cost-box {
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 670px) {
+  .main__table-wrapper {
+    width: 100%;
+  }
+  table {
+    width: 900px;
+    overflow-x: scroll;
   }
 }
 @media screen and (max-width: 1044px) {

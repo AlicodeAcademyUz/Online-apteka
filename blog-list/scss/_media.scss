@@ -37,6 +37,11 @@
     font-size: 20px;
   }
 }
+@media screen and (max-width: 391px) {
+  .header__logo-wrapper {
+    gap: 10px;
+  }
+}
 
 @media screen and (max-width: 1150px) {
   .header__apteka-icon-wrapper:nth-child(2) {
@@ -115,6 +120,104 @@
     display: none;
   }
 }
+
+// main
+
+@media screen and (max-width: 750px) {
+  .main__img-text-link:nth-child(8) {
+    display: none;
+  }
+  .main__img-text-link:nth-child(7) {
+    display: none;
+  }
+}
+@media screen and (max-width: 570px) {
+  .main__img-text-link:nth-child(6) {
+    display: none;
+  }
+  .main__img-text-link:nth-child(5) {
+    display: none;
+  }
+}
+@media screen and (max-width: 400px) {
+  .main__img-text-link:nth-child(4) {
+    display: none;
+  }
+  .main__img-text-hidden {
+    display: block;
+  }
+}
+@media screen and (max-width: 1135px) {
+  .main__img-text {
+    font-size: 38px;
+  }
+}
+@media screen and (max-width: 1070px) {
+  .main__img-text-wrapper {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .main__img-text {
+    font-size: 28px;
+    line-height: 20px;
+  }
+}
+@media screen and (max-width: 655px) {
+  .main__img-text {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+@media screen and (max-width: 1155px) {
+  .main__text-link {
+    flex-direction: column;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 800px) {
+  .main__text-link {
+    align-items: baseline;
+  }
+}
+@media screen and (max-width: 420px) {
+  .main__stars {
+    flex-direction: column-reverse;
+  }
+}
+@media screen and (max-width: 1162px) {
+  .main__text-box-wrapper {
+    flex-direction: column-reverse;
+  }
+}
+@media screen and (max-width: 900px) {
+  .main__cost {
+    flex-direction: column;
+  }
+
+  .main__img-plus-wrapper {
+    display: none;
+  }
+
+  .main__img-equa {
+    display: none;
+  }
+  .main__cost-box {
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 670px) {
+  .main__table-wrapper {
+    width: 100%;
+  }
+
+  table {
+    width: 900px;
+    overflow-x: scroll;
+  }
+}
+
+// main
 
 @media screen and (max-width: 1044px) {
   .footer__form {
