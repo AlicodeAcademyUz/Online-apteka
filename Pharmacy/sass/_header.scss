@@ -1,0 +1,163 @@
+.top-header {
+    padding: 10px 20px;
+    background-color: $light-gray;
+
+    &__wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__left-flex {
+        display: flex;
+        align-items: center;
+        gap: 100px;
+    }
+
+    &__right-flex {
+        display: flex;
+        align-items: center;
+        gap: 50px;
+    }
+
+    &__links {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        cursor: pointer;
+    }
+}
+
+.middle-header {
+    padding: 25px 20px;
+
+    &__wrapper {
+        display: flex;
+        align-items: center;
+        gap: 50px;
+    }
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.logo__text {
+    display: flex;
+    flex-direction: column;
+}
+
+.social-media {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.contacts-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 65px;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+
+    & a:first-child {
+        font-weight: bold;
+    }
+
+    &>a span {
+        font-size: 18px;
+    }
+
+    &>span {
+        font-size: 14px;
+    }
+}
+
+
+
+.search {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.call-button {
+    background-color: $green;
+    color: white;
+    font-size: 18px;
+    padding: 10px 30px;
+    border-radius: 50px;
+}
+
+.bottom-header {
+    padding: 20px 20px;
+    background-image: linear-gradient(to right, #001a70, #47d7ac);
+
+    &__wrapper {
+        display: flex;
+        align-items: center;
+        gap: 55px;
+    }
+
+    &__category {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        cursor: pointer;
+    }
+
+    &__category span {
+        text-transform: uppercase;
+        color: white;
+        font-size: 14px;
+        font-weight: 500;
+    }
+}
+
+.sub-header {
+    padding: 20px 20px;
+    background-color: $light-gray;
+
+    &__wrapper {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+
+    &__wrapper a {
+        background-color: white;
+        color: var(--gray);
+        padding: 7px 12px;
+        border-radius: 5px;
+        box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.1), 0 2px 10px 0 rgba(0, 0, 0, 0.1);
+    }
+}
+
+
+
+.discount {
+    background-color: $blue !important;
+    color: white !important;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.currency {
+    background-color: $orange !important;
+    color: white !important;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
