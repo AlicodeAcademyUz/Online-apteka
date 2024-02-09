@@ -170,22 +170,3 @@ footer {
 ul {
   padding: 0;
 }
-
-@media screen and (max-width: 1044px) {
-  .footer__form {
-    flex-direction: column;
-  }
-}
-@media screen and (max-width: 1347px) {
-  .footer__wrappper {
-    flex-direction: column;
-  }
-  .footer__apteka-text {
-    gap: 20px;
-  }
-}
-@media screen and (max-width: 1045px) {
-  .footer__wrappper {
-    padding-top: 280px;
-  }
-}
