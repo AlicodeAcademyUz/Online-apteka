@@ -397,6 +397,7 @@ footer{
     font-size: 14px;
     margin-top: 17px;
     line-height: 23px;
+    color: #fff;
 }
 .fa-envelope{
     align-self: center;
@@ -446,7 +447,7 @@ footer{
     .about-company-text{
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        align-items: center;
         gap: 0;
     }
     .about-company-text p{
@@ -463,5 +464,146 @@ footer{
         width: 300px;
         display: flex;
        
+    }
+    .text-row-3{
+        width: 300px;
+        display: flex;
+        align-items: center;
+       
+    }
+    .error__outline{
+        width: 80%;
+        gap: 0;
+        height: 400px;
+        padding: 0;
+        margin: 0;
+        margin: 0 auto;
+        flex-direction: column;
+    }
+    .error-icon{
+        align-self: center;
+        font-size: 29px;
+        margin: 0;
+    }
+    .error__tetx__wrapper{
+        display: none;
+    }
+    .error-link{
+        margin: 30px 35px;
+    }
+    .alpha-title h1{
+        font-size: 20px;
+    }
+    .alpha-title{
+        flex-direction: column;
+        padding: 0 25px;
+        margin: 0;
+        display: block;
+        line-height: 17px;
+        margin-bottom: 20px;
+    }
+    .uperlatter{
+        display: none;
+    }
+    .russion-alphabet{
+        width: 94%;
+        margin: 0 auto;
+        font-family: 25px;
+        margin-bottom: 30px;
+    }
+    .english-alphabet{
+        width: 94%;
+        margin: 0 auto;
+        margin-bottom: 30px;
+        flex-wrap: wrap;
+    }
+    .english-alphabet button{
+        margin: 11px;
+        font-family: 26px;
+    }
+    .russion-alphabet button{
+        margin: 10px;
+    }
+    .numbers{
+        width: 200px;
+        font-size: 25px;
+        padding: 0 20px;
+    }
+    .numbers button{
+        font-size: 18px;
+    }
+    .text-box-wrapper{
+        width: 90%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .text-box-Medicine{
+        font-size: 14px;
+    }
+    .health-img-wrapper{
+       flex-direction: column;
+    }
+    .any-question-wrapper{
+        width: 86%;
+        height: 400px;
+        margin: 0 auto;
+        padding: 0;
+        margin: 0 auto;
+    }
+    .input-wrapper{
+        flex-direction: column;
+    }
+    .input-text{
+        height: 40px;
+    }
+    .input-number{
+        height: 40px;
+    }
+    .input-wrapper p{
+        width: 270px;
+        font-size: 15px;
+        padding: 0 6px;
+        margin-bottom: 0;
+    }
+    .any-question-title{
+        padding: 0 20px;
+    }
+    footer{
+        width: 100%;
+        height: 100%;
+        gap: 0;
+        flex-direction: column;
+        position: relative;
+    }
+    .footer-link li{
+        list-style: none;
+    }
+    .logo-wrapper{
+        margin-top: 150px;
+    }
+    .footer-link{
+        flex-direction: column;
+        gap: 0;
+    }
+    .contact-us{
+        display: flex;
+        justify-content: center;
+    }
+    .email-number{
+        font-size: 30px;
+    }
+    .email-number h1{
+        font-size: 30px;
+    }
+    .phone-number{
+        font-size: 30px;
+    }
+    .phone-number h1{
+        font-size: 30px;
+    }
+    .icons-wrapper img{
+        align-self: center;
     }
 }
