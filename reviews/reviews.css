@@ -497,4 +497,143 @@ footer {
 
 ul {
   padding: 0;
+}
+
+@media screen and (max-width: 1360px) {
+  .header__contact-web-wrapper {
+    display: none;
+  }
+}
+@media screen and (max-width: 1250px) {
+  .header__contact-phone-wrapper:nth-child(1) {
+    display: none;
+  }
+}
+@media screen and (max-width: 1030px) {
+  .header__contact-phone-wrapper:nth-child(2) {
+    display: none;
+  }
+}
+@media screen and (max-width: 780px) {
+  .header__contact-phone-wrapper:nth-child(3) {
+    display: none;
+  }
+  .header__mobile-bars {
+    display: flex;
+  }
+}
+@media screen and (max-width: 665px) {
+  .header__mobile-serch {
+    display: none;
+  }
+}
+@media screen and (max-width: 594px) {
+  .header__contact-link {
+    display: none;
+  }
+}
+@media screen and (max-width: 390px) {
+  .header__contact-title {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 391px) {
+  .header__logo-wrapper {
+    gap: 10px;
+  }
+}
+@media screen and (max-width: 1150px) {
+  .header__apteka-icon-wrapper:nth-child(2) {
+    display: none;
+  }
+}
+@media screen and (max-width: 1020px) {
+  .header__apteka-icon-wrapper:nth-child(3) {
+    display: none;
+  }
+}
+@media screen and (max-width: 920px) {
+  .header__apteka-icon-wrapper:nth-child(4) {
+    display: none;
+  }
+}
+@media screen and (max-width: 780px) {
+  .header__apteka-icon-wrapper:nth-child(5) {
+    display: none;
+  }
+}
+@media screen and (max-width: 680px) {
+  .header__apteka-icon-wrapper:nth-child(6) {
+    display: none;
+  }
+}
+@media screen and (max-width: 570px) {
+  .header__apteka-icon-wrapper:nth-child(7) {
+    display: none;
+  }
+}
+@media screen and (max-width: 500px) {
+  .header__apteka-icon-wrapper:nth-child(8) {
+    display: none;
+  }
+  .header__apteka-icon-wrapper:nth-child(9) {
+    display: none;
+  }
+  .header__apteka-icon-wrapper:nth-child(10) {
+    display: none;
+  }
+  .header__apteka-mobile {
+    display: flex;
+  }
+  .header__apteka {
+    background: #2fd3ae;
+  }
+}
+@media screen and (max-width: 905px) {
+  .header__disease:nth-child(3) {
+    display: none;
+  }
+}
+@media screen and (max-width: 800px) {
+  .header__disease:nth-child(4) {
+    display: none;
+  }
+}
+@media screen and (max-width: 700px) {
+  .header__disease:nth-child(5) {
+    display: none;
+  }
+}
+@media screen and (max-width: 540px) {
+  .header__disease:nth-child(6) {
+    display: none;
+  }
+}
+@media screen and (max-width: 450px) {
+  .header__disease:nth-child(7) {
+    display: none;
+  }
+}
+@media screen and (max-width: 400px) {
+  .header__disease:nth-child(8) {
+    display: none;
+  }
+}
+@media screen and (max-width: 1044px) {
+  .footer__form {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 1347px) {
+  .footer__wrappper {
+    flex-direction: column;
+  }
+  .footer__apteka-text {
+    gap: 20px;
+  }
+}
+@media screen and (max-width: 1045px) {
+  .footer__wrappper {
+    padding-top: 300px;
+  }
 }/*# sourceMappingURL=reviews.css.map */
