@@ -787,13 +787,14 @@ th img {
   font-weight: 700;
   font-size: 24px;
   color: #333333;
+  padding: 0 10px;
 }
 
 .main__heading5-text {
   font-size: 18px;
   line-height: 30px;
   color: #828282;
-  padding-bottom: 30px;
+  padding: 0 10px 30px 10px;
 }
 
 .main__img-text {
@@ -1453,13 +1454,21 @@ ul {
     max-width: 100%;
   }
 }
-@media screen and (max-width: 670px) {
-  .main__table-wrapper {
+@media screen and (max-width: 845px) {
+  .main__img-text {
+    flex-direction: column;
+  }
+  .main__img-text img {
     width: 100%;
   }
-  table {
-    width: 900px;
-    overflow-x: scroll;
+}
+@media screen and (max-width: 1175px) {
+  .main__heading6-img-text {
+    flex-direction: column-reverse;
+  }
+  .main__heading6-img-text img {
+    width: 100%;
+    padding: 0 10px;
   }
 }
 @media screen and (max-width: 1044px) {
@@ -1477,6 +1486,6 @@ ul {
 }
 @media screen and (max-width: 1045px) {
   .footer__wrappper {
-    padding-top: 280px;
+    padding-top: 300px;
   }
 }/*# sourceMappingURL=blog-list.css.map */
