@@ -216,11 +216,31 @@
 }
 @media screen and (max-width: 1175px) {
   .main__heading6-img-text {
-    flex-direction: column-reverse;
+    flex-direction: column;
     img {
       width: 100%;
       padding: 0 10px;
     }
+  }
+}
+@media screen and (max-width: 1175px) {
+  .main__box-link {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 495px) {
+  .main__form-button {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 495px) {
+  .main__commentary-img-star {
+    display: none;
+  }
+}
+@media screen and (max-width: 400px) {
+  .main__commentary-data {
+    display: none;
   }
 }
 // main
