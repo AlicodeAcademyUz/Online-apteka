@@ -1,0 +1,500 @@
+body,
+p {
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "Raleway";
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1520px;
+  margin: 0 auto;
+}
+
+/* header locatin stayle start */
+.header__location {
+  background-color: rgb(244, 244, 244);
+}
+
+.header__location-wrapper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 10px;
+}
+
+.header__location-mockva-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 86px;
+}
+
+.header__location-select {
+  border: none;
+  background-color: transparent;
+  outline: none;
+  color: #828282;
+}
+
+.header__location-mosckva {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+}
+
+.header__location-bars-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+  color: #828282;
+}
+
+.header__icon-bars {
+  font-size: 18px;
+  color: #2fd3ae;
+}
+
+.header__location-img-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.header__location-img {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #828282;
+}
+
+.header__location-kabinet-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #828282;
+}
+
+@media screen and (max-width: 800px) {
+  .header__location-img {
+    display: none;
+  }
+}
+@media screen and (max-width: 640px) {
+  .header__location-kabinet-wrapper {
+    display: none;
+  }
+}
+/* header location stayle finish  */
+/* header__contact statle start */
+.header__contact-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 28px 10px 29px 10px;
+}
+
+.header__mobile-bars {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #e0e0e0;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: none;
+}
+
+.header__hidden-serch {
+  width: 100%;
+  font-size: 14px;
+  color: #828282;
+  border: 1px solid #e0e0e0;
+  border-radius: 50px;
+  padding: 17px 0 17px 28px;
+  outline: none;
+  display: none;
+}
+
+.header__logo-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.header__contact-title {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 25.83px;
+  color: #4f4f4f;
+  font-family: "Raleway";
+}
+
+.header__contact-text {
+  font-size: 14px;
+  font-family: "Roboto";
+  color: #828282;
+  line-height: 16.41px;
+}
+
+.header__contact-web-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.header__contact-catena-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 63px;
+}
+
+.header__contact-phone-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.header__contact-number {
+  font-size: 18px;
+  font-family: "Roboto";
+  font-weight: 800;
+  line-height: 27px;
+  color: #4f4f4f;
+  line-height: 16.41px;
+}
+
+.header__contact-phone-text {
+  font-size: 11px;
+  font-family: "Roboto";
+  font-weight: 400;
+  color: #828282;
+  line-height: 12.89px;
+}
+
+.header__contact-market {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.header__contact-link {
+  border: none;
+  border-radius: 50px;
+  padding: 17px 42px;
+  background-color: #2fd3ae;
+  font-size: 14px;
+  font-family: "Raleway";
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.header__contact-link:active {
+  transform: scale(0.98);
+}
+
+.header__contact-link:hover {
+  background-color: #22b08f;
+}
+
+/* header__contact stayle finish */
+/* header apteka stayle start */
+.header__apteka {
+  background: linear-gradient(269.93deg, #2fd3ae 0%, #011d71 100%);
+}
+
+.header__apteka-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 25px 10px 24px 10px;
+}
+
+.header__apteka-icon {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  color: #ffffff;
+  font-size: 14px;
+  font-family: "Raleway";
+  font-weight: 700;
+  line-height: 16.44px;
+  text-decoration: none;
+}
+
+.header__apteka-mobile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 100%;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16.44px;
+  color: #ffffff;
+  display: none;
+}
+
+.header__diseasess {
+  background-color: #f7fafb;
+  padding: 20px 10px;
+}
+
+.header__diseases-wrapper {
+  max-width: 1055px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.header__disease {
+  border: none;
+  border-radius: 5px;
+  background-color: #ffffff;
+  padding: 6px 10px 8px 10px;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Raleway";
+  line-height: 16.44px;
+  color: #4f4f4f;
+  cursor: pointer;
+}
+
+.header__disease:hover {
+  background-color: #e5e4e4;
+}
+
+.header__disease:active {
+  transform: scale(0.98);
+}
+
+.header__disease-blue {
+  background-color: #4bc1e9;
+  color: #ffffff;
+}
+
+.header__disease-blue:hover {
+  background-color: #42abcf;
+  color: #ffffff;
+}
+
+.header__disease-yellow {
+  background-color: #ff9e19;
+  color: #ffffff;
+}
+
+.header__disease-yellow:hover {
+  background-color: #e78f13;
+  color: #ffffff;
+}
+
+/* header stayle finish */
+main {
+  padding: 0 10px;
+}
+
+.main__link-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 32px 0 22px 0;
+}
+
+.main__img-text-link {
+  font-size: 14px;
+  line-height: 16.44px;
+  color: #2fd3ae;
+}
+
+.main__img-text-hidden {
+  font-size: 14px;
+  color: #bdbdbd;
+}
+
+.main__title {
+  font-weight: 700;
+  font-size: 36px;
+  color: #2e3a59;
+  margin: 0;
+}
+
+footer {
+  position: relative;
+  background: linear-gradient(269.93deg, #2fd3ae 0%, #011d71 100%);
+}
+
+.footer__form-wrapper {
+  width: 90%;
+  margin: 0 auto;
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgb(217, 217, 217);
+  display: flex;
+  flex-direction: column;
+  padding: 0 10px;
+  position: absolute;
+  top: -70px;
+  right: 0;
+  left: 0;
+}
+
+.footer__form-title {
+  max-width: 1150px;
+  width: 100%;
+  padding: 30px 0 0 0;
+  margin: 0 auto;
+}
+
+.footer__form {
+  max-width: 1150px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  padding: 20px 0;
+}
+
+.footer__form-name {
+  max-width: 375px;
+  width: 100%;
+  border-radius: 30px;
+  border: 1px solid #e7e9eb;
+  padding: 15px 0 15px 20px;
+}
+
+.footer__form-tel {
+  max-width: 375px;
+  width: 100%;
+  border-radius: 30px;
+  border: 1px solid #e7e9eb;
+  padding: 15px 0 15px 20px;
+}
+
+.footer__form-link {
+  color: #2fd3ae;
+}
+
+.footer__form-text {
+  max-width: 270px;
+  width: 100%;
+  font-weight: 400;
+  font-family: "Roboto";
+  font-size: 14px;
+  line-height: 16.8px;
+  color: #828282;
+}
+
+.footer__form-submit {
+  max-width: 242px;
+  border-radius: 50px;
+  border: none;
+  background: #2fd3ae;
+  box-shadow: 0px 40px 40px 0px rgba(0, 0, 0, 0.2);
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 16.44px;
+  font-weight: 700;
+  padding: 15px 58px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.footer__form-submit:hover {
+  background-color: #1daa89;
+}
+
+.footer__form-submit:active {
+  transform: scale(0.9);
+}
+
+.footer__wrappper {
+  display: flex;
+  justify-content: space-between;
+  padding: 100px 10px 0 10px;
+}
+
+.footer__logo-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__apteka-logo {
+  display: flex;
+  gap: 20px;
+}
+
+.footer__logo-text-wrapper p {
+  max-width: 159px;
+  width: 100%;
+  font-size: 12px;
+  line-height: 14.06px;
+  color: #ffffff;
+  font-family: "Roboto";
+}
+
+.footer__apteka-text {
+  display: flex;
+  flex-direction: column;
+  gap: 108px;
+}
+
+.footer__list {
+  list-style: none;
+}
+
+.footer__list li::before {
+  content: "-";
+  padding: 0 20px 0 0;
+  font-size: 25px;
+  color: #ffffff;
+}
+
+.footer__list a {
+  color: white;
+  text-decoration: none;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 30.8px;
+}
+
+.footer__contact-phone-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.footer__list-emial {
+  display: flex;
+  flex-direction: column;
+  gap: 49px;
+  color: white;
+}
+
+.footer__list-emial li {
+  list-style: none;
+}
+
+.footer__text {
+  max-width: 347px;
+  font-size: 14px;
+  line-height: 35.8px;
+  color: #ffffff;
+}
+
+.footer__list-text {
+  list-style: none;
+}
+
+ul {
+  padding: 0;
+}/*# sourceMappingURL=reviews.css.map */
