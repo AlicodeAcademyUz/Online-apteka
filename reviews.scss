@@ -296,6 +296,49 @@ i  {
     background-color: #2fd3ae;
     border-radius: 10px;
 }
+.tenth {
+    margin: -100px 50px;
+    position: absolute;
+    right: 0;
+    left: 0;
+    z-index: 1;
+  }
+  .tenth-form {
+    display: flex;
+    gap: 30px;
+    padding-left: 50px;
+  }
+  .tenth-form form {
+    width: 50%;
+  }
+  .tenth-form form input {
+    width: 50%;
+  }
+  footer {
+    background: linear-gradient(269.93deg, #2fd3ae 0%, #011d71 100%);
+    padding-top: 120px;
+  }
+  .footer-container {
+    display: flex;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    gap: 50px;
+    color: rgba(255, 255, 255, 1);
+    padding: 20px;
+    line-height: 25px;
+  }
+  .footer-container ul li {
+    padding-bottom: 5px;
+  }
+  .footer-container ul li a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 1);
+  }
+  .footer-container ul li,
+  .footer-container ul {
+    list-style: none;
+  }
 
   @media (max-width:1300px) {
     .header__contact-phone-text,
@@ -311,6 +354,22 @@ i  {
         padding: 10px 50px; 
         margin: 25px 0 150px;
     }
+    .tenth {
+        margin: -150px 50px;
+      }
+      .footer-container {
+        flex-wrap: wrap;
+        gap: 5px;
+        justify-content: center;
+      }
+      footer ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+      #footer-paragraph {
+        display: none;
+      }
   }
   @media (max-width:1000px) {
     .main-wrapper h2 {
@@ -327,7 +386,16 @@ i  {
     .main-navbar {
         flex-direction: column;
     }
-    
+    .tenth-form form {
+        flex-wrap: wrap;
+        width: 100%;
+      }
+      .tenth-form form input {
+        width: 100%;
+      }
+      .tenth-form {
+        flex-wrap: wrap;
+      }
   }
   @media (max-width:800px) {
     .header__contact-bars {
@@ -358,6 +426,15 @@ i  {
     .main-reviews__title p {
         float: left;
     }
+    .tenth-form {
+        justify-items: center;
+      }
+    footer {
+        padding-top: 150px;
+    }
+    .tenth {
+        margin: -150px 20px;
+      }
   }
   @media (max-width:645px) {
     .header__logo-wrapper  img {
@@ -381,6 +458,19 @@ i  {
     .header__diseases-wrapper {
       justify-content: flex-start;
       gap: 10px;
+    }
+    .tenth {
+        margin: -150px 20px;
+      }
+      .tenth-form {
+        display: flex;
+        gap: 30px;
+        padding-left: 0px;
+      }
+  }
+  @media (max-width:580px) {
+    footer {
+        padding-top: 222px;
     }
   }
   @media (max-width:460px) {
