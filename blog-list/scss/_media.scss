@@ -253,6 +253,7 @@
 @media screen and (max-width: 1347px) {
   .footer__wrappper {
     flex-direction: column;
+    align-items: flex-start;
   }
   .footer__apteka-text {
     gap: 20px;

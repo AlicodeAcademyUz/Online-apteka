@@ -429,11 +429,15 @@ main {
 .main__text-box {
   width: 100%;
   display: flex;
-  align-items: center;
   justify-content: space-between;
   background-color: #f7fafb;
   padding: 22px 20px;
   border-radius: 5px;
+}
+
+.main__box-menu-wrapper {
+  display: flex;
+  gap: 16px;
 }
 
 .main__box-text-wrapper {
@@ -677,6 +681,7 @@ footer {
 .footer__wrappper {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding: 100px 10px 0 10px;
 }
 
@@ -877,6 +882,54 @@ ul {
     display: none;
   }
 }
+@media screen and (max-width: 1102px) {
+  .main__text-box {
+    flex-direction: column;
+    gap: 16px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .main__box-text-wrapper {
+    flex-direction: column;
+    gap: 16px;
+  }
+}
+@media screen and (max-width: 763px) {
+  .main__box-text-wrapper {
+    flex-direction: column;
+    gap: 16px;
+  }
+  .main__text-p {
+    display: none;
+  }
+}
+@media screen and (max-width: 875px) {
+  .main__name-b {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+  }
+  .main__name {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+@media screen and (max-width: 780px) {
+  .main__text-wrapper {
+    flex-direction: column;
+  }
+  .main__star-wrapper {
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .main__form-button {
+    flex-direction: column;
+  }
+  .main__text-wrapper {
+    padding-bottom: 60px;
+  }
+}
 @media screen and (max-width: 1044px) {
   .footer__form {
     flex-direction: column;
@@ -885,6 +938,7 @@ ul {
 @media screen and (max-width: 1347px) {
   .footer__wrappper {
     flex-direction: column;
+    align-items: flex-start;
   }
   .footer__apteka-text {
     gap: 20px;
