@@ -1,10 +1,12 @@
 * {
   box-sizing: border-box;
 }
+
 .container {
   max-width: 1520px;
   margin: 0 auto;
 }
+
 p {
   margin: 0;
 }
@@ -12,6 +14,7 @@ p {
 .header__location {
   background-color: rgb(244, 244, 244);
 }
+
 .header__location-wrapper {
   width: 100%;
   display: flex;
@@ -70,6 +73,7 @@ p {
   gap: 10px;
   color: #828282;
 }
+
 .header__contact-wrapper {
   display: flex;
   align-items: center;
@@ -82,9 +86,11 @@ p {
   align-items: center;
   gap: 20px;
 }
+
 .header__contact-bars {
   display: none;
 }
+
 .header__contact-title {
   font-size: 22px;
   font-weight: 400;
@@ -150,12 +156,15 @@ p {
   font-family: "Raleway";
   color: #ffffff;
 }
+
 .header__apteka {
   background: linear-gradient(269.93deg, #2fd3ae 0%, #011d71 100%);
 }
+
 .header__container-phone {
   display: none;
 }
+
 .header__apteka-wrapper {
   display: flex;
   align-items: center;
@@ -180,11 +189,8 @@ p {
 }
 
 .header__diseases-wrapper {
-  max-width: 1055px;
   width: 100%;
   display: flex;
-  align-items: center;
-  justify-content: space-around;
 }
 
 .header__disease {
@@ -204,13 +210,16 @@ p {
   background-color: #4bc1e9;
   color: #ffffff;
 }
+
 .header__disease-yellow {
   background-color: #ff9e19;
   color: #ffffff;
 }
+
 .main-section {
-margin-top: 50px;
+  margin-top: 50px;
 }
+
 .main-container {
   display: flex;
   flex-direction: row;
@@ -218,34 +227,111 @@ margin-top: 50px;
   gap: 20px;
   justify-content: flex-start;
 }
+
 .main-container a {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 14px;
   font-weight: 400;
   line-height: 17px;
   color: #2FD3AE;
-
 }
+
 .main-title {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 36px;
   font-weight: 700;
   line-height: 42px;
   color: #394045;
 }
 
+i {
+  color: #F2C94C;
+}
 
-@media (max-width:1300px) {
+.main-wrapper {
+  display: flex;
+  gap: 20px;
+}
+
+.main-reviews {
+  border: 1px solid #E7E9EB;
+  box-shadow: rgba(0, 0, 0, 0.0509803922);
+}
+
+.main-reviews__title {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 30px;
+  justify-content: center;
+  gap: 30px;
+  width: auto;
+  background-color: #F7FAFB;
+}
+
+.main-reviews__title > div {
+  display: flex;
+  gap: 50px;
+}
+
+.main-reviews__stars {
+  padding: 40px 20px 60px;
+}
+
+.main-comments {
+  width: 100%;
+}
+
+.main-navbar {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  background-color: #F7FAFB;
+  padding: 20px;
+}
+
+.main-context {
+  margin-top: 20px;
+}
+
+.main-context > div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-context > div > div {
+  gap: 50px;
+}
+
+.fifth-form {
+  padding: 10px 200px;
+  margin: 25px 0 150px;
+}
+
+.fifth__container-phone {
+  height: 50px;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  background-color: #2fd3ae;
+  border-radius: 10px;
+}
+
+@media (max-width: 1300px) {
   .header__contact-phone-text,
   .header__contact-phone-wrapper:nth-child(3),
-  .header__apteka-icon img {
+  .header__apteka-icon img,
+  .main-navbar div:nth-child(4) {
     display: none;
   }
   .header__contact-catena-wrapper {
     gap: 10px;
   }
+  .fifth-form {
+    padding: 10px 50px;
+    margin: 25px 0 150px;
+  }
 }
-@media (max-width:1000px) {
+@media (max-width: 1000px) {
   .main-wrapper h2 {
     padding: 20px;
   }
@@ -257,8 +343,11 @@ margin-top: 50px;
   .header__diseases-wrapper > button:nth-child(8) {
     display: none;
   }
+  .main-navbar {
+    flex-direction: column;
+  }
 }
-@media (max-width:800px) {
+@media (max-width: 800px) {
   .header__contact-bars {
     display: block;
   }
@@ -281,9 +370,15 @@ margin-top: 50px;
     align-content: center;
     background-color: #2fd3ae;
   }
+  .main-wrapper {
+    flex-direction: column;
+  }
+  .main-reviews__title p {
+    float: left;
+  }
 }
-@media (max-width:645px) {
-  .header__logo-wrapper  img {
+@media (max-width: 645px) {
+  .header__logo-wrapper img {
     width: 30px;
   }
   .main-title {
@@ -306,3 +401,21 @@ margin-top: 50px;
     gap: 10px;
   }
 }
+@media (max-width: 460px) {
+  .main-navbar > div {
+    flex-wrap: wrap;
+  }
+  .main-navbar {
+    padding: 10px;
+  }
+  .main-context div div {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .fifth-form {
+    padding: 10px 20px;
+    margin: 25px 0 150px;
+  }
+}
+
+/*# sourceMappingURL=reviews.css.map */
