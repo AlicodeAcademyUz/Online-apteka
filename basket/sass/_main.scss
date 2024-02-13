@@ -92,6 +92,7 @@ main {
 .main__cards-text-p {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   gap: 20px;
   padding: 10px 0 0 0;
 }
@@ -123,8 +124,11 @@ main {
 }
 
 .main__cards-money {
+  width: 100%;
   display: flex;
   align-items: center;
+  justify-content: space-around;
+  padding: 0 10px;
 }
 
 .main__cards-money-text {
@@ -148,7 +152,43 @@ main {
   text-decoration: line-through;
 }
 
-//
+.main__cards-money-button {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 40px 0px #0b361d1a;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 18px;
+  color: #4f4f4f;
+}
+
+.main__card-minus {
+  position: absolute;
+  left: -10px;
+  border-radius: 50%;
+  border: none;
+  background-color: #dd8888;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.main__card-plus {
+  position: absolute;
+  right: -10px;
+  border: none;
+  border-radius: 50%;
+  background-color: #2fd3ae;
+  color: #ffffff;
+  cursor: pointer;
+}
+
 .main__order-wrapper {
   max-width: 358px;
   width: 100%;

@@ -139,6 +139,19 @@
     padding: 0 10px;
   }
 }
+@media screen and (max-width: 1290px) {
+  .main__cards-text-wrapper {
+    flex-direction: column;
+    padding: 0 10px;
+    align-items: flex-start;
+  }
+
+  .main__cards-money {
+    width: 100%;
+    justify-content: space-between;
+    padding-bottom: 20px;
+  }
+}
 @media screen and (max-width: 735px) {
   .main__cards-text-wrapper {
     flex-direction: column;
