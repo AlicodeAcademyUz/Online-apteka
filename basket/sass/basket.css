@@ -314,6 +314,11 @@ main {
   color: #2fd3ae;
 }
 
+.main__img-text-hidden {
+  font-size: 14px;
+  color: #bdbdbd;
+}
+
 .main__basket-home {
   width: 100%;
   display: flex;
@@ -521,7 +526,7 @@ main {
 
 .main__order-serch-wrapper {
   position: relative;
-  padding-bottom: 16px;
+  padding: 0 10px 16px 0;
   border-radius: 0 0 5px 5px;
 }
 
@@ -617,8 +622,9 @@ main {
 }
 
 .main__cards-biblateka-wrapper {
-  display: flex;
-  justify-content: space-around;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 8px;
   padding-bottom: 151px;
 }
 
@@ -943,6 +949,71 @@ ul {
 @media screen and (max-width: 400px) {
   .header__disease:nth-child(8) {
     display: none;
+  }
+}
+@media screen and (max-width: 380px) {
+  .main__basket-title-wrapper {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .main__basket-title-wrapper h1 {
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .main__katolog-cards-box {
+    flex-direction: column;
+  }
+  .main__cards-text-wrapper {
+    padding: 0 10px;
+  }
+}
+@media screen and (max-width: 735px) {
+  .main__cards-text-wrapper {
+    flex-direction: column;
+    padding: 0 10px;
+    align-items: flex-start;
+  }
+  .main__basket-home {
+    flex-direction: column;
+    gap: 0;
+  }
+  .main__order-wrapper {
+    max-width: 100%;
+  }
+  .main__order-serch {
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 1455px) {
+  .main__help-cards-box:nth-child(5) {
+    display: none;
+  }
+}
+@media screen and (max-width: 1190px) {
+  .main__help-cards-box:nth-child(4) {
+    display: none;
+  }
+  .main__help-cards-box {
+    max-width: 100%;
+  }
+  .main__help-card-wrapper {
+    gap: 16px;
+  }
+}
+@media screen and (max-width: 915px) {
+  .main__help-cards-box:nth-child(3) {
+    display: none;
+  }
+}
+@media screen and (max-width: 620px) {
+  .main__help-cards-box:nth-child(2) {
+    display: none;
+  }
+}
+@media screen and (max-width: 710px) {
+  .main__cards-biblateka-wrapper {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 @media screen and (max-width: 1044px) {

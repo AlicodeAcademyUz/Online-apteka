@@ -122,6 +122,72 @@
 }
 
 // main
+@media screen and (max-width: 380px) {
+  .main__basket-title-wrapper {
+    flex-direction: column;
+    align-items: flex-start;
+    h1 {
+      font-size: 18px;
+    }
+  }
+}
+@media screen and (max-width: 1050px) {
+  .main__katolog-cards-box {
+    flex-direction: column;
+  }
+  .main__cards-text-wrapper {
+    padding: 0 10px;
+  }
+}
+@media screen and (max-width: 735px) {
+  .main__cards-text-wrapper {
+    flex-direction: column;
+    padding: 0 10px;
+    align-items: flex-start;
+  }
+  .main__basket-home {
+    flex-direction: column;
+    gap: 0;
+  }
+  .main__order-wrapper {
+    max-width: 100%;
+  }
+  .main__order-serch {
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 1455px) {
+  .main__help-cards-box:nth-child(5) {
+    display: none;
+  }
+}
+@media screen and (max-width: 1190px) {
+  .main__help-cards-box:nth-child(4) {
+    display: none;
+  }
+  .main__help-cards-box {
+    max-width: 100%;
+  }
+  .main__help-card-wrapper {
+    gap: 16px;
+  }
+}
+@media screen and (max-width: 915px) {
+  .main__help-cards-box:nth-child(3) {
+    display: none;
+  }
+}
+@media screen and (max-width: 620px) {
+  .main__help-cards-box:nth-child(2) {
+    display: none;
+  }
+}
+@media screen and (max-width: 710px) {
+  .main__cards-biblateka-wrapper {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
 
 // main
 
