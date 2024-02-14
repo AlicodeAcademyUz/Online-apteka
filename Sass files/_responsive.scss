@@ -1,0 +1,123 @@
+@media (max-width:1300px) {
+    .header__contact-phone-text,
+    .header__contact-phone-wrapper:nth-child(3),
+    .header__apteka-icon img {
+      display: none;
+    }
+    .header__contact-catena-wrapper {
+      gap: 10px;
+    }
+    .tenth {
+        margin: -150px 50px;
+      }
+      .footer-container {
+        flex-wrap: wrap;
+        gap: 5px;
+        justify-content: center;
+      }
+      footer ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+      #footer-paragraph {
+        display: none;
+      }
+  }
+  @media (max-width:1000px) {
+    .header__apteka-icon:nth-child(7),
+    .header__apteka-icon:nth-child(8),
+    .header__apteka-icon:nth-child(9),
+    .header__diseases-wrapper > button:nth-child(6),
+    .header__diseases-wrapper > button:nth-child(7),
+    .header__diseases-wrapper > button:nth-child(8) {
+      display: none;
+    }
+    .tenth-form form {
+        flex-wrap: wrap;
+        width: 100%;
+      }
+      .tenth-form form input {
+        width: 100%;
+      }
+      .tenth-form {
+        flex-wrap: wrap;
+      }
+  }
+  @media (max-width:800px) {
+    .header__contact-bars {
+      display: block;
+    }
+    .header__contact-web-wrapper,
+    .header__contact-catena-wrapper,
+    .header__contact-market > img:nth-child(1),
+    .header__contact-market > button,
+    .header__location-img,
+    .header__location-kabinet-wrapper,
+    .header__apteka-wrapper {
+      display: none;
+    }
+    .header__container-phone > img {
+      padding: 18px;
+    }
+    .header__container-phone {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-content: center;
+      background-color: #2fd3ae;
+    }
+    .main-wrapper {
+        flex-direction: column;
+    }
+    .main-reviews__title p {
+        float: left;
+    }
+    .tenth-form {
+        justify-items: center;
+      }
+    footer {
+        padding-top: 150px;
+    }
+    .tenth {
+        margin: -150px 20px;
+      }
+  }
+  @media (max-width:645px) {
+    .header__logo-wrapper  img {
+      width: 30px;
+    }
+    .main-title {
+      font-size: 30px;
+      font-weight: 700;
+    }
+    .header__diseases-wrapper button:nth-child(3),
+    .header__diseases-wrapper button:nth-child(4),
+    .header__diseases-wrapper button:nth-child(5) {
+      display: none;
+    }
+    .header__location-mockva-wrapper {
+      gap: 20px;
+    }
+    .header__contact-title {
+      font-size: 20px;
+    }
+    .header__diseases-wrapper {
+      justify-content: flex-start;
+      gap: 10px;
+    }
+    .tenth {
+        margin: -150px 20px;
+      }
+      .tenth-form {
+        display: flex;
+        gap: 30px;
+        padding-left: 0px;
+      }
+  }
+  @media (max-width:580px) {
+    footer {
+        padding-top: 222px;
+    }
+  }
+

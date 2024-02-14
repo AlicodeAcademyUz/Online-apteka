@@ -1,0 +1,37 @@
+@mixin font($font-size, $font-weight, $color) {
+    font-size: $font-size;
+    font-weight: $font-weight;
+    color: $color;
+    font-family: 'Roboto', sans-serif;
+    line-height: 28px;
+}
+
+@mixin flex($flex-direction, $gap) {
+    display: flex;
+    flex-direction: $flex-direction;
+    flex-wrap: wrap;
+    gap: $gap;
+}
+
+.main-wrapper {
+    @include flex(row, 20px);
+    div {
+
+    & > .main-text {
+        @include flex(row, 0);
+        align-content: center;
+        p {
+            @include font(18px, 600, #394045)
+        }
+    }
+    }
+}
+.main-socials {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #F7FAFB;
+}

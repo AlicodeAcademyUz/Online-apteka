@@ -1,0 +1,43 @@
+.tenth {
+    margin: -80px 50px;
+    position: absolute;
+    right: 0;
+    left: 0;
+    z-index: 1;
+  }
+  .tenth-form {
+    display: flex;
+    gap: 30px;
+    padding-left: 50px;
+  }
+  .tenth-form form {
+    width: 50%;
+  }
+  .tenth-form form input {
+    width: 50%;
+  }
+  footer {
+    background: linear-gradient(269.93deg, #2fd3ae 0%, #011d71 100%);
+    padding-top: 120px;
+  }
+  .footer-container {
+    display: flex;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    gap: 50px;
+    color: rgba(255, 255, 255, 1);
+    padding: 20px;
+    line-height: 25px;
+  }
+  .footer-container ul li {
+    padding-bottom: 5px;
+  }
+  .footer-container ul li a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 1);
+  }
+  .footer-container ul li,
+  .footer-container ul {
+    list-style: none;
+  }
