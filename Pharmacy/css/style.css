@@ -1,0 +1,301 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Raleway", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+
+button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.container {
+  max-width: 1520px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.top-header {
+  padding: 10px 20px;
+  background-color: #f1f1f1;
+}
+.top-header__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.top-header__left-flex {
+  display: flex;
+  align-items: center;
+  gap: 100px;
+}
+.top-header__right-flex {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+.top-header__links {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+
+@media (max-width: 1583px) {
+  .category9 {
+    display: none;
+  }
+  .bottom-header__wrapper {
+    gap: 0;
+    justify-content: space-between;
+  }
+}
+@media (max-width: 1547px) {
+  .alphabet-wrapper > span {
+    display: none;
+  }
+}
+@media (max-width: 1540px) {
+  .blogs-wrapper > div:last-child {
+    display: none;
+  }
+  .blog-title,
+  .blog-info {
+    max-width: 368px;
+  }
+}
+@media (max-width: 1492px) {
+  .bottom-header__wrapper > div:last-child {
+    display: none;
+  }
+}
+@media (max-width: 1466px) {
+  .contact2,
+  .contact3 {
+    display: none;
+  }
+  .middle-header__wrapper {
+    gap: 0;
+    justify-content: space-between;
+  }
+}
+@media (max-width: 1423px) {
+  .column4 {
+    display: none;
+  }
+}
+@media (max-width: 1300px) {
+  .card3 {
+    display: none;
+  }
+}
+@media (max-width: 1293px) {
+  .alphabet div {
+    line-height: 35px;
+  }
+}
+@media (max-width: 1212px) {
+  .category8 {
+    display: none;
+  }
+}
+@media (max-width: 1175px) {
+  .sub-header__wrapper a:last-child {
+    display: none;
+  }
+  .sub-header__wrapper {
+    gap: 0;
+    justify-content: space-between;
+  }
+}
+@media (max-width: 1170px) {
+  .blog2 {
+    display: none !important;
+  }
+}
+@media (max-width: 1145px) {
+  .any-questions__wrapper > span {
+    display: none;
+  }
+  .any-questions__wrapper input {
+    width: 100%;
+  }
+  .footer-inputs {
+    flex-direction: column;
+  }
+  .footer-inputs input {
+    width: 258px;
+  }
+  .ask-question {
+    padding: 12px 70px;
+    font-size: 18px;
+  }
+}
+@media (max-width: 1145px) {
+  .any-questions {
+    top: -297px;
+  }
+}
+@media (max-width: 1020px) {
+  .social-media {
+    display: none;
+  }
+  .joints {
+    display: none;
+  }
+}
+@media (max-width: 1010px) {
+  .column2 {
+    display: none;
+  }
+}
+@media (max-width: 1006px) {
+  .category7 {
+    display: none;
+  }
+}
+@media (max-width: 956px) {
+  .card2 {
+    display: none;
+  }
+}
+@media (max-width: 922px) {
+  .milk {
+    display: none;
+  }
+}
+@media (max-width: 870px) {
+  .top-header__right-flex {
+    display: none;
+  }
+  .top-header__left-flex {
+    width: 100%;
+    gap: 0;
+    justify-content: space-between;
+  }
+}
+@media (max-width: 858px) {
+  .category6 {
+    display: none;
+  }
+}
+@media (max-width: 835px) {
+  .contacts-wrapper {
+    display: none;
+  }
+}
+@media (max-width: 798px) {
+  .blog1 {
+    display: none !important;
+  }
+}
+@media (max-width: 795px) {
+  .organ {
+    display: none;
+  }
+}
+@media (max-width: 733px) {
+  .column3 {
+    display: none;
+  }
+}
+@media (max-width: 687px) {
+  .category5 {
+    display: none;
+  }
+  .makeup {
+    display: none;
+  }
+}
+@media (max-width: 670px) {
+  .ask-question {
+    display: none;
+  }
+  .any-questions {
+    padding: 40px 55px;
+  }
+}
+@media (max-width: 630px) {
+  .call-button {
+    display: none;
+  }
+}
+@media (max-width: 625px) {
+  .card1 {
+    display: none;
+  }
+}
+@media (max-width: 593px) {
+  .category4 {
+    display: none;
+  }
+}
+@media (max-width: 481px) {
+  .allergy {
+    display: none;
+  }
+}
+@media (max-width: 468px) {
+  .column1 {
+    display: none;
+  }
+  .footer-column {
+    gap: 100px;
+  }
+}
+@media (max-width: 460px) {
+  .category3 {
+    display: none;
+  }
+}
+@media (max-width: 455px) {
+  .top-header__left-flex div:first-child {
+    display: none;
+  }
+}
+@media (max-width: 421px) {
+  .any-questions {
+    display: none;
+  }
+  footer {
+    padding: 70px 20px 70px 20px;
+  }
+}
+@media (max-width: 410px) {
+  .search a:last-child {
+    display: none;
+  }
+}
+@media (max-width: 400px) {
+  .blogs-wrapper img {
+    width: 314px;
+  }
+}
+@media (max-width: 383px) {
+  .alphabetical-search-title {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+@media (max-width: 373px) {
+  .covid {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

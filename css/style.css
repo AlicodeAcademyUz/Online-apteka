@@ -1,0 +1,30 @@
+.flex-box, .wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+.text {
+  color: grey;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 800;
+}
+
+.title {
+  color: grey;
+  font-size: 25px;
+  line-height: 32px;
+  font-weight: 800;
+}
+
+.wrapper {
+  color: red;
+}
+
+@media screen {
+  .header {
+    color: coral;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

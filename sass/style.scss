@@ -1,0 +1,31 @@
+$peru: peru;
+// @import "_mixins.scss";
+// @import "_header.scss";
+
+@mixin textStyles($fontSize, $lineheight) {
+  color: grey;
+  font-size: $fontSize;
+  line-height: $lineheight;
+  font-weight: 800;
+}
+
+.flex-box {
+  display: flex;
+  flex-direction: row;
+}
+
+.text {
+  @include textStyles(14px, 20px);
+}
+
+.title {
+  @include textStyles(25px, 32px);
+}
+
+
+.wrapper {
+  @extend .flex-box;
+  color: red;
+}
+
+@import "_media-queries.scss";

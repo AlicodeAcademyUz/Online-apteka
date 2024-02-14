@@ -445,8 +445,6 @@ footer a {
   gap: 15px;
 }
 
-@media (max-width: px) {
-}
 @media (max-width: 1583px) {
   .category9 {
     display: none;

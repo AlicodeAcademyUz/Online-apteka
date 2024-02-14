@@ -1,0 +1,34 @@
+@import "_variables.scss";
+@import "_reset.scss";
+
+.top-header {
+  padding: 10px 20px;
+  background-color: $light-gray;
+
+  &__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__left-flex {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+  }
+
+  &__right-flex {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+  }
+
+  &__links {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+  }
+}
+
+@import "_media-queries.scss";
