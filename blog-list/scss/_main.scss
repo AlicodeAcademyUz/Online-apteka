@@ -49,7 +49,6 @@
   font-size: 48px;
   font-weight: 700;
   line-height: 56.35px;
-  padding: 0 10px;
   color: #ffffff;
 }
 
@@ -65,7 +64,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 10px;
+
   margin-bottom: 52px;
 }
 
@@ -164,11 +163,9 @@
   font-size: 18px;
   font-weight: 700;
   font-weight: "Roboto";
-  padding-bottom: 20px;
 }
 
 .main__list-box {
-  margin: 0 10px 0 20px;
   line-height: 40px;
 
   li {
@@ -181,7 +178,6 @@
   font-size: 40px;
   font-weight: 700;
   color: #333333;
-  padding: 0 10px;
 }
 
 .main__text-box {
@@ -190,7 +186,7 @@
   display: flex;
   flex-direction: column;
   gap: 38px;
-  padding: 30px 10px 30px 10px;
+  padding: 30px 0 30px 0;
 
   p {
     font-size: 18px;
@@ -226,7 +222,6 @@
   font-size: 18px;
   line-height: 30px;
   color: #828282;
-  padding: 0 10px;
 }
 
 .main__cost-wrapper {
@@ -237,13 +232,11 @@
   font-weight: 700;
   font-size: 36px;
   color: #333333;
-  padding: 0 10px;
 }
 
 .main__cost {
   display: flex;
   gap: 30px;
-  padding: 0 10px;
 }
 
 .main__cost-box {
@@ -365,18 +358,16 @@
   font-size: 36px;
   font-weight: 700;
   color: #333333;
-  padding: 0 10px;
 }
 
 .main__heading-text {
   font-size: 18px;
   line-height: 30px;
   color: #828282;
-  padding: 0 10px;
 }
 
 ol {
-  padding: 0 10px 0 25px;
+  padding: 0 10px 0 15px;
 
   li {
     font-size: 18px;
@@ -390,7 +381,6 @@ ol {
   font-weight: 700;
   font-size: 30px;
   color: #333333;
-  padding: 0 10px;
 }
 
 .main__about {
@@ -403,7 +393,6 @@ ol {
   font-size: 18px;
   line-height: 30px;
   color: #828282;
-  padding: 0 10px;
 }
 
 .main__about-box {
@@ -430,6 +419,7 @@ th {
 table {
   width: 100%;
   border-collapse: collapse;
+  border-spacing: 0;
 }
 th {
   text-align: left;
@@ -483,14 +473,13 @@ th {
   font-weight: 700;
   font-size: 24px;
   color: #333333;
-  padding: 0 10px;
 }
 
 .main__heading5-text {
   font-size: 18px;
   line-height: 30px;
   color: #828282;
-  padding: 0 10px 30px 10px;
+  padding: 0 0 30px 0;
 }
 
 .main__img-text {
@@ -513,7 +502,7 @@ th {
 }
 
 .main__heading5-list {
-  padding: 0 0 0 10px;
+  padding: 0 0 0 17px;
   li {
     font-size: 18px;
     line-height: 30px;
@@ -527,7 +516,6 @@ th {
   font-weight: 700;
   font-size: 20px;
   color: #333333;
-  padding: 0 10px;
 }
 
 .main__heading6-img-text {
@@ -641,7 +629,7 @@ th {
     list-style: none;
     font-size: 18px;
     color: #333333;
-    padding: 10px 10px;
+    padding: 10px 0px;
     display: flex;
   }
   img {

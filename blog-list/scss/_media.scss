@@ -22,6 +22,16 @@
     display: flex;
   }
 }
+@media screen and (max-width: 700px) {
+  .main__table-wrapper {
+    width: 100%;
+    overflow-x: scroll;
+  }
+  table {
+    width: 800px;
+  }
+}
+
 @media screen and (max-width: 665px) {
   .header__mobile-serch {
     display: none;
@@ -219,7 +229,6 @@
     flex-direction: column;
     img {
       width: 100%;
-      padding: 0 10px;
     }
   }
 }
