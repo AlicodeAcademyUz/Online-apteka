@@ -1,0 +1,184 @@
+.alphabetical-search {
+  padding: 30px 20px;
+}
+
+.page-selection {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: $gray;
+}
+
+.main-page {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.alphabetical-search-title {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+
+  & h2 {
+    font-size: 36px;
+  }
+
+  & a {
+    color: $green;
+    font-size: 18px;
+  }
+}
+
+.alphabet-wrapper {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+
+  & > span {
+    margin: 0;
+    padding: 0;
+    color: #47d7ac34;
+    font-size: 144px;
+    font-weight: 800;
+  }
+}
+
+.alphabet {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  text-transform: uppercase;
+  font-weight: 600;
+
+  div {
+    display: flex;
+    align-items: center;
+    color: $gray;
+    letter-spacing: 11px;
+    cursor: pointer;
+  }
+}
+
+.knowledge-base {
+  margin-top: 90px;
+  padding: 0 20px;
+
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+  }
+  &__wrapper2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+  }
+}
+
+.medicine {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  color: $gray;
+}
+
+.bold {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: black;
+}
+
+.medicine-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.medicine-wrapper2 {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.medicine-wrapper2 > div {
+  background-color: #f7fafb;
+  border-radius: 10px;
+  padding: 35px 30px;
+}
+
+.media-card3,
+.media-card2,
+.media-card1 {
+  display: none;
+}
+
+.health-blog {
+  margin-top: 70px;
+  padding: 0 20px;
+
+  &__title {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+
+  &__title h2 {
+    font-size: 36px;
+  }
+
+  &__title span {
+    color: $green;
+  }
+}
+
+.blogs-wrapper {
+  display: flex;
+  justify-content: space-between;
+
+  & div {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+  }
+
+  & img {
+    border-radius: 5px;
+  }
+
+  &2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  &2 div {
+    margin-top: 40px;
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+  }
+
+  &2 img {
+    border-radius: 5px;
+  }
+}
+
+.blog-title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.blog-info {
+  color: $gray;
+  line-height: 30px;
+}

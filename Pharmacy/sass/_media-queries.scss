@@ -18,6 +18,9 @@
   .blogs-wrapper > div:last-child {
     display: none;
   }
+  .blogs-wrapper2 > div:last-child {
+    display: flex;
+  }
 
   .blog-title,
   .blog-info {
@@ -42,13 +45,20 @@
 }
 
 @media (max-width: 1423px) {
-  .column4 {
+  .footer-wrapper .column4 {
     display: none;
+  }
+  .media-column4 {
+    display: flex !important;
   }
 }
 @media (max-width: 1300px) {
   .card3 {
     display: none;
+  }
+
+  .media-card3 {
+    display: flex;
   }
 }
 @media (max-width: 1293px) {
@@ -75,14 +85,27 @@
   .blog2 {
     display: none !important;
   }
+
+  .media-blog2 {
+    display: flex !important;
+  }
 }
 @media (max-width: 1145px) {
-  .any-questions__wrapper > span {
-    display: none;
+  .any-questions__wrapper {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  footer {
+    padding: 205px 20px 70px 20px;
+    margin-top: 222px;
   }
 
   .any-questions__wrapper input {
     width: 100%;
+  }
+  .any-questions__wrapper span {
+    max-width: 300px;
   }
 
   .footer-inputs {
@@ -101,7 +124,7 @@
 
 @media (max-width: 1145px) {
   .any-questions {
-    top: -297px;
+    top: -416px;
   }
 }
 
@@ -115,8 +138,13 @@
   }
 }
 @media (max-width: 1010px) {
-  .column2 {
+  .footer-wrapper .column3 {
     display: none;
+  }
+
+  .media-column3 {
+    display: flex !important;
+    gap: 30px;
   }
 }
 @media (max-width: 1006px) {
@@ -128,6 +156,10 @@
   .card2 {
     display: none;
   }
+
+  .media-card2 {
+    display: flex;
+  }
 }
 @media (max-width: 922px) {
   .milk {
@@ -135,13 +167,14 @@
   }
 }
 @media (max-width: 870px) {
-  .top-header__right-flex {
+  .top-header__right-flex,
+  .arrow-right {
     display: none;
   }
 
   .top-header__left-flex {
     width: 100%;
-    gap: 0;
+    gap: none;
     justify-content: space-between;
   }
 }
@@ -154,10 +187,29 @@
   .contacts-wrapper {
     display: none;
   }
+
+  .middle-header__wrapper .logo {
+    display: none;
+  }
+
+  .search .logo {
+    display: flex;
+  }
+
+  .call-button {
+    display: none;
+  }
+
+  .middle-header__wrapper {
+    justify-content: center;
+  }
 }
 @media (max-width: 798px) {
   .blog1 {
     display: none !important;
+  }
+  .media-blog1 {
+    display: flex !important;
   }
 }
 @media (max-width: 795px) {
@@ -166,8 +218,12 @@
   }
 }
 @media (max-width: 733px) {
-  .column3 {
+  .footer-wrapper .column2 {
     display: none;
+  }
+
+  .media-column2 {
+    display: flex !important;
   }
 }
 @media (max-width: 687px) {
@@ -180,22 +236,28 @@
   }
 }
 @media (max-width: 670px) {
-  .ask-question {
-    display: none;
+  .any-questions {
+    padding: 36px 27px;
+    left: 0;
   }
 
-  .any-questions {
-    padding: 40px 55px;
-  }
-}
-@media (max-width: 630px) {
-  .call-button {
-    display: none;
+  .knowledge-base__wrapper {
+    margin-bottom: 40px;
   }
 }
 @media (max-width: 625px) {
   .card1 {
     display: none;
+  }
+
+  .media-card1 {
+    display: flex;
+  }
+
+  .medicine {
+    background-color: #f7fafb;
+    border-radius: 10px;
+    padding: 35px 53px;
   }
 }
 @media (max-width: 593px) {
@@ -209,41 +271,35 @@
   }
 }
 @media (max-width: 468px) {
-  .column1 {
+  .footer-wrapper .column1 {
     display: none;
   }
 
-  .footer-column {
-    gap: 100px;
+.footer-wrapper .footer-column {
+  display: none;
+}
+
+  .media-column1,
+  .footer-media-logo {
+    display: flex !important;
   }
+
 }
 @media (max-width: 460px) {
   .category3 {
     display: none;
   }
 }
-@media (max-width: 455px) {
-  .top-header__left-flex div:first-child {
-    display: none;
-  }
-}
 @media (max-width: 421px) {
-  .any-questions {
-    display: none;
-  }
-
   footer {
     padding: 70px 20px 70px 20px;
   }
 }
-
-@media (max-width: 410px) {
-  .search a:last-child {
-    display: none;
-  }
-}
 @media (max-width: 400px) {
   .blogs-wrapper img {
+    width: 314px;
+  }
+  .blogs-wrapper2 img {
     width: 314px;
   }
 }
@@ -251,6 +307,10 @@
   .alphabetical-search-title {
     flex-direction: column;
     align-items: flex-start;
+  }
+
+  .alphabetical-search-title > h2 {
+    font-size: 32px;
   }
 }
 @media (max-width: 373px) {
