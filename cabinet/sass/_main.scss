@@ -1,0 +1,366 @@
+@mixin textstayle($font-size, $font-weight, $font-family, $color) {
+  font-family: $font-family;
+  font-weight: $font-weight;
+  font-size: $font-size;
+  color: $color;
+}
+
+@mixin inputstayle($border, $border-radius, $outline, $padding) {
+  border: $border;
+  border-radius: $border-radius;
+  outline: $outline;
+  padding: $padding;
+}
+
+.main__link-wrapper {
+  display: flex;
+  gap: 10px;
+  padding: 32px 0 10px 0;
+}
+
+.main__img-text-link {
+  @include textstayle(14px, 400, Roboto, #2fd3ae);
+}
+
+.main__img-text {
+  @include textstayle(14px, 400, Roboto, #bdbdbd);
+}
+.main__img-text-hidden {
+  @include textstayle(14px, 400, Roboto, #bdbdbd);
+  display: none;
+}
+
+.main__cabinet-title {
+  @include textstayle(36px, 700, Releway, #2e3a59);
+  padding-bottom: 40px;
+}
+
+.main__cabinet-text-wrapper {
+  display: flex;
+  gap: 30px;
+  padding-bottom: 157px;
+}
+
+.main__cabinet-text-box {
+  max-width: 358px;
+  width: 100%;
+  height: 168px;
+  border-radius: 5px;
+  border: 1px solid #e7e9eb;
+}
+
+.main__cabinet-text {
+  @include textstayle(14px, 700, Roboto, #4f4f4f);
+  padding: 19.3px 20px 19.3px 20px;
+}
+.main__text-bc {
+  background: #f7fafb;
+}
+
+.main__cabinet-form-wrapper {
+  max-width: 745px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+}
+
+.main__cabinet-home-form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 30px;
+  align-items: flex-start;
+}
+
+.main__form-home-title {
+  @include textstayle(24px, 700, Raleway, #2e3a59);
+}
+
+.main__form-data-title {
+  @include textstayle(12px, 700, Roboto, #828282);
+  padding: 0 0 17px 0;
+}
+
+.main__form-full-name {
+  @include inputstayle(1px solid #c7cfe3, 30px, none, 17px 10px 17px 20px);
+  width: 100%;
+  @include textstayle(14px, 400, Roboto, #828282);
+}
+
+.main__form-home-wrapper {
+  width: 100%;
+}
+
+.main__form-data-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.main__form-number {
+  @include inputstayle(1px solid #c7cfe3, 30px, none, 17px 10px 17px 20px);
+  max-width: 99px;
+  width: 100%;
+  @include textstayle(14px, 400, Roboto, #828282);
+}
+
+.main__form-month {
+  @include inputstayle(1px solid #c7cfe3, 30px, none, 17px 10px 17px 20px);
+  max-width: 228px;
+  width: 100%;
+  @include textstayle(14px, 400, Roboto, #828282);
+}
+
+.main__form-data {
+  @include inputstayle(1px solid #c7cfe3, 30px, none, 17px 10px 17px 20px);
+  max-width: 99px;
+  width: 100%;
+  @include textstayle(14px, 400, Roboto, #828282);
+}
+
+.main__form-gender {
+  @include inputstayle(1px solid #c7cfe3, 30px, none, 17px 10px 17px 20px);
+  max-width: 229px;
+  width: 100%;
+  @include textstayle(14px, 400, Roboto, #828282);
+}
+
+.main__form-style-similar {
+  @include inputstayle(1px solid #c7cfe3, 30px, none, 17px 10px 17px 20px);
+  width: 100%;
+  @include textstayle(14px, 400, Roboto, #828282);
+}
+
+.main__form-button {
+  max-width: 228px;
+  width: 100%;
+  background-color: #2fd3ae;
+  cursor: pointer;
+  @include inputstayle(none, 50px, none, 17px 0);
+  @include textstayle(14px, 700, Raleway, #ffffff);
+}
+.main__form-button:hover {
+  background-color: #26b191;
+}
+.main__form-button:active {
+  transform: scale(0.98);
+}
+
+.main__cards-title {
+  @include textstayle(24px, 700, Raleway, #2e3a59);
+  padding: 0 0 30px 0;
+}
+
+.main__cards-wrapper {
+  width: 100%;
+  border-radius: 20px;
+  box-shadow: 0px 10px 40px 0px #0b361d0d;
+  padding: 40px;
+}
+
+.main__cards-p {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main__data-wrapper {
+  display: flex;
+  gap: 43px;
+}
+
+.main__card-data {
+  @include textstayle(14px, 700, Roboto, #828282);
+}
+
+.main__card-order {
+  @include textstayle(14px, 400, Roboto, #828282);
+}
+
+.main__card-complete {
+  @include textstayle(14px, 700, Roboto, #2fd3ae);
+}
+
+.main__cards-home {
+  width: 100%;
+}
+
+.main__card-img-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.main_card-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+
+.main__box-img-wrapper {
+  max-width: 99px;
+  width: 100%;
+  height: 57px;
+  background-color: #f7fafb;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  img {
+    width: 100%;
+  }
+}
+
+.main__card-all-something {
+  @include textstayle(14px, 400, Roboto, #525a68);
+}
+
+.main__card-output {
+  @include textstayle(12px, 400, Roboto, #828282);
+}
+
+.main__card-cost-now {
+  @include textstayle(18px, 700, Roboto, #525a68);
+}
+
+.main__card-cost-ago {
+  @include textstayle(10px, 700, Roboto, #dd8888);
+  text-decoration: line-through;
+}
+
+.main__card-buttons-wrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+
+  padding-top: 40px;
+}
+
+.main__card-button1 {
+  max-width: 305px;
+  width: 100%;
+  border-radius: 50px;
+  border: none;
+  background-color: #2fd3ae;
+  padding: 17px 0;
+  cursor: pointer;
+  @include textstayle(14px, 700, Releway, #ffffff);
+}
+.main__card-button1:active {
+  transform: scale(0.98);
+}
+.main__card-button1:hover {
+  background-color: #31b596;
+}
+.main__card-button2 {
+  max-width: 305px;
+  width: 100%;
+  border-radius: 50px;
+  border: 2px solid #2fd3ae;
+  background-color: #ffffff;
+  padding: 17px 0;
+  cursor: pointer;
+  @include textstayle(14px, 700, Releway, #4f4f4f);
+}
+.main__card-button2:active {
+  transform: scale(0.98);
+}
+.main__card-button2:hover {
+  background-color: #f3f3f3;
+}
+
+.main__Feedback-home {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.main__Feedback-title {
+  @include textstayle(24px, 700, Releway, #2e3a59);
+}
+
+.main__form-box {
+  border-radius: 20px;
+  box-shadow: 0px 10px 40px 0px #0b361d0d;
+  padding: 40px;
+}
+
+.main__form-text1 {
+  @include textstayle(18px, 400, Roboto, #4f4f4f);
+  max-width: 665px;
+  width: 100%;
+  line-height: 24px;
+  padding-bottom: 20px;
+}
+
+.main__form-text2 {
+  @include textstayle(14px, 400, Roboto, #828282);
+  line-height: 24px;
+  padding-bottom: 25px;
+}
+
+.main__form-wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.main__form-temu {
+  @include inputstayle(1px solid #c7cfe3, 30px, none, 17px 10px 17px 20px);
+  width: 100%;
+  @include textstayle(14px, 400, Roboto, #828282);
+}
+
+.main__form-name-full {
+  @include inputstayle(1px solid #c7cfe3, 30px, none, 17px 10px 17px 20px);
+  width: 100%;
+  @include textstayle(14px, 400, Roboto, #828282);
+}
+
+.main__form-tell {
+  display: flex;
+  gap: 30px;
+  input {
+    @include inputstayle(1px solid #c7cfe3, 30px, none, 17px 10px 17px 20px);
+    width: 100%;
+    @include textstayle(14px, 400, Roboto, #828282);
+  }
+}
+
+.main__form-messeg {
+  @include inputstayle(1px solid #c7cfe3, 30px, none, 17px 10px 17px 20px);
+  width: 100%;
+  @include textstayle(14px, 400, Roboto, #828282);
+}
+
+.main__submit {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  padding-top: 16px;
+}
+
+.main__submit-link {
+  @include inputstayle(none, 50px, none, 17px 10px 17px 20px);
+  @include textstayle(14px, 400, Roboto, #ffffff);
+  max-width: 200px;
+  width: 100%;
+  background-color: #2fd3ae;
+  box-shadow: 0px 40px 40px 0px #71c47633;
+}
+
+.main__submit-text {
+  @include textstayle(12px, 400, Roboto, #828282);
+  max-width: 330px;
+  width: 100%;
+  line-height: 14.06px;
+
+  a {
+    text-decoration: underline;
+    color: #2fd3ae;
+  }
+}

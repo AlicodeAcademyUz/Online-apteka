@@ -1,5 +1,11 @@
 body,
-p {
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin: 0;
 }
 * {
@@ -14,6 +20,7 @@ a {
 .container {
   max-width: 1520px;
   margin: 0 auto;
+  padding: 0 10px;
 }
 
 /* header locatin stayle start */
@@ -27,7 +34,7 @@ a {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 8px 10px;
+  padding: 8px 0px;
 }
 
 .header__location-mockva-wrapper {
@@ -100,7 +107,7 @@ a {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 28px 10px 29px 10px;
+  padding: 28px 0px 29px 0px;
 }
 
 .header__mobile-bars {
@@ -216,7 +223,7 @@ a {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  padding: 25px 10px 24px 10px;
+  padding: 25px 0px 24px 0px;
 }
 
 .header__apteka-icon {
@@ -246,7 +253,7 @@ a {
 
 .header__diseasess {
   background-color: #f7fafb;
-  padding: 20px 10px;
+  padding: 20px 0px;
 }
 
 .header__diseases-wrapper {
@@ -254,7 +261,7 @@ a {
   width: 100%;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .header__disease {

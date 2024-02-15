@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>basket</title>
+    <title>cabinet</title>
     <link rel="stylesheet" href="./sass/cabinet.css" />
     <link
       rel="stylesheet"
@@ -276,12 +276,211 @@
             src="./img/main-chevron_duo_right.svg"
             alt="here is chevron right a picture"
           />
-          <a class="main__img-text-hidden">Корзина </a>
+          <a href="#" class="main__img-text">Личный кабинет </a>
+          <a href="#" class="main__img-text-hidden">Поиск по алфавиту </a>
+        </div>
+        <h1 class="main__cabinet-title">Личный кабинет</h1>
+        <div class="main__cabinet-text-wrapper">
+          <!--  -->
+          <div class="main__cabinet-text-box">
+            <p class="main__cabinet-text">Личные данные</p>
+            <p class="main__cabinet-text main__text-bc">Ваши заказы</p>
+            <p class="main__cabinet-text">Обратная связь</p>
+          </div>
+          <div class="main__cabinet-form-wrapper">
+            <div class="main__cabinet-home-form">
+              <h3 class="main__form-home-title">Личный кабинет</h3>
+              <input
+                class="main__form-full-name"
+                type="text"
+                placeholder="Укажите фамилию, имя и отчество"
+              />
+              <div class="main__form-home-wrapper">
+                <h5 class="main__form-data-title">Дата рождения</h5>
+                <div class="main__form-data-wrapper">
+                  <input class="main__form-number" type="number" value="1" />
+                  <input class="main__form-month" type="month" value="Январь" />
+                  <input
+                    class="main__form-data"
+                    type="date"
+                    placeholder="Год"
+                  />
+                  <select class="main__form-gender" name="gender" id="gender">
+                    <option value="">male</option>
+                    <option value="">female</option>
+                    <option value="">other</option>
+                  </select>
+                </div>
+              </div>
+              <input
+                class="main__form-style-similar"
+                type="email"
+                placeholder="Электронная почта"
+              />
+              <input
+                class="main__form-style-similar"
+                type="tel"
+                placeholder="Телефон"
+              />
+              <input
+                class="main__form-style-similar"
+                type="password"
+                placeholder="Новый пароль"
+              />
+              <input
+                class="main__form-style-similar"
+                type="password"
+                placeholder="Подтверждение"
+              />
+              <input
+                class="main__form-button"
+                type="submit"
+                value="Сохранить"
+              />
+            </div>
+
+            <div class="main__cards-home">
+              <h3 class="main__cards-title">Ваши заказы</h3>
+              <div class="main__cards-wrapper">
+                <div class="main__cards-p">
+                  <div class="main__data-wrapper">
+                    <p class="main__card-data">16.12.2021</p>
+                    <p class="main__card-order">Заказ №:154544516</p>
+                  </div>
+                  <p class="main__card-complete">Выполнен</p>
+                </div>
+                <div class="main_card-box">
+                  <div class="main__card-img-wrapper">
+                    <div class="main__box-img-wrapper">
+                      <img
+                        src="./katolog-img/main-card-img-gel.svg"
+                        alt="here is a picture gel"
+                      />
+                    </div>
+                    <div class="main__card-text-p">
+                      <p class="main__card-all-something">
+                        Велсон таблетки покрыт. плен. об. 3 мг, 30 шт.
+                      </p>
+                      <p class="main__card-output">1 товар</p>
+                    </div>
+                  </div>
+                  <div class="main__card-cost-wrapper">
+                    <p class="main__card-cost-now">41 108 руб.</p>
+                    <p class="main__card-cost-ago">49 999 руб.</p>
+                  </div>
+                </div>
+                <div class="main_card-box">
+                  <div class="main__card-img-wrapper">
+                    <div class="main__box-img-wrapper">
+                      <img
+                        src="./katolog-img/main-card-img-biform.svg"
+                        alt="here is a picture gel"
+                      />
+                    </div>
+                    <div class="main__card-text-p">
+                      <p class="main__card-all-something">
+                        Велсон таблетки покрыт. плен. об. 3 мг, 30 шт.
+                      </p>
+                      <p class="main__card-output">1 товар</p>
+                    </div>
+                  </div>
+                  <div class="main__card-cost-wrapper">
+                    <p class="main__card-cost-now">41 108 руб.</p>
+                  </div>
+                </div>
+                <div class="main_card-box">
+                  <div class="main__card-img-wrapper">
+                    <div class="main__box-img-wrapper">
+                      <img
+                        src="./katolog-img/main-cards-dori.svg"
+                        alt="here is a picture gel"
+                      />
+                    </div>
+                    <div class="main__card-text-p">
+                      <p class="main__card-all-something">
+                        Велсон таблетки покрыт. плен. об. 3 мг, 30 шт.
+                      </p>
+                      <p class="main__card-output">1 товар</p>
+                    </div>
+                  </div>
+                  <div class="main__card-cost-wrapper">
+                    <p class="main__card-cost-now">41 108 руб.</p>
+                    <p class="main__card-cost-ago">49 999 руб.</p>
+                  </div>
+                </div>
+                <div class="main_card-box">
+                  <div class="main__card-img-wrapper">
+                    <div class="main__box-img-wrapper">
+                      <img
+                        src="./katolog-img/main-cards-gentral.svg"
+                        alt="here is a picture gel"
+                      />
+                    </div>
+                    <div class="main__card-text-p">
+                      <p class="main__card-all-something">
+                        Велсон таблетки покрыт. плен. об. 3 мг, 30 шт.
+                      </p>
+                      <p class="main__card-output">1 товар</p>
+                    </div>
+                  </div>
+                  <div class="main__card-cost-wrapper">
+                    <p class="main__card-cost-now">41 108 руб.</p>
+                  </div>
+                </div>
+                <div class="main__card-buttons-wrapper">
+                  <button class="main__card-button1">Оставить отзыв</button>
+                  <button class="main__card-button2">Повторить заказ</button>
+                </div>
+              </div>
+            </div>
+            <div class="main__Feedback-home">
+              <h3 class="main__Feedback-title">Обратная связь</h3>
+              <div class="main__form-box">
+                <p class="main__form-text1">
+                  Разнообразный и богатый опыт сложившаяся структура организации
+                  требуют определения и уточнения модели развития.
+                </p>
+                <p class="main__form-text2">
+                  Идейные соображения высшего порядка, а также сложившаяся
+                  структура организации играет важную роль в формировании систем
+                  массового участия.
+                </p>
+                <form class="main__form-wrapper">
+                  <input
+                    class="main__form-temu"
+                    type="text"
+                    placeholder="Выбрать тему обращения"
+                  />
+                  <input
+                    class="main__form-name-full"
+                    type="text"
+                    placeholder="Фамилия, Имя и Отчество"
+                  />
+                  <div class="main__form-tell">
+                    <input type="tel" placeholder="Телефон" />
+                    <input type="email" placeholder="Ваша почта" />
+                  </div>
+                  <input
+                    class="main__form-messeg"
+                    type="text"
+                    placeholder="Текст сообщения"
+                  />
+                </form>
+                <div class="main__submit">
+                  <button class="main__submit-link">Напишите мне</button>
+                  <p class="main__submit-text">
+                    Нажимая на кнопку, вы соглашаетесь на обработку
+                    <a href="#">персональных данных</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </main>
 
-    <!-- <footer class="footer">
+    <footer class="footer">
       <div class="container">
         <div class="footer__form-wrapper">
           <h4 class="footer__form-title">Остались вопросы?</h4>
@@ -419,6 +618,6 @@
           </ul>
         </div>
       </div>
-    </footer> -->
+    </footer>
   </body>
 </html>
