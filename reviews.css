@@ -1,0 +1,521 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1520px;
+  margin: 0 auto;
+}
+
+p {
+  margin: 0;
+}
+
+.header__location {
+  background-color: rgb(244, 244, 244);
+}
+
+.header__location-wrapper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 10px;
+}
+
+.header__location-mockva-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 86px;
+}
+
+.header__location-select {
+  border: none;
+  background-color: transparent;
+  outline: none;
+  color: #828282;
+}
+
+.header__location-mosckva {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.header__location-bars-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #828282;
+}
+
+.header__icon-bars {
+  font-size: 18px;
+  color: #2fd3ae;
+}
+
+.header__location-img-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.header__location-img {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #828282;
+}
+
+.header__location-kabinet-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #828282;
+}
+
+.header__contact-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 28px 10px 29px 10px;
+}
+
+.header__logo-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.header__contact-bars {
+  display: none;
+}
+
+.header__contact-title {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 25.83px;
+  color: #4f4f4f;
+  font-family: "Raleway";
+}
+
+.header__contact-text {
+  font-size: 14px;
+  font-family: "Roboto";
+  color: #828282;
+  line-height: 16.41px;
+}
+
+.header__contact-web-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.header__contact-catena-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 63px;
+}
+
+.header__contact-phone-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.header__contact-number {
+  font-size: 18px;
+  font-family: "Roboto";
+  font-weight: 800;
+  line-height: 27px;
+  color: #4f4f4f;
+  line-height: 16.41px;
+}
+
+.header__contact-phone-text {
+  font-size: 11px;
+  font-family: "Roboto";
+  font-weight: 400;
+  color: #828282;
+  line-height: 12.89px;
+}
+
+.header__contact-market {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.header__contact-link {
+  border: none;
+  border-radius: 50px;
+  padding: 17px 42px;
+  background-color: #2fd3ae;
+  font-size: 14px;
+  font-family: "Raleway";
+  color: #ffffff;
+}
+
+.header__apteka {
+  background: linear-gradient(269.93deg, #2fd3ae 0%, #011d71 100%);
+}
+
+.header__container-phone {
+  display: none;
+}
+
+.header__apteka-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 25px 0 24px 0;
+}
+
+.header__apteka-icon {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  color: #ffffff;
+  font-size: 14px;
+  font-family: "Raleway";
+  font-weight: 700;
+  line-height: 16.44px;
+}
+
+.header__diseases {
+  background-color: #f7fafb;
+  padding: 20px 0;
+}
+
+.header__diseases-wrapper {
+  width: 100%;
+  display: flex;
+}
+
+.header__disease {
+  border: none;
+  border-radius: 5px;
+  background-color: #ffffff;
+  padding: 6px 10px 8px 10px;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Raleway";
+  line-height: 16.44px;
+  color: #4f4f4f;
+  cursor: pointer;
+}
+
+.header__disease-blue {
+  background-color: #4bc1e9;
+  color: #ffffff;
+}
+
+.header__disease-yellow {
+  background-color: #ff9e19;
+  color: #ffffff;
+}
+
+.main-section {
+  margin-top: 50px;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 20px;
+  justify-content: flex-start;
+}
+
+.main-container a {
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  color: #2FD3AE;
+}
+
+.main-title {
+  font-family: "Raleway", sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 42px;
+  color: #394045;
+}
+
+i {
+  color: #F2C94C;
+}
+
+.main-wrapper {
+  display: flex;
+  gap: 20px;
+}
+
+.main-reviews {
+  border: 1px solid #E7E9EB;
+  box-shadow: rgba(0, 0, 0, 0.0509803922);
+}
+
+.main-reviews__title {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 30px;
+  justify-content: center;
+  gap: 30px;
+  width: auto;
+  background-color: #F7FAFB;
+}
+
+.main-reviews__title > div {
+  display: flex;
+  gap: 50px;
+}
+
+.main-reviews__stars {
+  padding: 40px 20px 60px;
+}
+
+.main-comments {
+  width: 100%;
+}
+
+.main-navbar {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  background-color: #F7FAFB;
+  padding: 20px;
+}
+
+.main-context {
+  margin-top: 20px;
+}
+
+.main-context > div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-context > div > div {
+  gap: 50px;
+}
+
+.fifth-form {
+  padding: 10px 200px;
+  margin: 25px 0 150px;
+}
+
+.fifth__container-phone {
+  height: 50px;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  background-color: #2fd3ae;
+  border-radius: 10px;
+}
+
+.tenth {
+  margin: -100px 50px;
+  position: absolute;
+  right: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.tenth-form {
+  display: flex;
+  gap: 30px;
+  padding-left: 50px;
+}
+
+.tenth-form form {
+  width: 50%;
+}
+
+.tenth-form form input {
+  width: 50%;
+}
+
+footer {
+  background: linear-gradient(269.93deg, #2fd3ae 0%, #011d71 100%);
+  padding-top: 120px;
+}
+
+.footer-container {
+  display: flex;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  gap: 50px;
+  color: rgb(255, 255, 255);
+  padding: 20px;
+  line-height: 25px;
+}
+
+.footer-container ul li {
+  padding-bottom: 5px;
+}
+
+.footer-container ul li a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+.footer-container ul li,
+.footer-container ul {
+  list-style: none;
+}
+
+@media (max-width: 1300px) {
+  .header__contact-phone-text,
+  .header__contact-phone-wrapper:nth-child(3),
+  .header__apteka-icon img,
+  .main-navbar div:nth-child(4) {
+    display: none;
+  }
+  .header__contact-catena-wrapper {
+    gap: 10px;
+  }
+  .fifth-form {
+    padding: 10px 50px;
+    margin: 25px 0 150px;
+  }
+  .tenth {
+    margin: -150px 50px;
+  }
+  .footer-container {
+    flex-wrap: wrap;
+    gap: 5px;
+    justify-content: center;
+  }
+  footer ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  #footer-paragraph {
+    display: none;
+  }
+}
+@media (max-width: 1000px) {
+  .main-wrapper h2 {
+    padding: 20px;
+  }
+  .header__apteka-icon:nth-child(7),
+  .header__apteka-icon:nth-child(8),
+  .header__apteka-icon:nth-child(9),
+  .header__diseases-wrapper > button:nth-child(6),
+  .header__diseases-wrapper > button:nth-child(7),
+  .header__diseases-wrapper > button:nth-child(8) {
+    display: none;
+  }
+  .main-navbar {
+    flex-direction: column;
+  }
+  .tenth-form form {
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .tenth-form form input {
+    width: 100%;
+  }
+  .tenth-form {
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 800px) {
+  .header__contact-bars {
+    display: block;
+  }
+  .header__contact-web-wrapper,
+  .header__contact-catena-wrapper,
+  .header__contact-market > img:nth-child(1),
+  .header__contact-market > button,
+  .header__location-img,
+  .header__location-kabinet-wrapper,
+  .header__apteka-wrapper {
+    display: none;
+  }
+  .header__container-phone > img {
+    padding: 18px;
+  }
+  .header__container-phone {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    background-color: #2fd3ae;
+  }
+  .main-wrapper {
+    flex-direction: column;
+  }
+  .main-reviews__title p {
+    float: left;
+  }
+  .tenth-form {
+    justify-items: center;
+  }
+  footer {
+    padding-top: 150px;
+  }
+  .tenth {
+    margin: -150px 20px;
+  }
+}
+@media (max-width: 645px) {
+  .header__logo-wrapper img {
+    width: 30px;
+  }
+  .main-title {
+    font-size: 30px;
+    font-weight: 700;
+  }
+  .header__diseases-wrapper button:nth-child(3),
+  .header__diseases-wrapper button:nth-child(4),
+  .header__diseases-wrapper button:nth-child(5) {
+    display: none;
+  }
+  .header__location-mockva-wrapper {
+    gap: 20px;
+  }
+  .header__contact-title {
+    font-size: 20px;
+  }
+  .header__diseases-wrapper {
+    justify-content: flex-start;
+    gap: 10px;
+  }
+  .tenth {
+    margin: -150px 20px;
+  }
+  .tenth-form {
+    display: flex;
+    gap: 30px;
+    padding-left: 0px;
+  }
+}
+@media (max-width: 580px) {
+  footer {
+    padding-top: 222px;
+  }
+}
+@media (max-width: 460px) {
+  .main-navbar > div {
+    flex-wrap: wrap;
+  }
+  .main-navbar {
+    padding: 10px;
+  }
+  .main-context div div {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .fifth-form {
+    padding: 10px 20px;
+    margin: 25px 0 150px;
+  }
+}
+
+/*# sourceMappingURL=reviews.css.map */
